@@ -1,21 +1,40 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route, Link } from 'react-router-dom'
+import { withRouter } from 'react-router'
+import queryString from 'query-string'
+
+import './App.css'
+
+window.queryString = queryString
 
 class App extends Component {
+  handleChange = (e) => {
+    const { history } = this.props
+    const searchQueryParam = queryString.stringify({ q: e.target.value })
+    history.replace(`/?${searchQueryParam}`)
+  }
+
   render() {
+    const {
+      location,
+      match,
+      history,
+    } = this.props
+
+    const params = queryString.parse(location.search)
+    console.log('location', location)
+    console.log(params)
+    const q = params.q || ''
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+        <Link to='/'>Home</Link>&nbsp;
+        <input onChange={this.handleChange} value={q} />
+        <hr />
+        {q}
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default withRouter(App);
