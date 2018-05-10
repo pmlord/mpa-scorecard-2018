@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "async": "^2.6.0",
+    "cheerio": "^1.0.0-rc.2",
+    "fetch-cached": "^2.0.3",
+    "file-system-cache": "^1.0.5",
+    "fs-extra": "^6.0.0",
+    "lodash": "^4.17.10",
+    "node-fetch": "^2.1.2",
     "query-string": "^6.0.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
@@ -13,6 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "update-data": "node update-data.js"
   }
 }
