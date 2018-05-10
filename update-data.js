@@ -92,6 +92,7 @@ async function fetchTownList() {
       const text = $(el).text()
       return text.match('House District') && text.match('Senate District')
     })
+    const townsText = towns.text()
 
     // Scrape URLs for each legislator.
     const allHrefs = $(towns).find('a')
@@ -116,9 +117,18 @@ async function fetchTownList() {
     // Fetch each legislator's bio page and parse
     await asyncLib.mapLimit(hrefs, 10, async function(href) {
       if (href.match('http://legislature.maine.gov/')) {
+
+        // Painstakingly scrape senator info that isn't in the bio pages back
+        // from the town list that we've already scraped.
+        // I know. This is terrible.
+        const name = $(towns).find(`a[href="${href}"]`).first().text()
+        const regexp = new RegExp(`${name} \\((\\w)-([^\\s]+)\\)`)
+        const match = townsText.match(regexp)
+        const party_abbreviation = match[1]
+        const legal_residence = match[2]
         const url = href
         const html = await fetch(url).then(res => res.text())
-        return parseSen(url, html)
+        return parseSen({url, html, legal_residence, party_abbreviation})
       }
       else {
         const url = `http://legislature.maine.gov/house/${href}`
@@ -159,7 +169,7 @@ async function fetchTownList() {
   } catch(err) { throw err }
 }
 
-function parseSen(url, html) {
+function parseSen({url, html, legal_residence, party_abbreviation}) {
   // Load into Cheerio.js
   const $html = cheerio.load(html)
   const $ = cheerio.load($html('#content').html())
@@ -188,6 +198,9 @@ function parseSen(url, html) {
     text,
     /Representing Senate District.+?:\s+(.+)/i
   )
+
+  // Party
+  const party = PARTY_ABBREVIATIONS[party_abbreviation]
 
   // Name
   const name = matchClosure(
@@ -231,6 +244,8 @@ function parseSen(url, html) {
     legislative_chamber,
     ocdId,
     towns,
+    legal_residence,
+    party,
     name,
     address,
     email,
@@ -319,12 +334,12 @@ async function parseRep(url, html) {
       $('table td:nth-child(2) h4').text(),
       /\((\w+?)-(.+)\)/
     )
-  const party_description = matchClosure(
+  const party_full_name = matchClosure(
     text,
     /party.*:\s*(.*)/i
   )
-  const party = (party_description != null)
-    ? party_description
+  const party = (party_full_name != null)
+    ? party_full_name
     : PARTY_ABBREVIATIONS[party_abbreviation]
 
   // Deceased
@@ -379,8 +394,3 @@ function parseBool(inputStr) {
 // ----------------------------------------------------------------------------
 
 fetchTownList()
-
-// const url = 'http://legislature.maine.gov/128th-senators/senator-justin-chenette'
-// fetch(url)
-//   .then(res => res.text())
-//   .then(html => parseSen(url, html))
