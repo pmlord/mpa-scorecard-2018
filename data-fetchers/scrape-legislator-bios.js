@@ -15,7 +15,7 @@ const cheerio     = require('cheerio')
 // ==========
 
 const config = {
-  useCache: true // process.env.USE_CACHE === true,
+  useCache: parseBool(process.env.USE_CACHE),
 }
 
 if (config.useCache) {
