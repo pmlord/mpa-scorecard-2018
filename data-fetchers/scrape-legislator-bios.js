@@ -109,17 +109,20 @@ async function fetchTownList() {
       townNames.push(townName)
     })
     fs.writeFile(
-      './data/townNames.json',
-      JSON.stringify(townNames),
-      (err) => { if (err) throw err; console.log('saved ./data/townNames.json') }
+      './src/data/townNames.json',
+      JSON.stringify(townNames, null, '  '),
+      (err) => { if (err) throw err; console.log('saved ./src/data/townNames.json') }
     )
 
     // Fetch each legislator's bio page and parse
-    await asyncLib.mapLimit(hrefs, 10, async function(href) {
+    asyncLib.mapLimit(hrefs, 10, async function(href) {
+      let legislator
       if (href.match('http://legislature.maine.gov/')) {
+        // The URL belongs to a senator
 
-        // Painstakingly scrape senator info that isn't in the bio pages back
-        // from the town list that we've already scraped.
+        // The senator bio pages are missing party affiliation and
+        // legal_residence, so we need to painstakingly pull these from the
+        // townlist before passing information to the parseSen function.
         // I know. This is terrible.
         const name = $(towns).find(`a[href="${href}"]`).first().text()
         const regexp = new RegExp(`${name} \\((\\w)-([^\\s]+)\\)`)
@@ -131,18 +134,25 @@ async function fetchTownList() {
         return parseSen({url, html, legal_residence, party_abbreviation})
       }
       else {
+        // The URL belongs to a rep
         const url = `http://legislature.maine.gov/house/${href}`
         const html = await fetch(url).then(res => res.text())
         return parseRep(url, html)
       }
-    }, (err, legislators) => {
+    }, (err, results) => {
       if (err) { console.log(err) }
+
+      // Prune results into final legislators array
+      const legislators = _(results)
+        .compact()
+        .sortBy(['legislative_chamber', 'districtNum'])
+        .value()
 
       // Write the combined info of all legislators to file
       fs.writeFile(
-        './data/legislators.json',
-        JSON.stringify(legislators),
-        (err) => { if (err) throw err; console.log('saved ./data/legislators.json') }
+        './src/data/legislators.json',
+        JSON.stringify(legislators, null, '  '),
+        (err) => { if (err) throw err; console.log('saved ./src/data/legislators.json') }
       )
 
       // Check each legislator and verify that none of their properties have
@@ -155,9 +165,9 @@ async function fetchTownList() {
         })
       })
       fs.writeFile(
-        './data/legislator_errors.json',
-        JSON.stringify(null_props),
-        (err) => { if (err) throw err; console.log('saved ./data/legislator_errors.json') }
+        './src/data/legislator_errors.json',
+        JSON.stringify(null_props, null, '  '),
+        (err) => { if (err) throw err; console.log('saved ./src/data/legislator_errors.json') }
       )
       if (null_props.length !== 0) {
         console.log('\nThe following scraped properties returned null:')
@@ -185,10 +195,10 @@ function parseSen({url, html, legal_residence, party_abbreviation}) {
   const header = $('h1').text()
 
   // District number
-  const districtNum = matchClosure(
+  const districtNum = parseInt(matchClosure(
     header,
     /^district\s*([0-9]+)/i
-  )
+  ))
 
   // Open Civic Data district ID
   const ocdId = `ocd-division/country:us/state:me/sldu:${districtNum}`
@@ -241,12 +251,13 @@ function parseSen({url, html, legal_residence, party_abbreviation}) {
   const phone = cell_phone || home_phone || business_phone || generic_phone
 
   const senator = {
-    legislative_chamber,
-    ocdId,
-    towns,
-    legal_residence,
-    party,
     name,
+    ocdId,
+    legislative_chamber,
+    districtNum,
+    towns,
+    party,
+    legal_residence,
     address,
     email,
     phone,
@@ -256,7 +267,7 @@ function parseSen({url, html, legal_residence, party_abbreviation}) {
   return senator
 }
 
-async function parseRep(url, html) {
+function parseRep(url, html) {
   // Load into Cheerio.js
   const $ = cheerio.load(html)
   const text = $.text()
@@ -268,10 +279,10 @@ async function parseRep(url, html) {
   const name = $('table td:nth-child(2) h2').text()
 
   // Hometown
-  const hometown = matchClosure(
-    $('table td:nth-child(2) h4').text(),
-    /\(\w+?-(.+)\)/
-  )
+  // const hometown = matchClosure(
+  //   $('table td:nth-child(2) h4').text(),
+  //   /\(\w+?-(.+)\)/
+  // )
   const legal_residence = matchClosure(
     text,
     /Legal Residence:\s+(.+)/i
@@ -284,10 +295,10 @@ async function parseRep(url, html) {
   )
 
   // District number
-  const districtNum = matchClosure(
+  const districtNum = parseInt(matchClosure(
     representing,
     /^district ([0-9]+)/i
-  )
+  ))
 
   // Open Civic Data district ID
   const ocdId = `ocd-division/country:us/state:me/sldl:${districtNum}`
@@ -348,20 +359,17 @@ async function parseRep(url, html) {
   // Assemble relevant info into object
   const rep = {
     name,
+    ocdId,
+    legislative_chamber,
+    districtNum,
+    towns,
+    party,
+    legal_residence,
     address,
     email,
     phone,
-    party,
-    hometown,
-    legal_residence,
-    districtNum,
-    ocdId,
-    towns,
-    legislative_chamber,
     url,
   }
-
-  if (hometown !== legal_residence) console.log('THIS ONE', rep)
 
   return (deceased) ? null : rep
 }
