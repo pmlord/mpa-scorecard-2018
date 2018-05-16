@@ -1,40 +1,28 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom'
-import { withRouter } from 'react-router'
-import queryString from 'query-string'
+import { Switch, Route, Redirect } from 'react-router-dom'
+
+import Header from './components/Header'
 
 import './App.css'
 
-window.queryString = queryString
 
 class App extends Component {
-  handleChange = (e) => {
-    const { history } = this.props
-    const searchQueryParam = queryString.stringify({ q: e.target.value })
-    history.replace(`/?${searchQueryParam}`)
-  }
 
   render() {
-    const {
-      location,
-      match,
-      history,
-    } = this.props
-
-    const params = queryString.parse(location.search)
-    console.log('location', location)
-    console.log(params)
-    const q = params.q || ''
 
     return (
-      <div>
-        <Link to='/'>Home</Link>&nbsp;
-        <input onChange={this.handleChange} value={q} />
-        <hr />
-        {q}
+      <div className="App">
+        <Header />
+        <div className="container">
+          <Switch>
+            <Route path="/" exact render={() => <Redirect to='/legislators' />} />
+            <Route path='/legislators' render={() => <h1>Legislators</h1>} />
+            <Route path="/bills" render={() => <h1>Bills</h1>} />
+          </Switch>
+        </div>
       </div>
     )
   }
 }
 
-export default withRouter(App);
+export default App;

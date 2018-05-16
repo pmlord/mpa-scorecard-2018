@@ -1,9 +1,67 @@
+/**
+ * colors:
+ *   darkblue: #0a4461
+ *   lightblue: #c3d2d9
+ *   yellow: #fdcb1b
+ */
+
+
 body {
-  padding: 10px;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
-input {
-  padding: .5em 1em;
-  min-width: 300px;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 200;
+}
+
+
+ .container {
+   max-width: 1000px;
+ }
+
+
+/* Header */
+
+.header {
+  background: #0a4461;
+  color: #fff;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.brand {
+  padding: 3rem 0;
+  font-size: 1.5em;
+}
+.brand .name {
+  color: white;
+  text-decoration: none;
+}
+.brand .scorecard {
+  margin-left: 1.5em;
+  font-weight: 200;
+  color: #c3d2d9;
+}
+@media screen and (max-width: 500px) {
+  .brand .name, .brand .scorecard {
+    display: block;
+    margin-left: 0;
+  }
+}
+
+nav {
+
+}
+nav a {
+  display: inline-block;
+  /* font-size: ; */
+  padding: 0 1em 1em;
+  border-bottom: solid 3px rgba(0,0,0,0);
+  color: #c3d2d9;
+  font-weight: 200;
+  text-decoration: none
+}
+nav a.active {
+  border-bottom-color: #fdcb1b;
 }
