@@ -39,7 +39,10 @@ export default (props) => {
           <div className="legislator-subtitle">
             <span>{party}, {legal_residence}</span>
             { !compact &&
-              <span> &nbsp;&bull;&nbsp; { address }</span>
+              <span>
+                <span className="bull">&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span>
+                { address }
+              </span>
             }
           </div>
         </div>

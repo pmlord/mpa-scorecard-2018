@@ -5,6 +5,12 @@
  *   darkblue: #0a4461
  *   lightblue: #c3d2d9
  *   yellow: #fdcb1b
+ *
+ * breakpoints:
+ *   xs-min: 30em;
+ *   sm-min: 48em;
+ *   md-min: 64em;
+ *   lg-min: 75em;
  */
 
 
@@ -18,9 +24,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/* Container */
+
  .container {
    max-width: 1000px;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   box-sizing: border-box;
  }
+
+
 
 
 /* Header */
@@ -34,7 +47,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .brand {
-  padding: 3rem 0;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   font-size: 1.5em;
 }
 .brand .name {
@@ -131,12 +145,19 @@ nav a.active {
   /* font-weight: 200; */
   font-size: 0.9em;
 }
+@media screen and (max-width: 48em) {
+  .legislator-subtitle > span {
+    display: block;
+  }
+  .legislator-subtitle .bull {
+    display: none;
+  }
+}
 
 .legislator-actions {
   display: flex;
   flex-flow: row nowrap;
 }
-
 .legislator-action {
   margin-left: .5em;
   display: flex;
@@ -148,4 +169,14 @@ nav a.active {
   border: solid thin #bbb;
   color: #888;
   text-decoration: none;
+}
+
+@media screen and (max-width: 30em) {
+  .legislator-info .col-xs:nth-child(3) {
+    flex-basis: 100%;
+  }
+  .legislator-actions {
+    margin-top: 1rem;
+    justify-content: center;
+  }
 }
