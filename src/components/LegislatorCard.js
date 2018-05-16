@@ -6,7 +6,7 @@ export default function LegislatorCard(props) {
   const { legislator } = props
 
   return (
-    <div className="col-sm-6 col-xs-12"><div className="box">
+    <div className="col-md-6 col-xs-12"><div className="box">
       <div className="legislator-card card">
         <LegislatorInfo legislator={legislator} compact />
       </div>

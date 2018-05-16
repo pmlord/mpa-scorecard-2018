@@ -145,7 +145,7 @@ nav a.active {
   border-radius: 9999px;
   box-sizing: border-box;
   width: 45px; height: 45px;
-  border: solid thin #ddd;
-  color: #aaa;
+  border: solid thin #bbb;
+  color: #888;
   text-decoration: none;
 }

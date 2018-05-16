@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { legislatorPath } from '../services/legislator-path'
+import iconLink from '../assets/images/icon-link.png'
+import iconPhone from '../assets/images/icon-phone.png'
+import iconEmail from '../assets/images/icon-email.png'
 
 export default (props) => {
   const {
@@ -13,6 +16,9 @@ export default (props) => {
     party,
     legal_residence,
     address,
+    url,
+    phone,
+    email,
   } = legislator
 
   const photo_url = '/legislator-photos/'
@@ -40,10 +46,16 @@ export default (props) => {
       </div></div>
       <div className="col-xs"><div className="box legislator-actions">
         { !compact &&
-          <a className="legislator-action" href="#" target="_blank">L</a>
+          <a className="legislator-action" href={url} target="_blank">
+            <img src={iconLink} />
+          </a>
         }
-        <a className="legislator-action" href="#" target="_blank">P</a>
-        <a className="legislator-action" href="#" target="_blank">E</a>
+        <a className="legislator-action" href={`tel:${phone}`}>
+          <img src={iconPhone} />
+        </a>
+        <a className="legislator-action" href={`mailto:${email}`} target="_blank">
+          <img src={iconEmail} />
+        </a>
       </div></div>
     </div>
   )
