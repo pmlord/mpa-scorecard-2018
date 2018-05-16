@@ -38,8 +38,12 @@ export default (props) => {
           </div>
         </div>
       </div></div>
-      <div className="col-xs"><div className="box">
-        Buttons
+      <div className="col-xs"><div className="box legislator-actions">
+        { !compact &&
+          <a className="legislator-action" href="#" target="_blank">L</a>
+        }
+        <a className="legislator-action" href="#" target="_blank">P</a>
+        <a className="legislator-action" href="#" target="_blank">E</a>
       </div></div>
     </div>
   )
