@@ -223,3 +223,12 @@ nav a.active {
   font-size: 0.9em;
   color: #aaa;
 }
+
+@media screen and (max-width: 48em) {
+  .district-info .title {
+    margin-bottom: .4rem;
+  }
+  .term-info {
+    margin-top: 1rem;
+  }
+}

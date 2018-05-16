@@ -24,18 +24,20 @@ export default ({ match }) => {
       <hr />
       <section className="district-info">
         <div className="row">
-          <div className="col-md-6 col-xs-12"><div className="box">
+          <div className="col-xs-12 col-sm-6"><div className="box">
             <div className="title">Representing {legislative_chamber} District {districtNum}</div>
             <div className="description">{towns}</div>
           </div></div>
-          <div className="col-md-3 col-xs-6"><div className="box">
-            <div className="title">Term limited</div>
-            <div className="description">{termLimited}</div>
-          </div></div>
-          <div className="col-md-3 col-xs-6"><div className="box">
-            <div className="title">Up for reelection</div>
-            <div className="description">{upForReelection}</div>
-          </div></div>
+          <div className="col-xs-12 col-sm-5 col-sm-offset-1"><div className="box term-info"><div class="row">
+            <div className="col-xs-6"><div className="box">
+              <div className="title">Term limited</div>
+              <div className="description">{termLimited}</div>
+            </div></div>
+            <div className="col-xs-6"><div className="box">
+              <div className="title">Up for reelection</div>
+              <div className="description">{upForReelection}</div>
+            </div></div>
+          </div></div></div>
         </div>
       </section>
       <hr />
