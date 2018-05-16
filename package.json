@@ -20,6 +20,7 @@
     "react-scripts": "1.1.4",
     "request": "^2.86.0",
     "sharp": "^0.20.2",
+    "slug": "^0.9.1",
     "smartcrop-sharp": "^2.0.3"
   },
   "scripts": {

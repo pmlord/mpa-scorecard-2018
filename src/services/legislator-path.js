@@ -1,3 +1,4 @@
+import slug from 'slug'
 import { legislatorsByOcdId } from '../data/index'
 
 export const legislatorPath = (legislator) => {
@@ -5,7 +6,9 @@ export const legislatorPath = (legislator) => {
   const snippit = ocdId
     .replace('ocd-division/country:us/state:me/', '')
     .replace(':', '-')
-  return `/legislators/${snippit}`
+  const nameSlug = slug(legislator.name)
+
+  return `/legislators/${snippit}/${nameSlug}`
 }
 
 export const getLegislatorFromParams = (snippit) => {
