@@ -3,6 +3,7 @@ import { Switch, Route, Redirect } from 'react-router-dom'
 
 import Header from './components/Header'
 import Legislators from './components/Legislators'
+import LegislatorDetail from './components/LegislatorDetail'
 
 import './App.css'
 
@@ -17,6 +18,7 @@ class App extends Component {
         <div className="container">
           <Switch>
             <Route path="/" exact render={() => <Redirect to='/legislators' />} />
+            <Route path='/legislators/:ocdId/:slug?' component={LegislatorDetail} />
             <Route path='/legislators' component={Legislators} />
             <Route path="/bills" render={() => <h1>Bills</h1>} />
           </Switch>

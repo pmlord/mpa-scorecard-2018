@@ -84,14 +84,22 @@ nav a.active {
 
 /* Legislators */
 
-.legislative-cards {
+.legislator-cards {
   margin-top: 1rem;
 }
 
-.legislative-card {
+.legislator-card {
   padding: 1.5rem;
   margin-bottom: 1rem;
 }
+
+.legislator-info .col-xs {
+  flex-grow: 0;
+}
+.legislator-info .col-xs:nth-child(2) {
+  flex-grow: 1;
+}
+
 
 .legislator-avatar {
   width: 45px;
