@@ -1,67 +1,9 @@
-const _           = require('lodash')
-const fs          = require('fs')
-const nodeFetch   = require('node-fetch')
-const Cache       = require('file-system-cache').default
-const fetchCached = require('fetch-cached').default
-const asyncLib    = require('async')
-const cheerio     = require('cheerio')
+const _        = require('lodash')
+const fs       = require('fs')
+const asyncLib = require('async')
+const cheerio  = require('cheerio')
+const fetch    = require('./fetch-cached').default
 
-
-
-
-
-// ==========
-// = Config =
-// ==========
-
-const config = {
-  useCache: parseBool(process.env.USE_CACHE),
-}
-
-if (config.useCache) {
-  console.log(); console.warn('Warning: using cached legislator data when available. This may not be fresh data.'); console.log()
-}
-
-
-
-
-
-// ================
-// = Set up cache =
-// ================
-
-if (!fs.existsSync('./tmp')){
-    fs.mkdirSync('./tmp');
-}
-if (!fs.existsSync('./tmp/data-fetch')){
-    fs.mkdirSync('./tmp/data-fetch');
-}
-
-const cache = Cache({
-  basePath: './tmp/data-fetch',
-})
-
-
-
-
-
-// =================
-// = Fetch wrapper =
-// =================
-
-const fetch = fetchCached({
-  fetch: (url) => { console.log('fetching', url); return nodeFetch(url) },
-  cache: {
-    get: (config.useCache) ? (k) => cache.get(k) : (k) => Promise.resolve(null),
-    set: (k, v) => cache.set(k, v)
-  }
-})
-
-async function fetchJSON(url) {
-  const response   = await fetch(url)
-  const parsedJSON = await response.json()
-  return parsedJSON
-}
 
 
 
@@ -250,6 +192,15 @@ function parseSen({url, html, legal_residence, party_abbreviation}) {
   )
   const phone = cell_phone || home_phone || business_phone || generic_phone
 
+  // Photo
+  const $img = $('img')
+  if ($img.length !== 1) {
+    console.log()
+    console.log('IT HAPPENED:', $img.length, url)
+    console.log()
+  }
+  const photo_url = 'http://legislature.maine.gov' + $img.attr('src')
+
   const senator = {
     name,
     ocdId,
@@ -261,6 +212,7 @@ function parseSen({url, html, legal_residence, party_abbreviation}) {
     address,
     email,
     phone,
+    photo_url,
     url,
   }
 
@@ -353,6 +305,16 @@ function parseRep(url, html) {
     ? party_full_name
     : PARTY_ABBREVIATIONS[party_abbreviation]
 
+  // Photo
+  const $img = $('td:first-child img')
+  if ($img.length !== 1) {
+    console.log()
+    console.log('IT HAPPENED:', $img.length, url)
+    console.log()
+  }
+  const photo_relative_path = $img.attr('src')
+  const photo_url = photo_relative_path.replace(/^\.\./, 'https://legislature.maine.gov/house')
+
   // Deceased
   const deceased = text.match(/died|deceased/i)
 
@@ -368,6 +330,7 @@ function parseRep(url, html) {
     address,
     email,
     phone,
+    photo_url,
     url,
   }
 
@@ -382,17 +345,6 @@ function matchClosure(str, regexp, n=1) {
 
 
 
-
-// =============
-// = Utilities =
-// =============
-
-function parseBool(inputStr) {
-  if (typeof(inputStr) !== 'string') return false
-
-  const str = inputStr.toLowerCase()
-  return str === 'true' || str === 't'
-}
 
 
 
