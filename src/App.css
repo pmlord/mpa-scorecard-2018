@@ -23,6 +23,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 200;
 }
 
+hr {
+  /* color: #c3d2d9; */
+  border: none;
+  border-top: solid 1px #e0e0e0;
+}
 
 /* Container */
 
@@ -175,8 +180,31 @@ nav a.active {
   .legislator-info .col-xs:nth-child(3) {
     flex-basis: 100%;
   }
-  .legislator-actions {
+  .legislator-info .legislator-actions {
     margin-top: 1rem;
     justify-content: center;
   }
+  .legislator-info.compact .legislator-actions {
+    margin-top: .5rem;
+  }
+}
+
+
+
+/* Legislator Detail */
+
+.legislator-detail section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.district-info .title {
+  margin-bottom: 0.8rem;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.district-info .description {
+  font-size: 0.9em;
+  color: #aaa;
 }

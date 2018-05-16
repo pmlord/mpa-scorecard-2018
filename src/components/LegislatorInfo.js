@@ -27,7 +27,7 @@ export default (props) => {
   const avatar_styles = { backgroundImage: `url('${photo_url}')`}
 
   return (
-    <div className="legislator-info row middle-xs">
+    <div className={`legislator-info row middle-xs ${compact ? 'compact' : ''}`}>
       <div className="col-xs"><div className="box">
         <div className="legislator-avatar" style={avatar_styles} />
       </div></div>
