@@ -110,7 +110,22 @@ nav a.active {
 .legislator-card {
   padding: 1.5rem;
   margin-bottom: 1rem;
+  position: relative;
 }
+.legislator-card .badge {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #888;
+  color: white;
+  font-size: 0.8em;
+  padding: .2em .3em;
+}
+.legislator-card.your .badge {
+  background: #fdcb1b;
+}
+
 
 .legislator-info .col-xs {
   flex-grow: 0;
