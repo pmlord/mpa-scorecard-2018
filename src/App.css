@@ -17,12 +17,12 @@
 
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #F4FBFE;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 200;
+  font-weight: 300;
 }
 
 hr {
@@ -64,8 +64,8 @@ hr {
 }
 .brand .scorecard {
   margin-left: 1.5em;
-  font-weight: 200;
-  color: #c3d2d9;
+  font-weight: 100;
+  color: #FFF;
 }
 @media screen and (max-width: 500px) {
   .brand .name, .brand .scorecard {
@@ -155,7 +155,7 @@ nav a.active {
 }
 
 .legislator-name {
-  font-weight: bold;
+  font-weight: 500;
   margin-bottom: 0.3rem;
 }
 
@@ -166,7 +166,7 @@ nav a.active {
 
 .legislator-subtitle {
   color: #9B9B9B;
-  /* font-weight: 200; */
+  /* font-weight: 300; */
   font-size: 0.9em;
 }
 @media screen and (max-width: 48em) {
@@ -219,7 +219,7 @@ nav a.active {
 .district-info .title {
   margin-bottom: 0.8rem;
   font-size: 0.9em;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .district-info .description {
