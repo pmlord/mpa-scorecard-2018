@@ -1,10 +1,12 @@
 /**
  * colors:
- *   background gray: #f4fbfe
- *   primary blue: #298ab8
- *   darkblue: #0a4461
+ *   background gray: #F4FBFE
+ *   primary blue: #1B8BB4
+ *   darkblue: #02455F
  *   lightblue: #c3d2d9
- *   yellow: #fdcb1b
+ *   yellow: #FFCA48
+ *   green: #00B142
+ *   red: #FF5734
  *
  * breakpoints:
  *   xs-min: 30em;
@@ -16,7 +18,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #f4fbfe;
+  background-color: #F4FBFE;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,7 +46,7 @@ hr {
 /* Header */
 
 .header {
-  background: #0a4461;
+  background: #02455F;
   color: #fff;
   max-width: 1200px;
   margin-right: auto;
@@ -80,12 +82,14 @@ nav a {
   /* font-size: ; */
   padding: 0 1em 1em;
   border-bottom: solid 3px rgba(0,0,0,0);
-  color: #c3d2d9;
+  color: #FFF;
   font-weight: 300;
-  text-decoration: none
+  text-decoration: none;
+  opacity: 0.7;
 }
 nav a.active {
-  border-bottom-color: #fdcb1b;
+  border-bottom-color: #FFCA48;
+  opacity: 1;
 }
 
 
@@ -123,7 +127,7 @@ nav a.active {
   padding: .2em .3em;
 }
 .legislator-card.your .badge {
-  background: #fdcb1b;
+  background: #FFCA48;
 }
 
 
@@ -139,7 +143,7 @@ nav a.active {
   width: 50px;
   height: 50px;
   border-radius: 999999999px;
-  border: solid 2px #0a4461;
+  border: solid 2px #02455F;
   overflow: hidden;
   background-size: cover;
   background-position: center;
@@ -161,7 +165,7 @@ nav a.active {
 }
 
 .legislator-subtitle {
-  color: #888;
+  color: #9B9B9B;
   /* font-weight: 200; */
   font-size: 0.9em;
 }
@@ -179,15 +183,14 @@ nav a.active {
   flex-flow: row nowrap;
 }
 .legislator-action {
-  margin-left: .5em;
+  margin-left: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 9999px;
   box-sizing: border-box;
-  width: 45px; height: 45px;
-  border: solid thin #bbb;
-  color: #888;
+  width: 50px; height: 50px;
+  border: solid thin #e6e6e6;
   text-decoration: none;
 }
 
