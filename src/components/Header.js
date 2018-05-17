@@ -1,12 +1,15 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import logo from '../assets/images/mpa-logo.png'
 
 export default function Header(props) {
   return (
     <div className="header">
-      <div className="brand container">
-        <Link to="/" className="name">Maine Peoples Alliance</Link>
-        <span className="scorecard">Scorecard</span>
+      <div className="banner container">
+        <Link to="/" className="brand">
+          <img src={logo} />
+        </Link>
+        <span className="scorecard-title">Scorecard</span>
       </div>
       <nav className="container">
         <NavLink to="/legislators" activeClassName="active">Legislators</NavLink>

@@ -53,22 +53,27 @@ hr {
   margin-left: auto;
 }
 
-.brand {
+.banner {
   padding-top: 3rem;
   padding-bottom: 3rem;
   font-size: 1.5em;
 }
-.brand .name {
-  color: white;
-  text-decoration: none;
+a.brand {
+  display: inline-block;
 }
-.brand .scorecard {
-  margin-left: 1.5em;
+a.brand img {
+  vertical-align: bottom;
+  width: 324px;
+  height: 30px;
+  margin-bottom: 1px;
+}
+.banner .scorecard-title {
+  margin-left: 15px;
   font-weight: 100;
   color: #FFF;
 }
 @media screen and (max-width: 500px) {
-  .brand .name, .brand .scorecard {
+  .banner .brand, .banner .scorecard-title {
     display: block;
     margin-left: 0;
   }
