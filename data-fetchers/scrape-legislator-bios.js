@@ -50,7 +50,7 @@ async function fetchTownList() {
       const townName = matchClosure($(town).text(), /^(.+) - House District/i)
       townNames.push(townName)
     })
-    const uniqueTownNames = _.unique(townNames)
+    const uniqueTownNames = _.uniq(townNames)
     fs.writeFile(
       './src/data/townNames.json',
       JSON.stringify(uniqueTownNames, null, '  '),
