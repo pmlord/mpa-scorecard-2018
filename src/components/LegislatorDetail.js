@@ -2,7 +2,7 @@ import React from 'react'
 import { getLegislatorFromParams } from '../services/legislator-path'
 import LegislatorInfo from './LegislatorInfo'
 
-export default ({ match }) => {
+export default function LegislatorDetail({ match }) {
   const param = match.params.ocdId
   const legislator = getLegislatorFromParams(param)
 

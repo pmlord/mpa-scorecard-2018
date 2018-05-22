@@ -2,10 +2,11 @@ import React from 'react'
 import legislators from '../data/index'
 import sample from 'lodash/sampleSize'
 
+import FindMyLegislators from './FindMyLegislators'
 import LegislatorCard from './LegislatorCard'
 
 
-export default function(props) {
+export default function Legislators(props) {
 
   const yourLigislators = sample(legislators, 2)
   const visibleLegislators = sample(legislators, 10)
@@ -19,13 +20,16 @@ export default function(props) {
   })
 
   return (
-    <div className="legislator-cards">
+    <div>
+      <FindMyLegislators />
+      <div className="legislator-cards">
       <div className="row">
-        {yourLegislatorCards}
+      {yourLegislatorCards}
       </div>
       <br /><br />
       <div className="row">
-        {legislatorCards}
+      {legislatorCards}
+      </div>
       </div>
     </div>
   )

@@ -17,8 +17,10 @@
 
 
 body {
-  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
   background-color: #F4FBFE;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,6 +32,44 @@ hr {
   border: none;
   border-top: solid 1px #e0e0e0;
 }
+
+button {
+  background: #1B8BB4;
+  color: #fff;
+  outline: none;
+  height: 36px;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+select, .Select, input {
+  display: inline-block;
+  height: 36px;
+  width: 240px;
+  box-sizing: border-box;
+  margin-right: 0.5rem;
+  vertical-align: bottom;
+  border: none;
+}
+select, .Select, input, .Select * {
+  background: #e6f0f6 !important;
+}
+select, .Select-control {
+  color: 4A4A4A;
+  border: none;
+  border-radius: 0;
+}
+
+@media screen and (max-width: 48em) {
+  .Select, button {
+    display: block;
+    margin: 0 0 0.5em;
+    width: 100%;
+  }
+}
+
 
 /* Container */
 
@@ -239,4 +279,12 @@ nav a.active {
   .term-info {
     margin-top: 1rem;
   }
+}
+
+
+
+/* Find My Legislators */
+.find-my-legislators {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }

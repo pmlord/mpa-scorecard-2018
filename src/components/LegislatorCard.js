@@ -19,7 +19,7 @@ export default function LegislatorCard(props) {
   return (
     <div className="col-md-6 col-xs-12"><div className="box">
       <div className={`legislator-card card ${your ? 'your' : ''}`}>
-        <div class="badge">{badgeText}</div>
+        <div className="badge">{badgeText}</div>
         <LegislatorInfo legislator={legislator} compact />
       </div>
     </div></div>

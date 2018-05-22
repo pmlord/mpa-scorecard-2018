@@ -5,7 +5,6 @@ import Header from './components/Header'
 import Legislators from './components/Legislators'
 import LegislatorDetail from './components/LegislatorDetail'
 
-import './App.css'
 
 
 class App extends Component {

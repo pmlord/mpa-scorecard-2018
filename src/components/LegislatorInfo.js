@@ -5,7 +5,7 @@ import iconLink from '../assets/images/icon-link.png'
 import iconPhone from '../assets/images/icon-phone.png'
 import iconEmail from '../assets/images/icon-email.png'
 
-export default (props) => {
+export default function LegislatorInfo(props) {
   const {
     compact,
     legislator,
