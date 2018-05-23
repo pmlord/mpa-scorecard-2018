@@ -59,11 +59,22 @@ select, input:not([type=submit]) {
   border-radius: 0;
 }
 
+input.zip {
+  width: 100px;
+}
+
+@media only screen and (min-width: 48em) and (max-width: 64em) {
+  button, input[type=submit] {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 @media screen and (max-width: 48em) {
   select, button, input {
-    display: block;
-    margin: 0 0 0.5em;
-    width: 100%;
+    display: block !important;
+    margin: 0 0 0.5em !important;
+    width: 100% !important;
   }
 }
 

@@ -6,10 +6,12 @@ import partition from 'lodash/partition'
 
 // Store
 const store = createStore({
-  town: 'Brunswick',
   streetAddress: '57 Main St.',
+  town: 'Brunswick',
+  zip: '',
   yourLegislators: [],
   otherLegislators: legislators,
+  isFetching: false,
   errors: null,
 })
 
@@ -18,23 +20,48 @@ const store = createStore({
 
 export const setTown = store.set('town')
 export const setStreetAddress = store.set('streetAddress')
+export const setZip = store.set('zip')
+function clearLegislators() {
+  store.set('yourLegislators')([])
+  store.set('outerLegislators')(legislators)
+}
+function setIsFetching() {
+  store.set('isFetching')(true)
+  store.set('errors')(null)
+  clearLegislators()
+}
+function receiveLegislators({yours, others}) {
+  setYourLegislators(yours)
+  setOtherLegislators(others)
+  store.set('errors')(null)
+  store.set('isFetching')(false)
+}
+
 const setYourLegislators = store.set('yourLegislators')
 const setOtherLegislators = store.set('otherLegislators')
 
 export function fetchLegislators() {
-  const town = store.get('town')
+  console.log('fetching...')
+  setIsFetching(true)
+
   const streetAddress = store.get('streetAddress')
-  const address = `${streetAddress}, ${town}, ME`
+  const town = store.get('town')
+  const zip = store.get('zip')
+  const address = `${streetAddress}, ${town}, ME ${zip}`
+  console.log(address)
 
   fetchDivisionsByAddress(address).then(function(ocdIds) {
+    console.log('done.')
+    if (ocdIds == null)
+      return []
+
     const [yours, others] = partition(legislators, function(legislator) {
       return ocdIds.some(function(ocdId) {
         return legislator.ocdId === ocdId
       })
     })
 
-    setYourLegislators(yours)
-    setOtherLegislators(others)
+    receiveLegislators({yours, others})
   })
 }
 

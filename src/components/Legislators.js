@@ -1,10 +1,10 @@
 import React from 'react'
 import FindMyLegislators from './FindMyLegislators'
 import LegislatorCard from './LegislatorCard'
-import withLegislatorsStore from '../services/legislators-store'
+import withStore from '../services/legislators-store'
 
 
-export default withLegislatorsStore(function Legislators(props) {
+export default withStore(function Legislators(props) {
   const { store } = props
 
   const yourLegislators = store.get('yourLegislators')

@@ -2,20 +2,27 @@ import React from 'react'
 import Select from './Select'
 import towns from '../data/townNames.json'
 
-import withLegislatorsStore, {
-  setTown,
+import withStore, {
   setStreetAddress,
+  setTown,
+  setZip,
   fetchLegislators,
 } from '../services/legislators-store'
 
-export default withLegislatorsStore(function FindMyLegislators(props) {
+export default withStore(function FindMyLegislators(props) {
   const { store } = props
-  const town = store.get('town')
   const streetAddress = store.get('streetAddress')
+  const town = store.get('town')
+  const zip = store.get('zip')
 
   return (
     <div className="find-my-legislators">
-      <form onSubmit={(e) => {fetchLegislators(); e.preventDefault(); return false;}}>
+      <form onSubmit={(e) => {console.log('submittyFace'); fetchLegislators(); e.preventDefault(); return false;}}>
+        <input
+          placeholder="Street address"
+          onChange={(e) => setStreetAddress(e.target.value)}
+          value={streetAddress}
+          />
         <Select
           placeholder="Town Name"
           options={towns}
@@ -23,9 +30,10 @@ export default withLegislatorsStore(function FindMyLegislators(props) {
           value={town}
           />
         <input
-          placeholder="Street address"
-          onChange={(e) => setStreetAddress(e.target.value)}
-          value={streetAddress}
+          className="zip"
+          placeholder="Zip"
+          onChange={(e) => setZip(e.target.value)}
+          value={zip}
           />
         <input
           type="submit"
