@@ -13,7 +13,7 @@ export default function LegislatorDetail({ match }) {
   } = legislator
 
   // Fake data until the database is seeded
-  const termLimited = 2018 + 2 * parseInt(Math.random() * 4)
+  const termLimited = 2018 + 2 * parseInt(Math.random() * 4, 10)
   const upForReelection = Math.round(Math.random()) ? '2018' : 'Not seeking reelection'
 
   return (

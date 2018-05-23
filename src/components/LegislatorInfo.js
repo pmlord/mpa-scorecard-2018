@@ -50,14 +50,14 @@ export default function LegislatorInfo(props) {
       <div className="col-xs"><div className="box legislator-actions">
         { !compact &&
           <a className="legislator-action" href={url} target="_blank">
-            <img src={iconLink} />
+            <img src={iconLink} alt="link" />
           </a>
         }
         <a className="legislator-action" href={`tel:${phone}`}>
-          <img src={iconPhone} />
+          <img src={iconPhone} alt="phone" />
         </a>
         <a className="legislator-action" href={`mailto:${email}`} target="_blank">
-          <img src={iconEmail} />
+          <img src={iconEmail} alt="email" />
         </a>
       </div></div>
     </div>

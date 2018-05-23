@@ -7,7 +7,7 @@ export default function Header(props) {
     <div className="header">
       <div className="banner container">
         <Link to="/" className="brand">
-          <img src={logo} />
+          <img src={logo} alt="" />
         </Link>
         <span className="scorecard-title">Scorecard</span>
       </div>
