@@ -33,7 +33,7 @@ hr {
   border-top: solid 1px #e0e0e0;
 }
 
-button {
+button, input[type=submit] {
   background: #1B8BB4;
   color: #fff;
   outline: none;
@@ -44,26 +44,23 @@ button {
   font-size: 14px;
 }
 
-select, .Select, input {
+select, input:not([type=submit]) {
   display: inline-block;
+  box-sizing: border-box;
   height: 36px;
   width: 240px;
-  box-sizing: border-box;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   margin-right: 0.5rem;
-  vertical-align: bottom;
-  border: none;
-}
-select, .Select, input, .Select * {
-  background: #e6f0f6 !important;
-}
-select, .Select-control {
-  color: 4A4A4A;
+  color: #4A4A4A;
+  font-size: 0.9rem;
+  background: #e6f0f6;
   border: none;
   border-radius: 0;
 }
 
 @media screen and (max-width: 48em) {
-  .Select, button {
+  select, button, input {
     display: block;
     margin: 0 0 0.5em;
     width: 100%;

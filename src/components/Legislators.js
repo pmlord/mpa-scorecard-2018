@@ -1,36 +1,36 @@
 import React from 'react'
-import legislators from '../data/index'
-import sample from 'lodash/sampleSize'
-
 import FindMyLegislators from './FindMyLegislators'
 import LegislatorCard from './LegislatorCard'
+import withLegislatorsStore from '../services/legislators-store'
 
 
-export default function Legislators(props) {
+export default withLegislatorsStore(function Legislators(props) {
+  const { store } = props
 
-  const yourLigislators = sample(legislators, 2)
-  const visibleLegislators = sample(legislators, 10)
+  const yourLegislators = store.get('yourLegislators')
+  // const otherLegislators = store.get('otherLegislators')
 
   // Array of legislator cards
-  const yourLegislatorCards = yourLigislators.map((legislator) => {
+  const yourLegislatorCards = yourLegislators.map((legislator) => {
     return <LegislatorCard legislator={legislator} your={true} key={legislator.ocdId} />
   })
-  const legislatorCards = visibleLegislators.map((legislator) => {
-    return <LegislatorCard legislator={legislator} your={false} key={legislator.ocdId} />
-  })
+  // const otherLegislatorCards = otherLegislators.map((legislator) => {
+  //   return <LegislatorCard legislator={legislator} your={false} key={legislator.ocdId} />
+  // })
 
   return (
     <div>
       <FindMyLegislators />
       <div className="legislator-cards">
-      <div className="row">
-      {yourLegislatorCards}
-      </div>
-      <br /><br />
-      <div className="row">
-      {legislatorCards}
-      </div>
+        <div className="row">
+          {yourLegislatorCards}
+        </div>
       </div>
     </div>
   )
-}
+});
+
+// <br /><br />
+// <div className="row">
+//   {otherLegislatorCards}
+// </div>

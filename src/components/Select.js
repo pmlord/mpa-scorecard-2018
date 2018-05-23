@@ -1,7 +1,15 @@
 import React from 'react'
 
-function Options({options}) {
-  return options.map(function(option) {
+function Options({options, placeholder}) {
+  const renderedOptions = []
+
+  if (placeholder != null) {
+    renderedOptions.push(
+      <option key="placeholder" disabled value="">{placeholder}</option>
+    )
+  }
+
+  options.forEach(function(option) {
     let label, value;
 
     if (typeof(option) === 'object') {
@@ -12,7 +20,7 @@ function Options({options}) {
       label = value = option
     }
 
-    return (
+    renderedOptions.push(
       <option
         key={value}
         value={value}
@@ -21,14 +29,17 @@ function Options({options}) {
       </option>
     )
   })
+
+  return renderedOptions
 }
 
 function Select(props) {
   const {
-    selectProps,
     options,
     value,
     onChange,
+    placeholder,
+    selectProps,
   } = props
 
   return (
@@ -37,7 +48,7 @@ function Select(props) {
       onChange={onChange}
       {...selectProps}
     >
-      <Options options={options} />
+      <Options options={options} placeholder={placeholder} />
     </select>
   )
 }
