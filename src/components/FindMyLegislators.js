@@ -11,9 +11,11 @@ import withStore, {
 
 export default withStore(function FindMyLegislators(props) {
   const { store } = props
+
   const streetAddress = store.get('streetAddress')
-  const town = store.get('town')
-  const zip = store.get('zip')
+  const town          = store.get('town')
+  const zip           = store.get('zip')
+  const error         = store.get('error')
 
   return (
     <div className="find-my-legislators">
@@ -40,6 +42,11 @@ export default withStore(function FindMyLegislators(props) {
           value="Find my reps"
           />
       </form>
+      { error &&
+        <div className="errorMessage">
+          {error.message}
+        </div>
+      }
     </div>
   )
 })

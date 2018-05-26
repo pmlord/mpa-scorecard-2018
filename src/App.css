@@ -296,3 +296,8 @@ nav a.active {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+.find-my-legislators .errorMessage {
+  margin-top: 0.5rem;
+  color: #c00;
+}

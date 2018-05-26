@@ -6,13 +6,13 @@ import partition from 'lodash/partition'
 
 // Store
 const store = createStore({
-  streetAddress: '57 Main St.',
-  town: 'Brunswick',
+  streetAddress: '',
+  town: '',
   zip: '',
   yourLegislators: [],
   otherLegislators: legislators,
   isFetching: false,
-  errors: null,
+  error: null,
 })
 
 
@@ -21,27 +21,31 @@ const store = createStore({
 export const setTown = store.set('town')
 export const setStreetAddress = store.set('streetAddress')
 export const setZip = store.set('zip')
+
 function clearLegislators() {
   store.set('yourLegislators')([])
   store.set('outerLegislators')(legislators)
 }
 function setIsFetching() {
   store.set('isFetching')(true)
-  store.set('errors')(null)
+  store.set('error')(null)
   clearLegislators()
 }
-function receiveLegislators({yours, others}) {
-  setYourLegislators(yours)
-  setOtherLegislators(others)
-  store.set('errors')(null)
+function receiveLegislators({ yours, others }) {
   store.set('isFetching')(false)
+  store.set('error')(null)
+  store.set('yourLegislators')(yours)
+  store.set('outerLegislators')(others)
+}
+function receiveError(error) {
+  store.set('isFetching')(false)
+  store.set('error')(error)
+  store.set('yourLegislators')([])
+  store.set('outerLegislators')(legislators)
+  console.log(error)
 }
 
-const setYourLegislators = store.set('yourLegislators')
-const setOtherLegislators = store.set('otherLegislators')
-
 export function fetchLegislators() {
-  console.log('fetching...')
   setIsFetching(true)
 
   const streetAddress = store.get('streetAddress')
@@ -50,19 +54,21 @@ export function fetchLegislators() {
   const address = `${streetAddress}, ${town}, ME ${zip}`
   console.log(address)
 
-  fetchDivisionsByAddress(address).then(function(ocdIds) {
-    console.log('done.')
-    if (ocdIds == null)
-      return []
-
-    const [yours, others] = partition(legislators, function(legislator) {
-      return ocdIds.some(function(ocdId) {
-        return legislator.ocdId === ocdId
+  fetchDivisionsByAddress(address)
+    .then(function(ocdIds) {
+      // Partition full list of legislators into 'yours' and 'others'
+      const [yours, others] = partition(legislators, function(legislator) {
+        return ocdIds.some(function(ocdId) {
+          return legislator.ocdId === ocdId
+        })
       })
-    })
 
-    receiveLegislators({yours, others})
-  })
+      // Update store
+      receiveLegislators({ yours, others })
+    })
+    .catch(function(error) {
+      receiveError(error)
+    })
 }
 
 
@@ -70,5 +76,3 @@ export function fetchLegislators() {
 
 const withStore = connect(store)
 export default withStore
-
-fetchLegislators()

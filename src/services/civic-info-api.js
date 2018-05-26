@@ -5,30 +5,50 @@ function url(address) {
   return `https://www.googleapis.com/civicinfo/v2/representatives?address=${address}&includeOffices=true&levels=administrativeArea1&roles=legislatorLowerBody&roles=legislatorUpperBody&key=${apiKey}`
 }
 
+const ERROR_MESSAGES = {
+  parseError: "Hmm... we can't understand that address.",
+  notFound: "Hmm... we couldn't find any legislators for that address.",
+  network: "Hmm... there's a network error.",
+  unknown: "Hmm... there was an error. Our bad.",
+}
+
+function rejection(errorType) {
+  return Promise.reject({ message: ERROR_MESSAGES[errorType] })
+}
+
 export function fetchDivisionsByAddress(address) {
-  return fetchJSON(url(address))
+  return fetch(url(address))
+    .then(
+      (response) => {
+        // Parse JSON response
+        console.log('here goes', response)
+        return response.json()
+      },
+      (networkError) => {
+        // Network error
+        console.error(networkError)
+        return rejection('network')
+      }
+    )
     .then(function(data) {
-      if (data.error) {
-        console.error('TODO: handle error state', data.error)
+      if (data.errors) {
+        // Google API error
+        switch (data.errors[0].reason) {
+          case 'parseError':
+            return rejection('parseError')
+          case 'notFound':
+            return rejection('notFound')
+          default:
+            return rejection('unknown')
+        }
       }
       else if (!data.divisions) {
-        console.error('TODO: handle second error state')
+        // Google return status 200, but there are no legislators.
+        return rejection('notFound')
       }
       else {
+        console.log('got here', data)
         return getKeys(data.divisions)
       }
     })
 }
-
-function fetchJSON(url) {
-  return fetch(url)
-    .then(
-      (res) => {
-        return res.json()
-      },
-      (err) => { console.error(err) }
-    )
-}
-
-// findLegislators('81 Main St. Yarmouth, ME 04096')
-//   .then(ocdIds => console.log('ocdids', ocdIds))

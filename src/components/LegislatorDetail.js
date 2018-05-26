@@ -28,7 +28,7 @@ export default function LegislatorDetail({ match }) {
             <div className="title">Representing {legislative_chamber} District {districtNum}</div>
             <div className="description">{towns}</div>
           </div></div>
-          <div className="col-xs-12 col-sm-5 col-sm-offset-1"><div className="box term-info"><div class="row">
+        <div className="col-xs-12 col-sm-5 col-sm-offset-1"><div className="box term-info"><div className="row">
             <div className="col-xs-6"><div className="box">
               <div className="title">Term limited</div>
               <div className="description">{termLimited}</div>
