@@ -8,6 +8,9 @@
  *   green: #00B142
  *   red: #FF5734
  *
+ *   good: #2fb129
+ *   bad: #fa5927
+ *
  * breakpoints:
  *   xs-min: 30em;
  *   sm-min: 48em;
@@ -20,7 +23,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #F4FBFE;
-  font-family: 'Roboto', sans-serif;
+  font-family: system-ui, 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,22 +36,35 @@ hr {
   border-top: solid 1px #e0e0e0;
 }
 
-select, input, button {
-  vertical-align: top;
-}
-
-button, input[type=submit] {
+button, .button, input[type=submit] {
+  display: inline-block;
+  text-decoration: none;
   background: #1B8BB4;
   color: #fff;
   outline: none;
+  line-height: 36px;
   height: 36px;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-  font-weight: 100;
+  font-weight: 400;
   font-size: 14px;
+  font-family: 'Roboto', sans-serif;
 }
 
-button:not([disabled]), input[type=submit]:not([disabled]) {
+button.full-width,
+.button.full-width,
+input[type=submit].full-width {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+
+button:not([disabled]),
+.button:not([disabled]),
+input[type=submit]:not([disabled]) {
   cursor: pointer;
 }
 
@@ -65,10 +81,6 @@ select, input:not([type=submit]) {
   background: #e6f0f6;
   border: none;
   border-radius: 0;
-}
-
-input.zip {
-  width: 100px;
 }
 
 @media only screen and (min-width: 48em) and (max-width: 64em) {
@@ -194,6 +206,22 @@ nav a.active {
   background: #FFCA48;
 }
 
+.legislator-card .mpa-score {
+  margin-top: 1rem;
+  /* margin-bottom: 1rem; */
+}
+
+.legislator-card .voter-score {
+  /* margin-top: 1rem; */
+  /* margin-bottom: 1rem; */
+}
+
+.legislator-card .view-voting-record {
+  margin-top: 1rem;
+}
+
+
+/* Legislator Info */
 
 .legislator-info .col-xs {
   flex-grow: 0;
@@ -319,6 +347,15 @@ nav a.active {
   margin-left: auto;
   margin-right: auto;
 }
+.find-my-legislators select,
+.find-my-legislators input,
+.find-my-legislators button {
+  vertical-align: top;
+}
+
+.find-my-legislators input.zip {
+  width: 100px;
+}
 
 
 .find-my-legislators .error-message {
@@ -337,8 +374,8 @@ nav a.active {
 /* Legislators Page */
 
 .legislators .zero-state-message {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 7rem;
+  margin-bottom: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -352,4 +389,68 @@ nav a.active {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+}
+
+
+
+/* Score bar */
+
+.score-bar {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.score-bar .bar {
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  overflow: hidden;
+  border-radius: 2px;
+}
+.score-bar .bar > div {
+  height: 10px;
+}
+
+.score-bar .bar .good {
+  background: #2fb129;
+  flex: 0 0 auto;
+}
+
+.score-bar .bar .bad {
+  background: #fa5927;
+  flex: 1 1 auto;
+  margin-left: 3px;
+}
+
+.score-bar .text {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.score-bar.extreme .bar .bad {
+  margin-left: 0;
+}
+
+.score-bar .number {
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 99999px;
+  border: solid 1px #888;
+  margin-left: 10px;
+}
+
+.score-bar-sub-text {
+  margin-top: -10px;
+  margin-right: 60px;
+  font-size: 0.85em;
+  line-height: 1.4em;
+  color: #aaa;
+}
+.score-bar-sub-text b {
+  color: #000;
 }

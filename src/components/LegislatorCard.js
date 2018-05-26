@@ -1,6 +1,8 @@
 import React from 'react'
-
 import LegislatorInfo from './LegislatorInfo'
+import ScoreBar from './ScoreBar'
+import { Link } from 'react-router-dom'
+import { legislatorPath } from '../services/legislator-path'
 
 const badgeTexts = [
   { Senate: 'Senator', House: 'Representative' },
@@ -12,7 +14,12 @@ export default function LegislatorCard(props) {
     legislator,
     your,
   } = props
-  const { legislative_chamber } = legislator
+  const {
+    lastName,
+    legislative_chamber,
+    mpaScore,
+    voterScore,
+  } = legislator
 
   const badgeText = badgeTexts[Number(your)][legislative_chamber]
 
@@ -21,6 +28,26 @@ export default function LegislatorCard(props) {
       <div className={`legislator-card card ${your ? 'your' : ''}`}>
         <div className="badge">{badgeText}</div>
         <LegislatorInfo legislator={legislator} compact />
+        <div className="mpa-score">
+          <ScoreBar score={mpaScore} />
+          <div className="score-bar-sub-text">
+            <b>Overall:</b> {lastName} votes align with MPA {mpaScore}% of the time.
+            </div>
+        </div>
+        <div className="voter-score">
+          <ScoreBar score={voterScore} />
+          <div className="score-bar-sub-text">
+            <b>Will of the voter:</b> {lastName} votes align with voters {voterScore}% of the time.
+            </div>
+        </div>
+        <div className="view-voting-record">
+          <Link
+            to={legislatorPath(legislator)}
+            className="button full-width"
+            >
+            View voting record
+          </Link>
+        </div>
       </div>
     </div></div>
   )
