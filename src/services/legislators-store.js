@@ -9,7 +9,7 @@ const store = createStore({
   streetAddress: '',
   town: '',
   zip: '',
-  yourLegislators: [legislators.shift(), legislators.pop()],
+  yourLegislators: [],
   otherLegislators: legislators,
   isFetching: false,
   error: null,
