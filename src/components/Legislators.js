@@ -19,8 +19,13 @@ export default withStore(function Legislators(props) {
   // })
 
   return (
-    <div>
+    <div className="legislators">
       <FindMyLegislators />
+      { yourLegislators.length === 0 &&
+        <h1 className="zero-state-message">
+          Enter your address to find your representatives.
+        </h1>
+      }
       <div className="legislator-cards">
         <div className="row">
           {yourLegislatorCards}
@@ -29,8 +34,3 @@ export default withStore(function Legislators(props) {
     </div>
   )
 });
-
-// <br /><br />
-// <div className="row">
-//   {otherLegislatorCards}
-// </div>

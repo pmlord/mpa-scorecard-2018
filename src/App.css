@@ -33,6 +33,10 @@ hr {
   border-top: solid 1px #e0e0e0;
 }
 
+select, input, button {
+  vertical-align: top;
+}
+
 button, input[type=submit] {
   background: #1B8BB4;
   color: #fff;
@@ -42,6 +46,10 @@ button, input[type=submit] {
   padding-right: 2.5rem;
   font-weight: 100;
   font-size: 14px;
+}
+
+button:not([disabled]), input[type=submit]:not([disabled]) {
+  cursor: pointer;
 }
 
 select, input:not([type=submit]) {
@@ -64,6 +72,9 @@ input.zip {
 }
 
 @media only screen and (min-width: 48em) and (max-width: 64em) {
+  .town {
+    width: 200px;
+  }
   button, input[type=submit] {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -297,7 +308,48 @@ nav a.active {
   margin-bottom: 2rem;
 }
 
-.find-my-legislators .errorMessage {
+.find-my-legislators button,
+.find-my-legislators input[type=submit] {
+  padding-left: 0;
+  padding-right: 0;
+  width: 165px;
+  text-align: center;
+}
+.find-my-legislators button > div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.find-my-legislators .error-message {
   margin-top: 0.5rem;
   color: #c00;
+}
+
+@media only screen and (min-width: 48em) {
+  .find-my-legislators .error-message {
+    position: absolute;
+  }
+}
+
+
+
+/* Legislators Page */
+
+.legislators .zero-state-message {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #444;
+}
+
+@media only screen and (max-width: 48em) {
+  .legislators .zero-state-message {
+    font-size: 1.5em;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }

@@ -2,7 +2,7 @@ import { connect, createStore } from 'undux'
 import legislators from '../data/'
 import { fetchDivisionsByAddress } from './civic-info-api'
 import partition from 'lodash/partition'
-
+import isEmpty from 'lodash/isEmpty'
 
 // Store
 const store = createStore({
@@ -16,6 +16,25 @@ const store = createStore({
 })
 
 
+// Selectors
+
+function getAddress() {
+  const streetAddress = store.get('streetAddress')
+  const town = store.get('town')
+  const zip = store.get('zip')
+
+  if (
+       isEmpty(streetAddress)
+    && isEmpty(town)
+    && isEmpty(zip)
+  ) {
+    return false
+  }
+
+  return `${streetAddress}, ${town}, ME ${zip}`
+}
+
+
 // Actions
 
 export const setTown = store.set('town')
@@ -26,33 +45,36 @@ function clearLegislators() {
   store.set('yourLegislators')([])
   store.set('outerLegislators')(legislators)
 }
+
 function setIsFetching() {
   store.set('isFetching')(true)
   store.set('error')(null)
-  clearLegislators()
 }
+
 function receiveLegislators({ yours, others }) {
   store.set('isFetching')(false)
   store.set('error')(null)
   store.set('yourLegislators')(yours)
   store.set('outerLegislators')(others)
 }
+
 function receiveError(error) {
   store.set('isFetching')(false)
   store.set('error')(error)
-  store.set('yourLegislators')([])
-  store.set('outerLegislators')(legislators)
-  console.log(error)
+  clearLegislators()
 }
 
 export function fetchLegislators() {
-  setIsFetching(true)
+  if (store.get('isFetching')) return false
 
-  const streetAddress = store.get('streetAddress')
-  const town = store.get('town')
-  const zip = store.get('zip')
-  const address = `${streetAddress}, ${town}, ME ${zip}`
-  console.log(address)
+  setIsFetching(true)
+  const address = getAddress()
+  if (address === false) {
+    receiveError({
+      message: 'Please enter an address'
+    })
+    return false
+  }
 
   fetchDivisionsByAddress(address)
     .then(function(ocdIds) {

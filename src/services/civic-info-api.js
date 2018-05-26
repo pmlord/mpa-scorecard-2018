@@ -21,7 +21,6 @@ export function fetchDivisionsByAddress(address) {
     .then(
       (response) => {
         // Parse JSON response
-        console.log('here goes', response)
         return response.json()
       },
       (networkError) => {
@@ -47,7 +46,6 @@ export function fetchDivisionsByAddress(address) {
         return rejection('notFound')
       }
       else {
-        console.log('got here', data)
         return getKeys(data.divisions)
       }
     })

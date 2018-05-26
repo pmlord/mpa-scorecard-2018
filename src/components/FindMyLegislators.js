@@ -1,6 +1,7 @@
 import React from 'react'
 import Select from './Select'
 import towns from '../data/townNames.json'
+import { BarLoader as Spinner } from 'react-spinners'
 
 import withStore, {
   setStreetAddress,
@@ -9,23 +10,33 @@ import withStore, {
   fetchLegislators,
 } from '../services/legislators-store'
 
+function handleSubmit(e) {
+  fetchLegislators()
+  e.preventDefault()
+  return false
+}
+
 export default withStore(function FindMyLegislators(props) {
   const { store } = props
 
   const streetAddress = store.get('streetAddress')
   const town          = store.get('town')
   const zip           = store.get('zip')
+  const isFetching    = store.get('isFetching')
   const error         = store.get('error')
 
   return (
     <div className="find-my-legislators">
-      <form onSubmit={(e) => {console.log('submittyFace'); fetchLegislators(); e.preventDefault(); return false;}}>
+      <form onSubmit={handleSubmit}>
         <input
           placeholder="Street address"
           onChange={(e) => setStreetAddress(e.target.value)}
           value={streetAddress}
           />
         <Select
+          selectProps={{
+            className: 'town'
+          }}
           placeholder="Town Name"
           options={towns}
           onChange={(e) => setTown(e.target.value)}
@@ -37,13 +48,20 @@ export default withStore(function FindMyLegislators(props) {
           onChange={(e) => setZip(e.target.value)}
           value={zip}
           />
-        <input
-          type="submit"
-          value="Find my reps"
-          />
+        { !isFetching &&
+          <input
+            type="submit"
+            value="Find my reps"
+            />
+        }
+        { isFetching &&
+          <button disabled >
+            <Spinner color="#ffffff" />
+          </button>
+        }
       </form>
       { error &&
-        <div className="errorMessage">
+        <div className="error-message">
           {error.message}
         </div>
       }
