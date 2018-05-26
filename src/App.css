@@ -353,3 +353,16 @@ nav a.active {
     margin-bottom: 2rem;
   }
 }
+
+.legislators .showOthers {
+  /* margin-top: 2rem; */
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.legislators .showOthers button {
+  background: none;
+  color: #888;
+  border: solid thin #888;
+  border-radius: 4px;
+}
