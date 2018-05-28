@@ -1,9 +1,21 @@
 import legislators from './legislators.json'
+import bills from './bills.json'
 
+// Index legislators by ocdId
 const legislatorsByOcdId = {}
 legislators.forEach(function(legislator) {
   legislatorsByOcdId[legislator.ocdId] = legislator
 })
 
-export default legislators
-export { legislatorsByOcdId }
+// Index bills by id
+const billsById = {}
+bills.forEach(function(bill) {
+  billsById[bill.id] = bill
+})
+
+export {
+  legislators,
+  legislatorsByOcdId,
+  bills,
+  billsById,
+}

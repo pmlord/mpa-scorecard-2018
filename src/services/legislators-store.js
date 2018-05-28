@@ -1,5 +1,5 @@
 import { connect, createStore } from 'undux'
-import legislators from '../data/'
+import { legislators } from '../data/'
 import { fetchDivisionsByAddress } from './civic-info-api'
 import partition from 'lodash/partition'
 import isEmpty from 'lodash/isEmpty'
