@@ -173,7 +173,7 @@ function parseSen({url, html, legal_residence, party_abbreviation}) {
   // Email
   const email = matchClosure(
     text,
-    /e-?mail:\s*(.+)/i
+    /e-?mail:\s*(\S+)/i
   )
 
   // Phone
@@ -275,7 +275,7 @@ function parseRep(url, html) {
   // Email
   const email = matchClosure(
     text,
-    /e-?mail:\s*(.+)/i
+    /e-?mail:\s*(\S+)/i
   )
 
   // Phone
