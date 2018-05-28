@@ -32,7 +32,11 @@ function getRecordsFromTable(tableName, iteratee, cb) {
 }
 
 
+
+
+// ----------------------------------------------------------------------------
 // Fetch Legislator's table and merge with existing legislator data
+// ----------------------------------------------------------------------------
 
 fs.readFile('./src/data/legislators.json', function(err, data) {
   if (err) {
@@ -84,11 +88,72 @@ fs.readFile('./src/data/legislators.json', function(err, data) {
     fs.writeFile('./src/data/legislators.json', payload, function(err) {
       if (err) console.log(err)
     })
+
+    createFakeBillData(legislators)
   })
 })
 
 
 
+
+// ----------------------------------------------------------------------------
+// Fake Bill information (lorem ipsum)
+// ----------------------------------------------------------------------------
+
+const faker = require('faker')
+
+const stances = [
+  'opposed',
+  'supported',
+]
+
+function createFakeBillData(legislators) {
+  // Get array of all bill ids
+  const billIds = _(legislators)
+    .map(function(legislator) {
+      return _.keys(legislator.votes)
+    })
+    .flatten()
+    .uniq()
+    .value()
+
+  // Create array of fake bills
+  const bills = billIds.map(function(billId) {
+    const bill = {
+      id: billId,
+      name: faker.company.catchPhrase(),
+      quote: `"${faker.lorem.paragraph()}"\n - ${faker.name.findName()}`,
+      what_is_the_bill: faker.lorem.paragraph(),
+      why_it_matters: faker.lorem.paragraph(),
+      what_happened: faker.lorem.sentence(),
+      short_description: faker.lorem.sentence(),
+      bill_text_url: faker.internet.url(),
+      more_info_url: faker.internet.url(),
+      mpa_stance: _.sample(stances),
+      voter_stance: _.sample(stances),
+      photo: 'https://picsum.photos/300/300',
+    }
+
+    return bill
+  })
+
+  // Write to file
+  fs.writeFile(
+    './src/data/bills.json',
+    JSON.stringify(bills, null, '  '),
+    function(err) {
+      if (err) console.log(err)
+    }
+  )
+}
+
+
+
+
+
+// ----------------------------------------------------------------------------
+// Utility Functions
+// ----------------------------------------------------------------------------
 
 function parseBool(input) {
   if (input == null) return null
