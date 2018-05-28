@@ -70,7 +70,12 @@ fs.readFile('./src/data/legislators.json', function(err, data) {
       votes: votes,
     }
 
-    Object.assign(legislatorsByOcdId[ocdId], legislator)
+    const fakeLegislatorFields = {
+      mpaScore: parseInt(parseInt(Math.random() * 16, 10) / 15 * 100, 10),
+      voterScore: parseInt(parseInt(Math.random() * 16, 10) / 15 * 100, 10),
+    }
+
+    Object.assign(legislatorsByOcdId[ocdId], fakeLegislatorFields, legislator)
   }, function() {
 
     console.log('--- Done ---')
