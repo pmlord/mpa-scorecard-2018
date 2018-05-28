@@ -8,7 +8,7 @@ export default function LegislatorDetail({ match }) {
   const legislator = getLegislatorFromParams(param)
 
   const {
-    lastName,
+    name,
     legislative_chamber,
     districtNum,
     towns,
@@ -51,14 +51,14 @@ export default function LegislatorDetail({ match }) {
             <h1>Overall</h1>
             <ScoreBar score={mpaScore} />
             <div className="score-bar-sub-text">
-              {lastName} votes align with MPA {mpaScore}% of the time.
+              {name.lastName} votes align with MPA {mpaScore}% of the time.
             </div>
           </div></div>
         <div className="col-xs-12 col-md-5 col-md-offset-2"><div className="voter-score box">
             <h1>Will of the Voter</h1>
             <ScoreBar score={voterScore} />
             <div className="score-bar-sub-text">
-              {lastName} votes align with voters {voterScore}% of the time.
+              {name.lastName} votes align with voters {voterScore}% of the time.
             </div>
           </div></div>
         </div>

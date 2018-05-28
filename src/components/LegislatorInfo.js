@@ -34,7 +34,7 @@ export default function LegislatorInfo(props) {
       <div className="col-xs"><div className="box">
         <div className="legislator-name-and-address">
           <div className="legislator-name">
-            <Link to={legislatorPath(legislator)}>{name}</Link>
+            <Link to={legislatorPath(legislator)}>{name.fullName}</Link>
           </div>
           <div className="legislator-subtitle">
             <span>{party}, {legal_residence}</span>
