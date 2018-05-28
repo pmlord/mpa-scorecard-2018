@@ -6183,7 +6183,7 @@
     "name": {
       "firstName": "Troy",
       "lastName": "Jackson",
-      "fullName": "Troy Jackson"
+      "fullName": "Troy Jackson"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:1",
     "legislative_chamber": "Senate",
@@ -6193,7 +6193,7 @@
     "legal_residence": "Aroostook",
     "address": "167 Allagash Rd., Allagash, ME 04774",
     "email": "Troy.Jackson@legislature.maine.gov",
-    "phone": "(207) 436-0763",
+    "phone": "(207) 436-0763",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/troy-jackson.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-troy-jackson",
     "political_party": "Democrat",
@@ -6223,7 +6223,7 @@
     "name": {
       "firstName": "Michael",
       "lastName": "Carpenter",
-      "fullName": "Michael Carpenter"
+      "fullName": "Michael Carpenter"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:2",
     "legislative_chamber": "Senate",
@@ -6263,7 +6263,7 @@
     "name": {
       "firstName": "Rod",
       "lastName": "Whittemore",
-      "fullName": "Rod Whittemore"
+      "fullName": "Rod Whittemore"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:3",
     "legislative_chamber": "Senate",
@@ -6303,12 +6303,12 @@
     "name": {
       "firstName": "Paul",
       "lastName": "Davis",
-      "fullName": "Paul Davis"
+      "fullName": "Paul Davis"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:4",
     "legislative_chamber": "Senate",
     "districtNum": 4,
-    "towns": "Abbott, Alton, Athens, Atkinson, Beaver Cove, Blanchard, Bowerbank, Bradford, Brighton Plantation, Brownville, Cambridge, Charleston, Detroit, Dexter, Dover-Foxcroft, Garland, Greenville, Guilford, Harmony, Hartland, Kingsbury Plantation, Lagrange, Lake View Plantation, Medford, Milo, Monson, North East Piscataquis, North West Piscataquis, Palmyra, Parkman, Ripley, St. Albans, Sangerville, Sebec, Shirley, Wellington, and Willimantic.",
+    "towns": "Abbott, Alton, Athens, Atkinson, Beaver Cove, Blanchard, Bowerbank, Bradford, Brighton Plantation, Brownville, Cambridge, Charleston, Detroit, Dexter, Dover-Foxcroft, Garland, Greenville, Guilford, Harmony, Hartland, Kingsbury Plantation, Lagrange, Lake View Plantation, Medford, Milo, Monson, North East Piscataquis, North West Piscataquis, Palmyra, Parkman, Ripley, St. Albans, Sangerville, Sebec, Shirley, Wellington, and Willimantic.",
     "party": "Republican",
     "legal_residence": "Piscataquis",
     "address": "36 Townhouse Rd., Sangerville, ME 04479",
@@ -6343,7 +6343,7 @@
     "name": {
       "firstName": "James",
       "lastName": "Dill",
-      "fullName": "James Dill"
+      "fullName": "James Dill"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:5",
     "legislative_chamber": "Senate",
@@ -6383,17 +6383,17 @@
     "name": {
       "firstName": "Joyce",
       "lastName": "Maker",
-      "fullName": "Joyce Maker"
+      "fullName": "Joyce Maker"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:6",
     "legislative_chamber": "Senate",
     "districtNum": 6,
-    "towns": "Addison, Alexander, Baileyville, Baring Plantation, Beals, Beddington, Calais, Centerville, Charlotte, Cherryfield, Codyville Plantation, Columbia, Columbia Falls, Cooper, Crawford, Cutler, Danforth, Deblois, Dennysville, East Central Washington, East Machias, Eastport, Gouldsboro, Grand Lake Stream Plantation, Harrington, Indian Township, Jonesboro, Jonesport, Lubec, Machias, Machiasport, Marshfield, Meddybemps, Milbridge, North Washington, Northfield, Pembroke, Perry, Pleasant Point, Princeton, Robbinston, Roque Bluffs, Steuben, Sullivan, Talmadge, Topsfield, Vanceboro, Waite, Wesley, Whiting, Whitneyville, Winter Harbor, and part of East Hancock Unorganized Territory.",
+    "towns": "Addison, Alexander, Baileyville, Baring Plantation, Beals, Beddington, Calais, Centerville, Charlotte, Cherryfield, Codyville Plantation, Columbia, Columbia Falls, Cooper, Crawford, Cutler, Danforth, Deblois, Dennysville, East Central Washington, East Machias, Eastport, Gouldsboro, Grand Lake Stream Plantation, Harrington, Indian Township, Jonesboro, Jonesport, Lubec, Machias, Machiasport, Marshfield, Meddybemps, Milbridge, North Washington, Northfield, Pembroke, Perry, Pleasant Point, Princeton, Robbinston, Roque Bluffs, Steuben, Sullivan, Talmadge, Topsfield, Vanceboro, Waite, Wesley, Whiting, Whitneyville, Winter Harbor, and part of East Hancock Unorganized Territory.",
     "party": "Republican",
     "legal_residence": "Washington",
     "address": "89 Lafayette St, Calais, ME 04619",
     "email": "Joyce.Maker@legislature.maine.gov",
-    "phone": "(207) 454-2327",
+    "phone": "(207) 454-2327",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/joyce-maker.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-joyce-maker",
     "political_party": "Republican",
@@ -6423,7 +6423,7 @@
     "name": {
       "firstName": "Brian",
       "lastName": "Langley",
-      "fullName": "Brian Langley"
+      "fullName": "Brian Langley"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:7",
     "legislative_chamber": "Senate",
@@ -6463,12 +6463,12 @@
     "name": {
       "firstName": "Kimberley",
       "lastName": "Rosen",
-      "fullName": "Kimberley Rosen"
+      "fullName": "Kimberley Rosen"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:8",
     "legislative_chamber": "Senate",
     "districtNum": 8,
-    "towns": "Bradley, Brewer, Bucksport, Burlington, Castine, Clifton, Dedham, East Central Penobscot Unorganized Territory, Eddington, Great Pond, Holden, Lincoln, Lowell, Northwest Hancock Unorganized Territory, T32 MD Township, Orland, Orrington, Penobscot, Verona Island, and part of East Hancock Unorganized Territory.",
+    "towns": "Bradley, Brewer, Bucksport, Burlington, Castine, Clifton, Dedham, East Central Penobscot Unorganized Territory, Eddington, Great Pond, Holden, Lincoln, Lowell, Northwest Hancock Unorganized Territory, T32 MD Township, Orland, Orrington, Penobscot, Verona Island, and part of East Hancock Unorganized Territory.",
     "party": "Republican",
     "legal_residence": "Hancock",
     "address": "P.O. Box 877, Bucksport, ME 04416",
@@ -6503,7 +6503,7 @@
     "name": {
       "firstName": "Geoffrey",
       "lastName": "Gratwick",
-      "fullName": "Geoffrey Gratwick"
+      "fullName": "Geoffrey Gratwick"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:9",
     "legislative_chamber": "Senate",
@@ -6544,7 +6544,7 @@
       "suffix": "III",
       "firstName": "Andre",
       "lastName": "Cushing",
-      "fullName": "Andre Cushing III "
+      "fullName": "Andre Cushing III "
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:10",
     "legislative_chamber": "Senate",
@@ -6584,7 +6584,7 @@
     "name": {
       "firstName": "Michael",
       "lastName": "Thibodeau",
-      "fullName": "Michael Thibodeau"
+      "fullName": "Michael Thibodeau"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:11",
     "legislative_chamber": "Senate",
@@ -6624,7 +6624,7 @@
     "name": {
       "firstName": "David",
       "lastName": "Miramant",
-      "fullName": "David Miramant"
+      "fullName": "David Miramant"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:12",
     "legislative_chamber": "Senate",
@@ -6664,7 +6664,7 @@
     "name": {
       "firstName": "Dana",
       "lastName": "Dow",
-      "fullName": "Dana Dow"
+      "fullName": "Dana Dow"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:13",
     "legislative_chamber": "Senate",
@@ -6704,7 +6704,7 @@
     "name": {
       "firstName": "Shenna",
       "lastName": "Bellows",
-      "fullName": "Shenna Bellows"
+      "fullName": "Shenna Bellows"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:14",
     "legislative_chamber": "Senate",
@@ -6744,7 +6744,7 @@
     "name": {
       "firstName": "Roger",
       "lastName": "Katz",
-      "fullName": "Roger Katz"
+      "fullName": "Roger Katz"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:15",
     "legislative_chamber": "Senate",
@@ -6784,7 +6784,7 @@
     "name": {
       "firstName": "Scott",
       "lastName": "Cyrway",
-      "fullName": "Scott Cyrway"
+      "fullName": "Scott Cyrway"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:16",
     "legislative_chamber": "Senate",
@@ -6824,7 +6824,7 @@
     "name": {
       "firstName": "Thomas",
       "lastName": "Saviello",
-      "fullName": "Thomas Saviello"
+      "fullName": "Thomas Saviello"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:17",
     "legislative_chamber": "Senate",
@@ -6864,7 +6864,7 @@
     "name": {
       "firstName": "Lisa",
       "lastName": "Keim",
-      "fullName": "Lisa Keim"
+      "fullName": "Lisa Keim"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:18",
     "legislative_chamber": "Senate",
@@ -6904,12 +6904,12 @@
     "name": {
       "firstName": "James",
       "lastName": "Hamper",
-      "fullName": "James Hamper"
+      "fullName": "James Hamper"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:19",
     "legislative_chamber": "Senate",
     "districtNum": 19,
-    "towns": "Bridgton, Brownfield, Denmark, Fryeburg, Harrison, Hiram, Naples, Norway, Otisfield, Oxford, Paris, Porter, and Sebago.",
+    "towns": "Bridgton, Brownfield, Denmark, Fryeburg, Harrison, Hiram, Naples, Norway, Otisfield, Oxford, Paris, Porter, and Sebago.",
     "party": "Republican",
     "legal_residence": "Oxford",
     "address": "1023 King St., Oxford, ME 04270",
@@ -6944,7 +6944,7 @@
     "name": {
       "firstName": "Eric",
       "lastName": "Brakey",
-      "fullName": "Eric Brakey"
+      "fullName": "Eric Brakey"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:20",
     "legislative_chamber": "Senate",
@@ -6984,7 +6984,7 @@
     "name": {
       "firstName": "Nate",
       "lastName": "Libby",
-      "fullName": "Nate Libby"
+      "fullName": "Nate Libby"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:21",
     "legislative_chamber": "Senate",
@@ -7024,7 +7024,7 @@
     "name": {
       "firstName": "Garrett",
       "lastName": "Mason",
-      "fullName": "Garrett Mason"
+      "fullName": "Garrett Mason"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:22",
     "legislative_chamber": "Senate",
@@ -7064,7 +7064,7 @@
     "name": {
       "firstName": "Eloise",
       "lastName": "Vitelli",
-      "fullName": "Eloise Vitelli"
+      "fullName": "Eloise Vitelli"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:23",
     "legislative_chamber": "Senate",
@@ -7074,7 +7074,7 @@
     "legal_residence": "Sagadahoc",
     "address": "73 Newtown Road, Arrowsic, ME 04530",
     "email": "Eloise.Vitelli@legislature.maine.gov",
-    "phone": "(207) 443-4660",
+    "phone": "(207) 443-4660",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/eloise-vitelli.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-eloise-vitelli",
     "political_party": "Democrat",
@@ -7104,7 +7104,7 @@
     "name": {
       "firstName": "Brownie",
       "lastName": "Carson",
-      "fullName": "Brownie Carson"
+      "fullName": "Brownie Carson"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:24",
     "legislative_chamber": "Senate",
@@ -7144,7 +7144,7 @@
     "name": {
       "firstName": "Catherine",
       "lastName": "Breen",
-      "fullName": "Catherine Breen"
+      "fullName": "Catherine Breen"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:25",
     "legislative_chamber": "Senate",
@@ -7184,7 +7184,7 @@
     "name": {
       "firstName": "Bill",
       "lastName": "Diamond",
-      "fullName": "Bill Diamond"
+      "fullName": "Bill Diamond"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:26",
     "legislative_chamber": "Senate",
@@ -7224,7 +7224,7 @@
     "name": {
       "firstName": "Benjamin",
       "lastName": "Chipman",
-      "fullName": "Benjamin Chipman"
+      "fullName": "Benjamin Chipman"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:27",
     "legislative_chamber": "Senate",
@@ -7264,7 +7264,7 @@
     "name": {
       "firstName": "Mark",
       "lastName": "Dion",
-      "fullName": "Mark Dion"
+      "fullName": "Mark Dion"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:28",
     "legislative_chamber": "Senate",
@@ -7274,7 +7274,7 @@
     "legal_residence": "Cumberland",
     "address": "45 Allison Ave., Portland, ME 04103",
     "email": "Mark.Dion@legislature.maine.gov",
-    "phone": "Cell: (207) 797-6341",
+    "phone": "Cell: (207) 797-6341",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/dion-mn.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-mark-dion",
     "political_party": "Democrat",
@@ -7304,7 +7304,7 @@
     "name": {
       "firstName": "Rebecca",
       "lastName": "Millett",
-      "fullName": "Rebecca Millett"
+      "fullName": "Rebecca Millett"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:29",
     "legislative_chamber": "Senate",
@@ -7314,7 +7314,7 @@
     "legal_residence": "Cumberland",
     "address": "PMB 375, 50 Market St., South Portland, ME 04106",
     "email": "Rebecca.Millett@legislature.maine.gov",
-    "phone": "Cell: (207) 415-3770",
+    "phone": "Cell: (207) 415-3770",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/millett-color.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-rebecca-millett",
     "political_party": "Democrat",
@@ -7344,7 +7344,7 @@
     "name": {
       "firstName": "Amy",
       "lastName": "Volk",
-      "fullName": "Amy Volk"
+      "fullName": "Amy Volk"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:30",
     "legislative_chamber": "Senate",
@@ -7354,7 +7354,7 @@
     "legal_residence": "Cumberland",
     "address": "4 Elbridge Oliver Way, Scarborough, ME 04074",
     "email": "amy.volk@legislature.maine.gov",
-    "phone": "(207) 229-5091",
+    "phone": "(207) 229-5091",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/volk-bw-cropped.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-amy-volk",
     "political_party": "Republican",
@@ -7384,7 +7384,7 @@
     "name": {
       "firstName": "Justin",
       "lastName": "Chenette",
-      "fullName": "Justin Chenette"
+      "fullName": "Justin Chenette"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:31",
     "legislative_chamber": "Senate",
@@ -7424,7 +7424,7 @@
     "name": {
       "firstName": "Susan",
       "lastName": "Deschambault",
-      "fullName": "Susan Deschambault"
+      "fullName": "Susan Deschambault"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:32",
     "legislative_chamber": "Senate",
@@ -7464,7 +7464,7 @@
     "name": {
       "firstName": "David",
       "lastName": "Woodsome",
-      "fullName": "David Woodsome"
+      "fullName": "David Woodsome"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:33",
     "legislative_chamber": "Senate",
@@ -7504,7 +7504,7 @@
     "name": {
       "firstName": "Ronald",
       "lastName": "Collins",
-      "fullName": "Ronald Collins"
+      "fullName": "Ronald Collins"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:34",
     "legislative_chamber": "Senate",
@@ -7544,7 +7544,7 @@
     "name": {
       "firstName": "Dawn",
       "lastName": "Hill",
-      "fullName": "Dawn Hill"
+      "fullName": "Dawn Hill"
     },
     "ocdId": "ocd-division/country:us/state:me/sldu:35",
     "legislative_chamber": "Senate",

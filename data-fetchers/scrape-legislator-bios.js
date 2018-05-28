@@ -92,10 +92,16 @@ async function fetchTownList() {
         .sortBy(['legislative_chamber', 'districtNum'])
         .value()
 
-      // Write the combined info of all legislators to file
+      // Stringify the combined info of all legislators
+      const rawPayload = JSON.stringify(legislators, null, '  ')
+
+      // remove no-break unicode characters
+      const payload = rawPayload.replace(/\u00A0/g, ' ')
+
+      // Write to file
       fs.writeFile(
         './src/data/legislators.json',
-        JSON.stringify(legislators, null, '  '),
+        payload,
         (err) => { if (err) throw err; console.log('saved ./src/data/legislators.json') }
       )
 
