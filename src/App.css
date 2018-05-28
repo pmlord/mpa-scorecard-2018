@@ -83,6 +83,12 @@ select, input:not([type=submit]) {
   border-radius: 0;
 }
 
+select.full-width,
+input:not([type=submit]).full-width {
+  display: block !important;
+  width: 100% !important;
+}
+
 @media only screen and (min-width: 48em) and (max-width: 64em) {
   .town {
     width: 200px;
@@ -308,6 +314,14 @@ nav a.active {
   margin-bottom: 2rem;
 }
 
+
+.legislator-detail h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 200;
+  font-size: 1.8em;
+}
+
 .district-info .title {
   margin-bottom: 0.8rem;
   font-size: 0.9em;
@@ -325,6 +339,18 @@ nav a.active {
   }
   .term-info {
     margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 64em) {
+  .legislator-detail .voter-score {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 48em) {
+  .legislator-detail .voting-history h1 {
+    margin-bottom: 1rem;
   }
 }
 

@@ -32,13 +32,13 @@ export default function LegislatorCard(props) {
           <ScoreBar score={mpaScore} />
           <div className="score-bar-sub-text">
             <b>Overall:</b> {lastName} votes align with MPA {mpaScore}% of the time.
-            </div>
+          </div>
         </div>
         <div className="voter-score">
           <ScoreBar score={voterScore} />
           <div className="score-bar-sub-text">
             <b>Will of the voter:</b> {lastName} votes align with voters {voterScore}% of the time.
-            </div>
+          </div>
         </div>
         <div className="view-voting-record">
           <Link
