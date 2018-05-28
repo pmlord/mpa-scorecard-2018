@@ -245,25 +245,26 @@ function parseRep(url, html) {
   )
 
   // Representing
-  const representing = matchClosure(
-    text,
-    /representing:\s+(.+)/i
-  )
+  const representing = $('p').filter(function(i, el) {
+    const text = $(el).text()
+    return matchClosure(
+      text,
+      /representing:\s+(.+)/i
+    )
+  }).first().text()
 
   // District number
   const districtNum = parseInt(matchClosure(
     representing,
-    /^district ([0-9]+)/i
+    /district ([0-9]+)/i
   ))
 
   // Open Civic Data district ID
   const ocdId = `ocd-division/country:us/state:me/sldl:${districtNum}`
 
   // Representing towns
-  const towns = matchClosure(
-    representing,
-    /.+?-\s+(.+)/i
-  )
+  const towns = representing.replace(/\s+/g, ' ').replace(/^.+?-\s+/, '')
+  // /.+?-\s+(.+)/i
 
   // Address
   const address = matchClosure(
