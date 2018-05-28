@@ -1,8 +1,9 @@
-const _        = require('lodash')
-const fs       = require('fs')
-const asyncLib = require('async')
-const cheerio  = require('cheerio')
-const fetch    = require('./fetch-cached').default
+const _             = require('lodash')
+const fs            = require('fs')
+const asyncLib      = require('async')
+const cheerio       = require('cheerio')
+const fetch         = require('./fetch-cached').default
+const parseFullName = require('humanparser').parseName
 
 
 
@@ -156,11 +157,12 @@ function parseSen({url, html, legal_residence, party_abbreviation}) {
   const party = PARTY_ABBREVIATIONS[party_abbreviation]
 
   // Name
-  const name = matchClosure(
+  const fullName = matchClosure(
     header,
     /(Sen|Pres)\.\s+(.+)/,
     2
   )
+  const name = parseFullName(fullName)
 
   // Address
   const address = matchClosure(
@@ -229,7 +231,8 @@ function parseRep(url, html) {
   const legislative_chamber = 'House'
 
   // Name
-  const name = $('table td:nth-child(2) h2').text()
+  const fullName = $('table td:nth-child(2) h2').text()
+  const name = parseFullName(fullName)
 
   // Hometown
   // const hometown = matchClosure(
