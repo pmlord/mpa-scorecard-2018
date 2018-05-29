@@ -74,22 +74,47 @@ fs.readFile('./src/data/legislators.json', function(err, data) {
       votes: votes,
     }
 
-    const fakeLegislatorFields = {
-      mpaScore: parseInt(parseInt(Math.random() * 16, 10) / 15 * 100, 10),
-      voterScore: parseInt(parseInt(Math.random() * 16, 10) / 15 * 100, 10),
-    }
-
-    Object.assign(legislatorsByOcdId[ocdId], fakeLegislatorFields, legislator)
+    Object.assign(legislatorsByOcdId[ocdId], legislator)
   }, function() {
 
-    console.log('--- Done ---')
-    const payload = JSON.stringify(legislators, null, '  ')
+    // Fetch bills from Airtable and calculate voting score
+    createFakeBillData(legislators, function(bills) {
+      // Index bills by id
+      const billsById = {}
+      bills.forEach(function(bill) {
+        billsById[bill.id] = bill
+      })
 
-    fs.writeFile('./src/data/legislators.json', payload, function(err) {
-      if (err) console.log(err)
+      // Iterate through each legislator's votes and tally scores
+      legislators.forEach(function(legislator) {
+        let mpaTally = 0,
+            mpaTotal = 0,
+            voterTally = 0,
+            voterTotal = 0;
+
+        _.forOwn(legislator.votes, function(legislator_stance, billId) {
+          const bill = billsById[billId]
+          const { mpa_stance, voter_stance } = bill
+
+          if (bill.mpa_stance) {
+            if (legislator_stance === bill.mpa_stance) mpaTally++
+            mpaTotal++
+            if (legislator_stance === bill.voter_stance) voterTally++
+            voterTotal++
+          }
+        })
+
+        legislator.mpaScore = Math.round(mpaTally / mpaTotal * 100)
+        legislator.voterScore = Math.round(voterTally / voterTotal * 100)
+      })
+
+      // Write to file
+      const payload = JSON.stringify(legislators, null, '  ')
+      fs.writeFile('./src/data/legislators.json', payload, function(err) {
+        if (err) console.log(err)
+        console.log('--- Done ---')
+      })
     })
-
-    createFakeBillData(legislators)
   })
 })
 
@@ -107,7 +132,7 @@ const stances = [
   'supported',
 ]
 
-function createFakeBillData(legislators) {
+function createFakeBillData(legislators, cb) {
   // Get array of all bill ids
   const billIds = _(legislators)
     .map(function(legislator) {
@@ -119,23 +144,29 @@ function createFakeBillData(legislators) {
 
   // Create array of fake bills
   const bills = billIds.map(function(billId) {
+    const random = Math.random()
+
     const bill = {
       id: billId,
-      name: faker.company.catchPhrase(),
-      quote: `"${faker.lorem.paragraph()}"\n - ${faker.name.findName()}`,
+      official_title: faker.commerce.product(),
+      shorthand_title: faker.company.catchPhrase(),
+      quote: faker.lorem.paragraph(),
+      quote_attribution: faker.name.findName(),
       what_is_the_bill: faker.lorem.paragraph(),
       why_it_matters: faker.lorem.paragraph(),
       what_happened: faker.lorem.sentence(),
       short_description: faker.lorem.sentence(),
       bill_text_url: faker.internet.url(),
       more_info_url: faker.internet.url(),
-      mpa_stance: _.sample(stances),
-      voter_stance: _.sample(stances),
+      mpa_stance: (random < 0.8) ? _.sample(stances) : null,
+      voter_stance: (random >= 0.6) ? _.sample(stances) : null,
       photo: 'https://picsum.photos/300/300',
     }
 
     return bill
   })
+
+  cb(bills)
 
   // Write to file
   fs.writeFile(

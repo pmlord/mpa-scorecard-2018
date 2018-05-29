@@ -16,8 +16,6 @@
     "phone": "(207) 439-8755",
     "photo_url": "https://legislature.maine.gov/house/photo128/ryked_.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/ryked_.htm",
-    "mpaScore": 13,
-    "voterScore": 33,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -39,7 +37,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -59,8 +59,6 @@
     "phone": "(207) 475-4975",
     "photo_url": "https://legislature.maine.gov/house/photo128/lawrmw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/lawrmw.htm",
-    "mpaScore": 60,
-    "voterScore": 53,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -82,7 +80,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -102,8 +102,6 @@
     "phone": "(207) 363-9235",
     "photo_url": "https://legislature.maine.gov/house/photo128/blumlc.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/blumlc.htm",
-    "mpaScore": 6,
-    "voterScore": 33,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -125,7 +123,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -144,8 +144,6 @@
     "phone": "(207) 363-8353",
     "photo_url": "https://legislature.maine.gov/house/photo128/hymapa.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/hymapa.htm",
-    "mpaScore": 86,
-    "voterScore": 40,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -167,7 +165,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -187,8 +187,6 @@
     "phone": "(207) 289-9047",
     "photo_url": "https://legislature.maine.gov/house/photo128/oconba.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/oconba.htm",
-    "mpaScore": 73,
-    "voterScore": 46,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -210,7 +208,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 25
   },
   {
     "name": {
@@ -230,8 +230,6 @@
     "phone": "(207) 475-6792",
     "photo_url": "https://legislature.maine.gov/house/photo128/parkje.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/parkje.htm",
-    "mpaScore": 86,
-    "voterScore": 100,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -253,7 +251,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 42
   },
   {
     "name": {
@@ -273,8 +273,6 @@
     "phone": "(207) 590-2144",
     "photo_url": "https://legislature.maine.gov/house/photo128/folera.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/folera.htm",
-    "mpaScore": 100,
-    "voterScore": 93,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -296,7 +294,9 @@
       "LD 1864": "absent",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -316,8 +316,6 @@
     "phone": "(207) 229-4064",
     "photo_url": "https://legislature.maine.gov/house/photo128/babbcw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/babbcw.htm",
-    "mpaScore": 66,
-    "voterScore": 86,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -339,7 +337,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 50,
+    "voterScore": 42
   },
   {
     "name": {
@@ -359,8 +359,6 @@
     "phone": "(207) 590-1597",
     "photo_url": "https://legislature.maine.gov/house/photo128/seavhs.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/seavhs.htm",
-    "mpaScore": 73,
-    "voterScore": 6,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -382,7 +380,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -402,8 +402,6 @@
     "phone": "(207) 286-9145",
     "photo_url": "https://legislature.maine.gov/house/photo128/parrwr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/parrwr.htm",
-    "mpaScore": 20,
-    "voterScore": 6,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -425,7 +423,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -445,8 +445,6 @@
     "phone": "(207) 289-4478",
     "photo_url": "https://legislature.maine.gov/house/photo128/fectrm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/fectrm.htm",
-    "mpaScore": 6,
-    "voterScore": 80,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -468,7 +466,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -488,8 +488,6 @@
     "phone": "(207) 423-8260",
     "photo_url": "https://legislature.maine.gov/house/photo128/grohmj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/grohmj.htm",
-    "mpaScore": 93,
-    "voterScore": 33,
     "political_party": "Independent",
     "seeking_reelection": null,
     "votes": {
@@ -511,7 +509,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "absent"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -531,8 +531,6 @@
     "phone": "(207) 423-4293",
     "photo_url": "https://legislature.maine.gov/house/photo128/hogagw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/hogagw.htm",
-    "mpaScore": 26,
-    "voterScore": 46,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -554,7 +552,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -573,8 +573,6 @@
     "phone": "(207) 284-9962",
     "photo_url": "https://legislature.maine.gov/house/photo128/bailda.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/bailda.htm",
-    "mpaScore": 86,
-    "voterScore": 86,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -596,7 +594,9 @@
       "LD 1864": "opposed",
       "LD 1865": "opposed",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 33
   },
   {
     "name": {
@@ -616,8 +616,6 @@
     "phone": "(207) 590-1679",
     "photo_url": "https://legislature.maine.gov/house/photo128/oneimm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/oneimm.htm",
-    "mpaScore": 93,
-    "voterScore": 73,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -639,7 +637,9 @@
       "LD 1864": "opposed",
       "LD 1865": "opposed",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 33
   },
   {
     "name": {
@@ -659,8 +659,6 @@
     "phone": "(207) 653-8927",
     "photo_url": "https://legislature.maine.gov/house/photo128/maredg.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/maredg.htm",
-    "mpaScore": 20,
-    "voterScore": 46,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -682,7 +680,9 @@
       "LD 1864": "supported",
       "LD 1865": "absent",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 17
   },
   {
     "name": {
@@ -702,8 +702,6 @@
     "phone": "(207) 710-1614",
     "photo_url": "https://legislature.maine.gov/house/photo128/presdw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/presdw.htm",
-    "mpaScore": 100,
-    "voterScore": 86,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -725,7 +723,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -744,8 +744,6 @@
     "phone": "(207) 324-8692",
     "photo_url": "https://legislature.maine.gov/house/photo128/masta_.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/masta_.htm",
-    "mpaScore": 33,
-    "voterScore": 0,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -767,7 +765,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -787,8 +787,6 @@
     "phone": "(207) 831-6746",
     "photo_url": "https://legislature.maine.gov/house/photo128/harrma.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/harrma.htm",
-    "mpaScore": 20,
-    "voterScore": 20,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -810,7 +808,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -830,8 +830,6 @@
     "phone": "(207) 651-5452",
     "photo_url": "https://legislature.maine.gov/house/photo128/gerrka.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/gerrka.htm",
-    "mpaScore": 20,
-    "voterScore": 60,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -853,7 +851,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -873,8 +873,6 @@
     "phone": "(207) 324-0307",
     "photo_url": "https://legislature.maine.gov/house/photo128/samphh.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/samphh.htm",
-    "mpaScore": 13,
-    "voterScore": 33,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -896,7 +894,9 @@
       "LD 1864": "supported",
       "LD 1865": "absent",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 17
   },
   {
     "name": {
@@ -916,8 +916,6 @@
     "phone": "(207) 637-2366",
     "photo_url": "https://legislature.maine.gov/house/photo128/kinnjl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/kinnjl.htm",
-    "mpaScore": 26,
-    "voterScore": 73,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -939,7 +937,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -959,8 +959,6 @@
     "phone": "(207) 642-3491",
     "photo_url": "https://legislature.maine.gov/house/photo128/ordwls.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/ordwls.htm",
-    "mpaScore": 26,
-    "voterScore": 20,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -982,7 +980,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -1002,8 +1002,6 @@
     "phone": "(207) 892-6591",
     "photo_url": "https://legislature.maine.gov/house/photo128/bryame.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/bryame.htm",
-    "mpaScore": 46,
-    "voterScore": 20,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -1025,7 +1023,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -1045,8 +1045,6 @@
     "phone": "(207) 749-1336",
     "photo_url": "https://legislature.maine.gov/house/photo128/corepw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/corepw.htm",
-    "mpaScore": 73,
-    "voterScore": 80,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -1068,7 +1066,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -1088,8 +1088,6 @@
     "phone": "(207) 712-9735",
     "photo_url": "https://legislature.maine.gov/house/photo128/terrmf.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/terrmf.htm",
-    "mpaScore": 80,
-    "voterScore": 86,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -1111,7 +1109,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -1131,8 +1131,6 @@
     "phone": "(207) 939-8482",
     "photo_url": "https://legislature.maine.gov/house/photo128/mcleaj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/mcleaj.htm",
-    "mpaScore": 46,
-    "voterScore": 53,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -1154,7 +1152,9 @@
       "LD 1864": "opposed",
       "LD 1865": "absent",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 33
   },
   {
     "name": {
@@ -1174,8 +1174,6 @@
     "phone": "(207) 730-6602",
     "photo_url": "https://legislature.maine.gov/house/photo128/sirohw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/sirohw.htm",
-    "mpaScore": 46,
-    "voterScore": 33,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -1197,7 +1195,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -1217,8 +1217,6 @@
     "phone": "(207) 883-4715",
     "photo_url": "https://legislature.maine.gov/house/photo128/vachkr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/vachkr.htm",
-    "mpaScore": 93,
-    "voterScore": 60,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -1240,7 +1238,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 25
   },
   {
     "name": {
@@ -1260,8 +1260,6 @@
     "phone": "(207) 749-9443",
     "photo_url": "https://legislature.maine.gov/house/photo128/monakj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/monakj.htm",
-    "mpaScore": 53,
-    "voterScore": 53,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -1283,7 +1281,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -1303,8 +1303,6 @@
     "phone": "(207) 712-2474",
     "photo_url": "https://legislature.maine.gov/house/photo128/recklg.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/recklg.htm",
-    "mpaScore": 26,
-    "voterScore": 40,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -1326,7 +1324,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -1346,8 +1346,6 @@
     "phone": "(207) 233-2951",
     "photo_url": "https://legislature.maine.gov/house/photo128/hamasm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/hamasm.htm",
-    "mpaScore": 33,
-    "voterScore": 46,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -1369,7 +1367,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -1389,8 +1389,6 @@
     "phone": "(207) 831-6962",
     "photo_url": "https://legislature.maine.gov/house/photo128/battkj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/battkj.htm",
-    "mpaScore": 33,
-    "voterScore": 100,
     "political_party": "Independent",
     "seeking_reelection": null,
     "votes": {
@@ -1412,7 +1410,9 @@
       "LD 1864": "absent",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 33
   },
   {
     "name": {
@@ -1431,8 +1431,6 @@
     "phone": "(207) 409-3477",
     "photo_url": "https://legislature.maine.gov/house/photo128/gattam.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/gattam.htm",
-    "mpaScore": 66,
-    "voterScore": 93,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -1454,7 +1452,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -1474,8 +1474,6 @@
     "phone": "(207) 570-1075",
     "photo_url": "https://legislature.maine.gov/house/photo128/batedf.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/batedf.htm",
-    "mpaScore": 100,
-    "voterScore": 86,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -1497,7 +1495,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -1517,8 +1517,6 @@
     "phone": "(207) 409-0870",
     "photo_url": "https://legislature.maine.gov/house/photo128/harldp.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/harldp.htm",
-    "mpaScore": 46,
-    "voterScore": 46,
     "political_party": "Independent",
     "seeking_reelection": null,
     "votes": {
@@ -1540,7 +1538,9 @@
       "LD 1864": "opposed",
       "LD 1865": "opposed",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 33
   },
   {
     "name": {
@@ -1560,8 +1560,6 @@
     "phone": "(207) 233-3814",
     "photo_url": "https://legislature.maine.gov/house/photo128/farnrr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/farnrr.htm",
-    "mpaScore": 100,
-    "voterScore": 100,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -1583,7 +1581,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -1603,8 +1603,6 @@
     "phone": "(207) 332-7823",
     "photo_url": "https://legislature.maine.gov/house/photo128/moonmw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/moonmw.htm",
-    "mpaScore": 6,
-    "voterScore": 93,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -1626,7 +1624,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -1646,8 +1646,6 @@
     "phone": "(207) 239-1488",
     "photo_url": "https://legislature.maine.gov/house/photo128/sylvma.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/sylvma.htm",
-    "mpaScore": 53,
-    "voterScore": 26,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -1669,7 +1667,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -1689,8 +1689,6 @@
     "phone": "(207) 747-5461",
     "photo_url": "https://legislature.maine.gov/house/photo128/talbr_.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/talbr_.htm",
-    "mpaScore": 20,
-    "voterScore": 0,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -1712,7 +1710,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -1732,8 +1732,6 @@
     "phone": "(207) 939-7120",
     "photo_url": "https://legislature.maine.gov/house/photo128/jorgec.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/jorgec.htm",
-    "mpaScore": 73,
-    "voterScore": 26,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -1755,7 +1753,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -1775,8 +1775,6 @@
     "phone": "(207) 835-6001",
     "photo_url": "https://legislature.maine.gov/house/photo128/collbt.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/collbt.htm",
-    "mpaScore": 46,
-    "voterScore": 0,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -1798,7 +1796,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -1818,8 +1818,6 @@
     "phone": "(207) 358-8508",
     "photo_url": "https://legislature.maine.gov/house/photo128/sanbhb.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/sanbhb.htm",
-    "mpaScore": 33,
-    "voterScore": 0,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -1841,7 +1839,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -1861,8 +1861,6 @@
     "phone": "(207) 415-8631",
     "photo_url": "https://legislature.maine.gov/house/photo128/pierts.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/pierts.htm",
-    "mpaScore": 60,
-    "voterScore": 73,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -1884,7 +1882,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -1904,8 +1904,6 @@
     "phone": "(207) 400-1123",
     "photo_url": "https://legislature.maine.gov/house/photo128/denndj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/denndj.htm",
-    "mpaScore": 46,
-    "voterScore": 66,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -1927,7 +1925,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -1947,8 +1947,6 @@
     "phone": "(207) 240-9300",
     "photo_url": "https://legislature.maine.gov/house/photo128/chacpb.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/chacpb.htm",
-    "mpaScore": 0,
-    "voterScore": 73,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -1970,7 +1968,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -1990,8 +1990,6 @@
     "phone": "(207) 233-9811",
     "photo_url": "https://legislature.maine.gov/house/photo128/coopje.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/coopje.htm",
-    "mpaScore": 33,
-    "voterScore": 73,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -2013,7 +2011,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -2032,8 +2032,6 @@
     "phone": "(207) 287-1300",
     "photo_url": "https://legislature.maine.gov/house/photo128/gides_.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/gides_.htm",
-    "mpaScore": 40,
-    "voterScore": 100,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -2055,7 +2053,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -2075,8 +2075,6 @@
     "phone": "(207) 370-9871",
     "photo_url": "https://legislature.maine.gov/house/photo128/daugme.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/daugme.htm",
-    "mpaScore": 33,
-    "voterScore": 6,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -2098,7 +2096,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -2118,8 +2118,6 @@
     "phone": "(207) 725-7639",
     "photo_url": "https://legislature.maine.gov/house/photo128/tuckrl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/tuckrl.htm",
-    "mpaScore": 33,
-    "voterScore": 46,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -2141,7 +2139,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -2161,8 +2161,6 @@
     "phone": "(207) 449-3293",
     "photo_url": "https://legislature.maine.gov/house/photo128/mccrjj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/mccrjj.htm",
-    "mpaScore": 100,
-    "voterScore": 46,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -2184,7 +2182,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -2204,8 +2204,6 @@
     "phone": "(207) 442-8486",
     "photo_url": "https://legislature.maine.gov/house/photo128/dechj_.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/dechj_.htm",
-    "mpaScore": 73,
-    "voterScore": 73,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -2227,7 +2225,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -2247,8 +2247,6 @@
     "phone": "(207) 441-3006",
     "photo_url": "https://legislature.maine.gov/house/photo128/pierjk.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/pierjk.htm",
-    "mpaScore": 26,
-    "voterScore": 86,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -2270,7 +2268,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -2290,8 +2290,6 @@
     "phone": "(207) 729-4018",
     "photo_url": "https://legislature.maine.gov/house/photo128/teplda.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/teplda.htm",
-    "mpaScore": 86,
-    "voterScore": 60,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -2313,7 +2311,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 50,
+    "voterScore": 42
   },
   {
     "name": {
@@ -2333,8 +2333,6 @@
     "phone": "(207) 522-1609",
     "photo_url": "https://legislature.maine.gov/house/photo128/berrsa.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/berrsa.htm",
-    "mpaScore": 60,
-    "voterScore": 73,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -2356,7 +2354,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -2376,8 +2376,6 @@
     "phone": "(207) 353-9086",
     "photo_url": "https://legislature.maine.gov/house/photo128/masorg.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/masorg.htm",
-    "mpaScore": 86,
-    "voterScore": 46,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -2399,7 +2397,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -2419,8 +2419,6 @@
     "phone": "(207) 740-3723",
     "photo_url": "https://legislature.maine.gov/house/photo128/woodsj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/woodsj.htm",
-    "mpaScore": 46,
-    "voterScore": 66,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -2442,7 +2440,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -2462,8 +2462,6 @@
     "phone": "(207) 784-5595",
     "photo_url": "https://legislature.maine.gov/house/photo128/handjr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/handjr.htm",
-    "mpaScore": 46,
-    "voterScore": 60,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -2485,7 +2483,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -2505,8 +2505,6 @@
     "phone": "(818) 216-0448",
     "photo_url": "https://legislature.maine.gov/house/photo128/fullrj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/fullrj.htm",
-    "mpaScore": 93,
-    "voterScore": 60,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -2528,7 +2526,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -2548,8 +2548,6 @@
     "phone": "(207) 287-1430",
     "photo_url": "https://legislature.maine.gov/house/photo128/goldjf.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/goldjf.htm",
-    "mpaScore": 93,
-    "voterScore": 86,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -2571,7 +2569,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -2591,8 +2591,6 @@
     "phone": "(207) 740-5229",
     "photo_url": "https://legislature.maine.gov/house/photo128/broohe.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/broohe.htm",
-    "mpaScore": 100,
-    "voterScore": 6,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -2614,7 +2612,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 50,
+    "voterScore": 33
   },
   {
     "name": {
@@ -2634,8 +2634,6 @@
     "phone": "(207) 740-8860",
     "photo_url": "https://legislature.maine.gov/house/photo128/melagm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/melagm.htm",
-    "mpaScore": 33,
-    "voterScore": 66,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -2657,7 +2655,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -2677,8 +2677,6 @@
     "phone": "(207) 740-0328",
     "photo_url": "https://legislature.maine.gov/house/photo128/bickba.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/bickba.htm",
-    "mpaScore": 86,
-    "voterScore": 73,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -2700,7 +2698,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 50
   },
   {
     "name": {
@@ -2720,8 +2720,6 @@
     "phone": "(207) 740-2613",
     "photo_url": "https://legislature.maine.gov/house/photo128/sheabw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/sheabw.htm",
-    "mpaScore": 6,
-    "voterScore": 20,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -2743,7 +2741,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 50,
+    "voterScore": 33
   },
   {
     "name": {
@@ -2762,8 +2762,6 @@
     "phone": "(207) 891-8280",
     "photo_url": "https://legislature.maine.gov/house/photo128/esplem.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/esplem.htm",
-    "mpaScore": 86,
-    "voterScore": 53,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -2785,7 +2783,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -2805,8 +2805,6 @@
     "phone": "(207) 415-4218",
     "photo_url": "https://legislature.maine.gov/house/photo128/fay_jl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/fay_jl.htm",
-    "mpaScore": 60,
-    "voterScore": 13,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -2828,7 +2826,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 42
   },
   {
     "name": {
@@ -2848,8 +2848,6 @@
     "phone": "(207) 657-4100",
     "photo_url": "https://legislature.maine.gov/house/photo128/austsm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/austsm.htm",
-    "mpaScore": 73,
-    "voterScore": 60,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -2871,7 +2869,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -2891,8 +2891,6 @@
     "phone": "(207) 693-6782",
     "photo_url": "https://legislature.maine.gov/house/photo128/cebrrm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/cebrrm.htm",
-    "mpaScore": 26,
-    "voterScore": 86,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -2914,7 +2912,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 17,
+    "voterScore": 17
   },
   {
     "name": {
@@ -2934,8 +2934,6 @@
     "phone": "(207) 647-8257",
     "photo_url": "https://legislature.maine.gov/house/photo128/ginzpa.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/ginzpa.htm",
-    "mpaScore": 53,
-    "voterScore": 80,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -2957,7 +2955,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 25
   },
   {
     "name": {
@@ -2977,8 +2977,6 @@
     "phone": "(207) 838-7451",
     "photo_url": "https://legislature.maine.gov/house/photo128/wadsnj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/wadsnj.htm",
-    "mpaScore": 53,
-    "voterScore": 100,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -3000,7 +2998,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -3020,8 +3020,6 @@
     "phone": "(207) 754-3678",
     "photo_url": "https://legislature.maine.gov/house/photo128/winstj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/winstj.htm",
-    "mpaScore": 40,
-    "voterScore": 26,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -3043,7 +3041,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -3063,8 +3063,6 @@
     "phone": "(207) 744-2153",
     "photo_url": "https://legislature.maine.gov/house/photo128/dillkr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/dillkr.htm",
-    "mpaScore": 26,
-    "voterScore": 26,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -3086,7 +3084,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -3106,8 +3106,6 @@
     "phone": "(207) 514-0414",
     "photo_url": "https://legislature.maine.gov/house/photo128/herrlc.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/herrlc.htm",
-    "mpaScore": 53,
-    "voterScore": 86,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -3129,7 +3127,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "absent"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -3148,8 +3148,6 @@
     "phone": "(207) 897-2288",
     "photo_url": "https://legislature.maine.gov/house/photo128/rilec_.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/rilec_.htm",
-    "mpaScore": 73,
-    "voterScore": 86,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -3171,7 +3169,9 @@
       "LD 1864": "absent",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 42
   },
   {
     "name": {
@@ -3191,8 +3191,6 @@
     "phone": "(207) 754-6000",
     "photo_url": "https://legislature.maine.gov/house/photo128/timbjl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/timbjl.htm",
-    "mpaScore": 33,
-    "voterScore": 20,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -3214,7 +3212,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -3234,8 +3234,6 @@
     "phone": "(207) 415-8124",
     "photo_url": "https://legislature.maine.gov/house/photo128/hillgl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/hillgl.htm",
-    "mpaScore": 33,
-    "voterScore": 53,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -3257,7 +3255,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -3277,8 +3277,6 @@
     "phone": "(207) 716-6968",
     "photo_url": "https://legislature.maine.gov/house/photo128/perkmd.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/perkmd.htm",
-    "mpaScore": 13,
-    "voterScore": 100,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -3300,7 +3298,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -3320,8 +3320,6 @@
     "phone": "(207) 557-1587",
     "photo_url": "https://legislature.maine.gov/house/photo128/nadecm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/nadecm.htm",
-    "mpaScore": 86,
-    "voterScore": 60,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -3343,7 +3341,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -3363,8 +3363,6 @@
     "phone": "(207) 968-2641",
     "photo_url": "https://legislature.maine.gov/house/photo128/therts.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/therts.htm",
-    "mpaScore": 93,
-    "voterScore": 33,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -3386,7 +3384,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -3406,8 +3406,6 @@
     "phone": "(207) 861-1657",
     "photo_url": "https://legislature.maine.gov/house/photo128/bradrt.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/bradrt.htm",
-    "mpaScore": 26,
-    "voterScore": 66,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -3429,7 +3427,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -3449,8 +3449,6 @@
     "phone": "(207) 377-3276",
     "photo_url": "https://legislature.maine.gov/house/photo128/hickcv.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/hickcv.htm",
-    "mpaScore": 80,
-    "voterScore": 20,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -3472,7 +3470,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -3491,8 +3491,6 @@
     "phone": "(207) 512-2524",
     "photo_url": "https://legislature.maine.gov/house/photo128/acklkf.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/acklkf.htm",
-    "mpaScore": 60,
-    "voterScore": 26,
     "political_party": "Independent ",
     "seeking_reelection": null,
     "votes": {
@@ -3514,7 +3512,9 @@
       "LD 1864": "opposed",
       "LD 1865": "opposed",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 33
   },
   {
     "name": {
@@ -3534,8 +3534,6 @@
     "phone": "(207) 215-3501",
     "photo_url": "https://legislature.maine.gov/house/photo128/grangm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/grangm.htm",
-    "mpaScore": 6,
-    "voterScore": 46,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -3557,7 +3555,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -3576,8 +3576,6 @@
     "phone": "(207) 441-9116",
     "photo_url": "https://legislature.maine.gov/house/photo128/warrcm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/warrcm.htm",
-    "mpaScore": 93,
-    "voterScore": 26,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -3599,7 +3597,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -3619,8 +3619,6 @@
     "phone": "(207) 592-6849",
     "photo_url": "https://legislature.maine.gov/house/photo128/doordr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/doordr.htm",
-    "mpaScore": 46,
-    "voterScore": 33,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -3642,7 +3640,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 33
   },
   {
     "name": {
@@ -3662,8 +3662,6 @@
     "phone": "(207) 441-9418",
     "photo_url": "https://legislature.maine.gov/house/photo128/poulmg.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/poulmg.htm",
-    "mpaScore": 80,
-    "voterScore": 20,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -3685,7 +3683,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 25
   },
   {
     "name": {
@@ -3705,8 +3705,6 @@
     "phone": "(207) 458-9009",
     "photo_url": "https://legislature.maine.gov/house/photo128/hanljp.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/hanljp.htm",
-    "mpaScore": 20,
-    "voterScore": 0,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -3728,7 +3726,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -3748,8 +3748,6 @@
     "phone": "(207) 376-7515",
     "photo_url": "https://legislature.maine.gov/house/photo128/sanddj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/sanddj.htm",
-    "mpaScore": 40,
-    "voterScore": 86,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -3771,7 +3769,9 @@
       "LD 1864": "absent",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -3790,8 +3790,6 @@
     "phone": "(207) 380-6803",
     "photo_url": "https://legislature.maine.gov/house/photo128/hawks_.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/hawks_.htm",
-    "mpaScore": 0,
-    "voterScore": 6,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -3813,7 +3811,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 50,
+    "voterScore": 33
   },
   {
     "name": {
@@ -3833,8 +3833,6 @@
     "phone": "(207) 975-3132",
     "photo_url": "https://legislature.maine.gov/house/photo128/devimg.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/devimg.htm",
-    "mpaScore": 100,
-    "voterScore": 20,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -3856,7 +3854,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -3876,8 +3876,6 @@
     "phone": "(207) 446-4518",
     "photo_url": "https://legislature.maine.gov/house/photo128/simmas.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/simmas.htm",
-    "mpaScore": 100,
-    "voterScore": 40,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -3899,7 +3897,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 25
   },
   {
     "name": {
@@ -3919,8 +3919,6 @@
     "phone": "(207) 596-3545",
     "photo_url": "https://legislature.maine.gov/house/photo128/speaja.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/speaja.htm",
-    "mpaScore": 100,
-    "voterScore": 26,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -3942,7 +3940,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -3961,8 +3961,6 @@
     "phone": "(207) 596-3937",
     "photo_url": "https://legislature.maine.gov/house/photo128/beebah.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/beebah.htm",
-    "mpaScore": 33,
-    "voterScore": 66,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -3984,7 +3982,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -4004,8 +4004,6 @@
     "phone": "(207) 333-0067",
     "photo_url": "https://legislature.maine.gov/house/photo128/casaod.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/casaod.htm",
-    "mpaScore": 6,
-    "voterScore": 86,
     "political_party": "Independent",
     "seeking_reelection": null,
     "votes": {
@@ -4027,7 +4025,9 @@
       "LD 1864": "supported",
       "LD 1865": "opposed",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 33
   },
   {
     "name": {
@@ -4047,8 +4047,6 @@
     "phone": "(207) 380 3406",
     "photo_url": "https://legislature.maine.gov/house/photo128/suttpg.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/suttpg.htm",
-    "mpaScore": 6,
-    "voterScore": 46,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -4070,7 +4068,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -4091,8 +4091,6 @@
     "phone": "(207) 322-1414",
     "photo_url": "https://legislature.maine.gov/house/photo128/zeigsp.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/zeigsp.htm",
-    "mpaScore": 73,
-    "voterScore": 6,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -4114,7 +4112,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -4134,8 +4134,6 @@
     "phone": "(207) 287-1430",
     "photo_url": "https://legislature.maine.gov/house/photo128/herbed.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/herbed.htm",
-    "mpaScore": 60,
-    "voterScore": 60,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -4157,7 +4155,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 42
   },
   {
     "name": {
@@ -4177,8 +4177,6 @@
     "phone": "(207) 548-6429",
     "photo_url": "https://legislature.maine.gov/house/photo128/gilljs.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/gilljs.htm",
-    "mpaScore": 100,
-    "voterScore": 13,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -4200,7 +4198,9 @@
       "LD 1864": "absent",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -4219,8 +4219,6 @@
     "phone": "(207) 568-7577",
     "photo_url": "https://legislature.maine.gov/house/photo128/kinnm_.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/kinnm_.htm",
-    "mpaScore": 13,
-    "voterScore": 66,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -4242,7 +4240,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -4262,8 +4262,6 @@
     "phone": "(207) 368-5562",
     "photo_url": "https://legislature.maine.gov/house/photo128/fredkw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/fredkw.htm",
-    "mpaScore": 20,
-    "voterScore": 60,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -4285,7 +4283,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -4305,8 +4305,6 @@
     "phone": "(207) 944-7471",
     "photo_url": "https://legislature.maine.gov/house/photo128/haggdg.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/haggdg.htm",
-    "mpaScore": 0,
-    "voterScore": 26,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -4328,7 +4326,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -4348,8 +4348,6 @@
     "phone": "(207) 249-0472",
     "photo_url": "https://legislature.maine.gov/house/photo128/guersk.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/guersk.htm",
-    "mpaScore": 66,
-    "voterScore": 40,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -4371,7 +4369,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 17
   },
   {
     "name": {
@@ -4391,8 +4391,6 @@
     "phone": "(207) 848-5136",
     "photo_url": "https://legislature.maine.gov/house/photo128/reedre.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/reedre.htm",
-    "mpaScore": 73,
-    "voterScore": 80,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -4414,7 +4412,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -4434,8 +4434,6 @@
     "phone": "(207) 270-8041",
     "photo_url": "https://legislature.maine.gov/house/photo128/wallra.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/wallra.htm",
-    "mpaScore": 86,
-    "voterScore": 86,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -4457,7 +4455,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 25
   },
   {
     "name": {
@@ -4477,8 +4477,6 @@
     "phone": "(207) 399-7801",
     "photo_url": "https://legislature.maine.gov/house/photo128/stetjr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/stetjr.htm",
-    "mpaScore": 6,
-    "voterScore": 20,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -4500,7 +4498,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -4520,8 +4520,6 @@
     "phone": "(207) 313-3895",
     "photo_url": "https://legislature.maine.gov/house/photo128/strosw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/strosw.htm",
-    "mpaScore": 86,
-    "voterScore": 86,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -4543,7 +4541,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 42
   },
   {
     "name": {
@@ -4563,8 +4563,6 @@
     "phone": "(207) 431-4287",
     "photo_url": "https://legislature.maine.gov/house/photo128/austba.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/austba.htm",
-    "mpaScore": 33,
-    "voterScore": 60,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -4586,7 +4584,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 42
   },
   {
     "name": {
@@ -4606,8 +4606,6 @@
     "phone": "(207) 692-7226",
     "photo_url": "https://legislature.maine.gov/house/photo128/piccjj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/piccjj.htm",
-    "mpaScore": 20,
-    "voterScore": 13,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -4629,7 +4627,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 50,
+    "voterScore": 33
   },
   {
     "name": {
@@ -4649,8 +4649,6 @@
     "phone": "(207) 872-6617",
     "photo_url": "https://legislature.maine.gov/house/photo128/longtr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/longtr.htm",
-    "mpaScore": 53,
-    "voterScore": 6,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -4672,7 +4670,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -4692,8 +4692,6 @@
     "phone": "(207) 692-7143",
     "photo_url": "https://legislature.maine.gov/house/photo128/madicm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/madicm.htm",
-    "mpaScore": 80,
-    "voterScore": 53,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -4715,7 +4713,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -4735,8 +4735,6 @@
     "phone": "(207) 614-4123",
     "photo_url": "https://legislature.maine.gov/house/photo128/farrbt.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/farrbt.htm",
-    "mpaScore": 80,
-    "voterScore": 93,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -4758,7 +4756,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -4778,8 +4778,6 @@
     "phone": "(207) 585-2638",
     "photo_url": "https://legislature.maine.gov/house/photo128/skolth.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/skolth.htm",
-    "mpaScore": 20,
-    "voterScore": 86,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -4801,7 +4799,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -4821,8 +4821,6 @@
     "phone": "(207) 491-8971",
     "photo_url": "https://legislature.maine.gov/house/photo128/harvle.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/harvle.htm",
-    "mpaScore": 13,
-    "voterScore": 6,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -4844,7 +4842,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -4864,8 +4864,6 @@
     "phone": "(207) 491-4667",
     "photo_url": "https://legislature.maine.gov/house/photo128/blacrj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/blacrj.htm",
-    "mpaScore": 66,
-    "voterScore": 6,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -4887,7 +4885,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 50,
+    "voterScore": 33
   },
   {
     "name": {
@@ -4908,8 +4908,6 @@
     "phone": "(207) 369-0303",
     "photo_url": "https://legislature.maine.gov/house/photo128/madije.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/madije.htm",
-    "mpaScore": 60,
-    "voterScore": 66,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -4931,7 +4929,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -4951,8 +4951,6 @@
     "phone": "(207) 645-4893",
     "photo_url": "https://legislature.maine.gov/house/photo128/pickra.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/pickra.htm",
-    "mpaScore": 46,
-    "voterScore": 93,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -4974,7 +4972,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 25
   },
   {
     "name": {
@@ -4994,8 +4994,6 @@
     "phone": "(207) 650-1351",
     "photo_url": "https://legislature.maine.gov/house/photo128/headfm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/headfm.htm",
-    "mpaScore": 13,
-    "voterScore": 0,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -5017,7 +5015,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 50,
+    "voterScore": 33
   },
   {
     "name": {
@@ -5037,8 +5037,6 @@
     "phone": "(207) 612-6499",
     "photo_url": "https://legislature.maine.gov/house/photo128/grigcw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/grigcw.htm",
-    "mpaScore": 13,
-    "voterScore": 100,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -5060,7 +5058,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -5080,8 +5080,6 @@
     "phone": "(207) 343-2615",
     "photo_url": "https://legislature.maine.gov/house/photo128/steapa.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/steapa.htm",
-    "mpaScore": 40,
-    "voterScore": 6,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -5103,7 +5101,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -5123,8 +5123,6 @@
     "phone": "(207) 564-8214",
     "photo_url": "https://legislature.maine.gov/house/photo128/higgne.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/higgne.htm",
-    "mpaScore": 60,
-    "voterScore": 100,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -5146,7 +5144,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -5166,8 +5166,6 @@
     "phone": "(207) 827-3782",
     "photo_url": "https://legislature.maine.gov/house/photo128/duchrs.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/duchrs.htm",
-    "mpaScore": 100,
-    "voterScore": 20,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -5189,7 +5187,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 42
   },
   {
     "name": {
@@ -5208,8 +5208,6 @@
     "phone": "(207) 745-3088",
     "photo_url": "https://legislature.maine.gov/house/photo128/dunpma.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/dunpma.htm",
-    "mpaScore": 20,
-    "voterScore": 0,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -5231,7 +5229,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 42
   },
   {
     "name": {
@@ -5250,8 +5250,6 @@
     "phone": "(207) 866-4333",
     "photo_url": "https://legislature.maine.gov/house/photo128/tipprd.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/tipprd.htm",
-    "mpaScore": 20,
-    "voterScore": 46,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -5273,7 +5271,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -5293,8 +5293,6 @@
     "phone": "(207) 249-9969",
     "photo_url": "https://legislature.maine.gov/house/photo128/freyam.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/freyam.htm",
-    "mpaScore": 53,
-    "voterScore": 46,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -5316,7 +5314,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -5336,8 +5336,6 @@
     "phone": "(207) 947-7224",
     "photo_url": "https://legislature.maine.gov/house/photo128/kornvp.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/kornvp.htm",
-    "mpaScore": 6,
-    "voterScore": 40,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -5359,7 +5357,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -5379,8 +5379,6 @@
     "phone": "(207) 942-7886",
     "photo_url": "https://legislature.maine.gov/house/photo128/schnjc.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/schnjc.htm",
-    "mpaScore": 33,
-    "voterScore": 73,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -5402,7 +5400,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -5422,8 +5422,6 @@
     "phone": "(207) 356-7981",
     "photo_url": "https://legislature.maine.gov/house/photo128/cardba.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/cardba.htm",
-    "mpaScore": 93,
-    "voterScore": 26,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -5445,7 +5443,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -5465,8 +5465,6 @@
     "phone": "(207) 745-0210",
     "photo_url": "https://legislature.maine.gov/house/photo128/craigr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/craigr.htm",
-    "mpaScore": 40,
-    "voterScore": 86,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -5488,7 +5486,9 @@
       "LD 1864": "absent",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -5508,8 +5508,6 @@
     "phone": "(207) 848-3335",
     "photo_url": "https://legislature.maine.gov/house/photo128/lyfopa.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/lyfopa.htm",
-    "mpaScore": 46,
-    "voterScore": 100,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -5531,7 +5529,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 25
   },
   {
     "name": {
@@ -5551,8 +5551,6 @@
     "phone": "(207) 745-7748",
     "photo_url": "https://legislature.maine.gov/house/photo128/camprh.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/camprh.htm",
-    "mpaScore": 100,
-    "voterScore": 33,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -5574,7 +5572,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 25
   },
   {
     "name": {
@@ -5594,8 +5594,6 @@
     "phone": "(207) 843-7546",
     "photo_url": "https://legislature.maine.gov/house/photo128/wardks.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/wardks.htm",
-    "mpaScore": 6,
-    "voterScore": 26,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -5617,7 +5615,9 @@
       "LD 1864": "absent",
       "LD 1865": "absent",
       "LD 1904": "absent"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 17
   },
   {
     "name": {
@@ -5637,8 +5637,6 @@
     "phone": "(207) 664-4699",
     "photo_url": "https://legislature.maine.gov/house/photo128/luchlj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/luchlj.htm",
-    "mpaScore": 13,
-    "voterScore": 86,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -5660,7 +5658,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 42
   },
   {
     "name": {
@@ -5679,8 +5679,6 @@
     "phone": "(207) 326-0899",
     "photo_url": "https://legislature.maine.gov/house/photo128/chaprl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/chaprl.htm",
-    "mpaScore": 66,
-    "voterScore": 40,
     "political_party": "Unenrolled",
     "seeking_reelection": null,
     "votes": {
@@ -5702,7 +5700,9 @@
       "LD 1864": "opposed",
       "LD 1865": "opposed",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 17
   },
   {
     "name": {
@@ -5723,8 +5723,6 @@
     "phone": "(207) 479-5459",
     "photo_url": "https://legislature.maine.gov/house/photo128/kumiwa.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/kumiwa.htm",
-    "mpaScore": 33,
-    "voterScore": 80,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -5746,7 +5744,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -5766,8 +5766,6 @@
     "phone": "(207) 288-3947",
     "photo_url": "https://legislature.maine.gov/house/photo128/hubbbl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/hubbbl.htm",
-    "mpaScore": 33,
-    "voterScore": 33,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -5789,7 +5787,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -5809,8 +5809,6 @@
     "phone": "(207) 266-3710",
     "photo_url": "https://legislature.maine.gov/house/photo128/malars.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/malars.htm",
-    "mpaScore": 80,
-    "voterScore": 66,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -5832,7 +5830,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 50,
+    "voterScore": 33
   },
   {
     "name": {
@@ -5852,8 +5852,6 @@
     "phone": "(207) 460-6518",
     "photo_url": "https://legislature.maine.gov/house/photo128/lockle.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/lockle.htm",
-    "mpaScore": 60,
-    "voterScore": 60,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -5875,7 +5873,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -5896,8 +5896,6 @@
     "phone": "(207) 263-4442",
     "photo_url": "https://legislature.maine.gov/house/photo128/allerw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/allerw.htm",
-    "mpaScore": 46,
-    "voterScore": 80,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -5919,7 +5917,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 42
   },
   {
     "name": {
@@ -5939,8 +5939,6 @@
     "phone": "(207) 271-8521",
     "photo_url": "https://legislature.maine.gov/house/photo128/tuelwr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/tuelwr.htm",
-    "mpaScore": 80,
-    "voterScore": 53,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -5962,7 +5960,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 50,
+    "voterScore": 50
   },
   {
     "name": {
@@ -5982,8 +5982,6 @@
     "phone": "(207) 214-7000",
     "photo_url": "https://legislature.maine.gov/house/photo128/perrac.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/perrac.htm",
-    "mpaScore": 0,
-    "voterScore": 93,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -6005,7 +6003,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 42
   },
   {
     "name": {
@@ -6025,8 +6025,6 @@
     "phone": "(207) 403-3383",
     "photo_url": "https://legislature.maine.gov/house/photo128/turnbp.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/turnbp.htm",
-    "mpaScore": 66,
-    "voterScore": 6,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -6048,7 +6046,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -6068,8 +6068,6 @@
     "phone": "(207) 403-3579",
     "photo_url": "https://legislature.maine.gov/house/photo128/hanism.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/hanism.htm",
-    "mpaScore": 60,
-    "voterScore": 6,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -6091,7 +6089,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 50,
+    "voterScore": 33
   },
   {
     "name": {
@@ -6111,8 +6111,6 @@
     "phone": "(207) 746-5371",
     "photo_url": "https://legislature.maine.gov/house/photo128/stanss.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/stanss.htm",
-    "mpaScore": 20,
-    "voterScore": 60,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -6134,7 +6132,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 42
   },
   {
     "name": {
@@ -6154,8 +6154,6 @@
     "phone": "(207) 532-8711",
     "photo_url": "https://legislature.maine.gov/house/photo128/sherrl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/sherrl.htm",
-    "mpaScore": 86,
-    "voterScore": 93,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -6177,7 +6175,9 @@
       "LD 1864": "absent",
       "LD 1865": "absent",
       "LD 1904": "absent"
-    }
+    },
+    "mpaScore": 17,
+    "voterScore": 8
   },
   {
     "name": {
@@ -6197,8 +6197,6 @@
     "phone": "(207) 538-2562",
     "photo_url": "https://legislature.maine.gov/house/photo128/johaca.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/johaca.htm",
-    "mpaScore": 80,
-    "voterScore": 80,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -6220,7 +6218,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -6240,8 +6240,6 @@
     "phone": "(207) 227-8756",
     "photo_url": "https://legislature.maine.gov/house/photo128/whitdm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/whitdm.htm",
-    "mpaScore": 53,
-    "voterScore": 66,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -6263,7 +6261,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -6284,8 +6284,6 @@
     "phone": "(207) 227-0569",
     "photo_url": "https://legislature.maine.gov/house/photo128/stewhl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/stewhl.htm",
-    "mpaScore": 60,
-    "voterScore": 66,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -6307,7 +6305,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -6327,8 +6327,6 @@
     "phone": "(207) 227-4903",
     "photo_url": "https://legislature.maine.gov/house/photo128/mccrdh.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/mccrdh.htm",
-    "mpaScore": 40,
-    "voterScore": 60,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -6350,7 +6348,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 42
   },
   {
     "name": {
@@ -6370,8 +6370,6 @@
     "phone": "(207) 551-7574",
     "photo_url": "https://legislature.maine.gov/house/photo128/mcelca.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/mcelca.htm",
-    "mpaScore": 26,
-    "voterScore": 46,
     "political_party": "Republican",
     "seeking_reelection": null,
     "votes": {
@@ -6393,7 +6391,9 @@
       "LD 1864": "supported",
       "LD 1865": "supported",
       "LD 1904": "supported"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -6413,8 +6413,6 @@
     "phone": "(207) 231-1358",
     "photo_url": "https://legislature.maine.gov/house/photo128/martrd.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/martrd.htm",
-    "mpaScore": 73,
-    "voterScore": 86,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -6436,7 +6434,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -6456,8 +6456,6 @@
     "phone": "(207) 444-5556",
     "photo_url": "https://legislature.maine.gov/house/photo128/martjl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/martjl.htm",
-    "mpaScore": 6,
-    "voterScore": 73,
     "political_party": "Democrat",
     "seeking_reelection": null,
     "votes": {
@@ -6479,7 +6477,9 @@
       "LD 1864": "opposed",
       "LD 1865": "supported",
       "LD 1904": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 42
   },
   {
     "name": {
@@ -6498,8 +6498,6 @@
     "phone": "(207) 436-0763",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/troy-jackson.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-troy-jackson",
-    "mpaScore": 33,
-    "voterScore": 86,
     "political_party": "Democrat",
     "term_limited": 2024,
     "seeking_reelection": true,
@@ -6521,7 +6519,9 @@
       "LD 1904": "opposed",
       "LD 1726": "opposed",
       "LD 1769": "opposed"
-    }
+    },
+    "mpaScore": 50,
+    "voterScore": 25
   },
   {
     "name": {
@@ -6540,8 +6540,6 @@
     "phone": "(207) 532-2491",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/mike-carpenter-1024x683.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-michael-carpenter",
-    "mpaScore": 86,
-    "voterScore": 66,
     "political_party": "Democrat",
     "term_limited": 2024,
     "seeking_reelection": true,
@@ -6563,7 +6561,9 @@
       "LD 1904": "opposed",
       "LD 1726": "opposed",
       "LD 1769": "opposed"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 25
   },
   {
     "name": {
@@ -6582,8 +6582,6 @@
     "phone": "(207) 474-6703",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/whittemore-color.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-rod-whittemore",
-    "mpaScore": 20,
-    "voterScore": 0,
     "political_party": "Republican",
     "term_limited": 2018,
     "seeking_reelection": false,
@@ -6605,7 +6603,9 @@
       "LD 1904": "opposed",
       "LD 1726": "supported",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 25
   },
   {
     "name": {
@@ -6624,8 +6624,6 @@
     "phone": "(207) 876 - 4047 Cell: (207) 343 - 0258",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/davis-color.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-paul-davis",
-    "mpaScore": 13,
-    "voterScore": 100,
     "political_party": "Republican",
     "term_limited": 2022,
     "seeking_reelection": null,
@@ -6647,7 +6645,9 @@
       "LD 1904": "opposed",
       "LD 1726": "supported",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 8
   },
   {
     "name": {
@@ -6666,8 +6666,6 @@
     "phone": "(207) 827-3498",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/dill-bwpng2.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-jim-dill",
-    "mpaScore": 80,
-    "voterScore": 6,
     "political_party": "Democrat",
     "term_limited": 2022,
     "seeking_reelection": true,
@@ -6689,7 +6687,9 @@
       "LD 1904": "opposed",
       "LD 1726": "opposed",
       "LD 1769": "opposed"
-    }
+    },
+    "mpaScore": 50,
+    "voterScore": 25
   },
   {
     "name": {
@@ -6708,8 +6708,6 @@
     "phone": "(207) 454-2327",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/joyce-maker.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-joyce-maker",
-    "mpaScore": 80,
-    "voterScore": 100,
     "political_party": "Republican",
     "term_limited": 2024,
     "seeking_reelection": false,
@@ -6731,7 +6729,9 @@
       "LD 1904": "opposed",
       "LD 1726": "supported",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 17
   },
   {
     "name": {
@@ -6750,8 +6750,6 @@
     "phone": "(207) 667-0625",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/langley-bw.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-brian-langley",
-    "mpaScore": 40,
-    "voterScore": 26,
     "political_party": "Republican",
     "term_limited": 2018,
     "seeking_reelection": false,
@@ -6773,7 +6771,9 @@
       "LD 1904": "opposed",
       "LD 1726": "supported",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 17
   },
   {
     "name": {
@@ -6792,8 +6792,6 @@
     "phone": "(207) 469-3779",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/rosen-bw-cropped.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-kimberly-rosen",
-    "mpaScore": 46,
-    "voterScore": 0,
     "political_party": "Republican",
     "term_limited": 2022,
     "seeking_reelection": null,
@@ -6815,7 +6813,9 @@
       "LD 1904": "opposed",
       "LD 1726": "supported",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 8
   },
   {
     "name": {
@@ -6834,8 +6834,6 @@
     "phone": "(207) 947-0637",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/gratwick-bw-cropped.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-geoffrey-gratwick",
-    "mpaScore": 6,
-    "voterScore": 0,
     "political_party": "Democrat",
     "term_limited": 2020,
     "seeking_reelection": true,
@@ -6857,7 +6855,9 @@
       "LD 1904": "supported",
       "LD 1726": "opposed",
       "LD 1769": "opposed"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -6877,8 +6877,6 @@
     "phone": "(207) 358-9447",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/cushing.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-andre-cushing",
-    "mpaScore": 26,
-    "voterScore": 20,
     "political_party": "Republican",
     "term_limited": 2020,
     "seeking_reelection": false,
@@ -6900,7 +6898,9 @@
       "LD 1904": "opposed",
       "LD 1726": "supported",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 17
   },
   {
     "name": {
@@ -6919,8 +6919,6 @@
     "phone": "(207) 223-5177",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/thibodeau-color.jpg",
     "url": "http://legislature.maine.gov/128th-senators/president-michael-thibodeau",
-    "mpaScore": 80,
-    "voterScore": 46,
     "political_party": "Republican",
     "term_limited": 2018,
     "seeking_reelection": false,
@@ -6942,7 +6940,9 @@
       "LD 1904": "opposed",
       "LD 1726": "supported",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 17
   },
   {
     "name": {
@@ -6961,8 +6961,6 @@
     "phone": "(207) 236-4845",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/miramant-bw-cropped.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-david-miramant",
-    "mpaScore": 26,
-    "voterScore": 100,
     "political_party": "Democrat",
     "term_limited": 2022,
     "seeking_reelection": true,
@@ -6984,7 +6982,9 @@
       "LD 1904": "supported",
       "LD 1726": "opposed",
       "LD 1769": "opposed"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -7003,8 +7003,6 @@
     "phone": "(207) 832-4658",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/dana-dow.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-dana-dow",
-    "mpaScore": 53,
-    "voterScore": 33,
     "political_party": "Republican",
     "term_limited": 2024,
     "seeking_reelection": null,
@@ -7026,7 +7024,9 @@
       "LD 1904": "opposed",
       "LD 1726": "supported",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 83,
+    "voterScore": 17
   },
   {
     "name": {
@@ -7045,8 +7045,6 @@
     "phone": "207-776-5404",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/bellows-for-register.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-shenna-bellows",
-    "mpaScore": 20,
-    "voterScore": 80,
     "political_party": "Democrat",
     "term_limited": 2024,
     "seeking_reelection": true,
@@ -7068,7 +7066,9 @@
       "LD 1904": "supported",
       "LD 1726": "opposed",
       "LD 1769": "opposed"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 33
   },
   {
     "name": {
@@ -7087,8 +7087,6 @@
     "phone": "Cell: (207) 485-2394",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/katz-color.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-roger-katz",
-    "mpaScore": 20,
-    "voterScore": 20,
     "political_party": "Republican",
     "term_limited": 2018,
     "seeking_reelection": false,
@@ -7110,7 +7108,9 @@
       "LD 1904": "opposed",
       "LD 1726": "supported",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 83,
+    "voterScore": 25
   },
   {
     "name": {
@@ -7129,8 +7129,6 @@
     "phone": "(207) 453 - 7787 Cell: (207) 485 - 1308",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/cyrway-headshot.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-scott-cyrway",
-    "mpaScore": 26,
-    "voterScore": 80,
     "political_party": "Republican",
     "term_limited": 2022,
     "seeking_reelection": null,
@@ -7152,7 +7150,9 @@
       "LD 1904": "opposed",
       "LD 1726": "supported",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 17
   },
   {
     "name": {
@@ -7171,8 +7171,6 @@
     "phone": "(207) 645-3420",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/saviello-color-1.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-thomas-saviello",
-    "mpaScore": 0,
-    "voterScore": 66,
     "political_party": "Republican",
     "term_limited": 2018,
     "seeking_reelection": false,
@@ -7194,7 +7192,9 @@
       "LD 1904": "opposed",
       "LD 1726": "supported",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 8
   },
   {
     "name": {
@@ -7213,8 +7213,6 @@
     "phone": "(207) 562-6023",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/lisa-keim.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-lisa-keim",
-    "mpaScore": 20,
-    "voterScore": 46,
     "political_party": "Republican",
     "term_limited": 2024,
     "seeking_reelection": null,
@@ -7236,7 +7234,9 @@
       "LD 1904": "opposed",
       "LD 1726": "supported",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 8
   },
   {
     "name": {
@@ -7255,8 +7255,6 @@
     "phone": "(207) 539-4586",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/hamper-bw-cropped.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-james-hamper",
-    "mpaScore": 20,
-    "voterScore": 6,
     "political_party": "Republican",
     "term_limited": 2020,
     "seeking_reelection": null,
@@ -7278,7 +7276,9 @@
       "LD 1904": "opposed",
       "LD 1726": "supported",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 17
   },
   {
     "name": {
@@ -7297,8 +7297,6 @@
     "phone": "(207) 406-0897",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/brakey-bw-cropped.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-eric-brakey",
-    "mpaScore": 0,
-    "voterScore": 33,
     "political_party": "Republican",
     "term_limited": 2022,
     "seeking_reelection": false,
@@ -7320,7 +7318,9 @@
       "LD 1904": "opposed",
       "LD 1726": "supported",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 17
   },
   {
     "name": {
@@ -7339,8 +7339,6 @@
     "phone": "(207) 713-8449",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/nate-photo-at-desk.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-nate-libby",
-    "mpaScore": 66,
-    "voterScore": 100,
     "political_party": "Democrat",
     "term_limited": 2022,
     "seeking_reelection": true,
@@ -7362,7 +7360,9 @@
       "LD 1904": "supported",
       "LD 1726": "opposed",
       "LD 1769": "opposed"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -7381,8 +7381,6 @@
     "phone": "(207) 577-1521",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/mason.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-garrett-mason",
-    "mpaScore": 66,
-    "voterScore": 26,
     "political_party": "Republican",
     "term_limited": 2018,
     "seeking_reelection": false,
@@ -7404,7 +7402,9 @@
       "LD 1904": "opposed",
       "LD 1726": "supported",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 25
   },
   {
     "name": {
@@ -7423,8 +7423,6 @@
     "phone": "(207) 443-4660",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/eloise-vitelli.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-eloise-vitelli",
-    "mpaScore": 73,
-    "voterScore": 13,
     "political_party": "Democrat",
     "term_limited": 2024,
     "seeking_reelection": true,
@@ -7446,7 +7444,9 @@
       "LD 1904": "supported",
       "LD 1726": "opposed",
       "LD 1769": "opposed"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 25
   },
   {
     "name": {
@@ -7465,8 +7465,6 @@
     "phone": "(207) 751-9076",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/brownie-carson.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-brownie-carson",
-    "mpaScore": 73,
-    "voterScore": 0,
     "political_party": "Democrat",
     "term_limited": 2024,
     "seeking_reelection": true,
@@ -7488,7 +7486,9 @@
       "LD 1904": "supported",
       "LD 1726": "opposed",
       "LD 1769": "opposed"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -7507,8 +7507,6 @@
     "phone": "(207) 329 - 6142",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/breen-bw-cropped.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-catherine-breen",
-    "mpaScore": 20,
-    "voterScore": 6,
     "political_party": "Democrat",
     "term_limited": 2022,
     "seeking_reelection": true,
@@ -7530,7 +7528,9 @@
       "LD 1904": "supported",
       "LD 1726": "opposed",
       "LD 1769": "opposed"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -7549,8 +7549,6 @@
     "phone": "(207) 892 - 8941 Cell: (207) 650 - 4713",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/diamond-color.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-bill-diamond",
-    "mpaScore": 13,
-    "voterScore": 13,
     "political_party": "Democrat",
     "term_limited": 2022,
     "seeking_reelection": true,
@@ -7572,7 +7570,9 @@
       "LD 1904": "opposed",
       "LD 1726": "opposed",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 25
   },
   {
     "name": {
@@ -7591,8 +7591,6 @@
     "phone": "(207) 318-4961",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/benchipman.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-benjamin-chipman",
-    "mpaScore": 53,
-    "voterScore": 86,
     "political_party": "Democrat",
     "term_limited": 2024,
     "seeking_reelection": true,
@@ -7614,7 +7612,9 @@
       "LD 1904": "supported",
       "LD 1726": "opposed",
       "LD 1769": "opposed"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -7633,8 +7633,6 @@
     "phone": "Cell: (207) 797-6341",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/dion-mn.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-mark-dion",
-    "mpaScore": 33,
-    "voterScore": 100,
     "political_party": "Democrat",
     "term_limited": 2024,
     "seeking_reelection": false,
@@ -7656,7 +7654,9 @@
       "LD 1904": "supported",
       "LD 1726": "opposed",
       "LD 1769": "opposed"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 25
   },
   {
     "name": {
@@ -7675,8 +7675,6 @@
     "phone": "Cell: (207) 415-3770",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/millett-color.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-rebecca-millett",
-    "mpaScore": 26,
-    "voterScore": 60,
     "political_party": "Democrat",
     "term_limited": 2020,
     "seeking_reelection": true,
@@ -7698,7 +7696,9 @@
       "LD 1904": "supported",
       "LD 1726": "opposed",
       "LD 1769": "opposed"
-    }
+    },
+    "mpaScore": 33,
+    "voterScore": 25
   },
   {
     "name": {
@@ -7717,8 +7717,6 @@
     "phone": "(207) 229-5091",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/volk-bw-cropped.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-amy-volk",
-    "mpaScore": 66,
-    "voterScore": 26,
     "political_party": "Republican",
     "term_limited": 2022,
     "seeking_reelection": true,
@@ -7740,7 +7738,9 @@
       "LD 1904": "opposed",
       "LD 1726": "supported",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 8
   },
   {
     "name": {
@@ -7759,8 +7759,6 @@
     "phone": "(207) 590-3266",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/justin-chenette.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-justin-chenette",
-    "mpaScore": 20,
-    "voterScore": 66,
     "political_party": "Democrat",
     "term_limited": 2024,
     "seeking_reelection": true,
@@ -7782,7 +7780,9 @@
       "LD 1904": "opposed",
       "LD 1726": "opposed",
       "LD 1769": "opposed"
-    }
+    },
+    "mpaScore": 42,
+    "voterScore": 25
   },
   {
     "name": {
@@ -7801,8 +7801,6 @@
     "phone": "(207) 284 - 3570",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/sue-deschambault.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-susan-deschambault",
-    "mpaScore": 53,
-    "voterScore": 6,
     "political_party": "Democrat",
     "term_limited": 2022,
     "seeking_reelection": true,
@@ -7824,7 +7822,9 @@
       "LD 1904": "supported",
       "LD 1726": "opposed",
       "LD 1769": "opposed"
-    }
+    },
+    "mpaScore": 58,
+    "voterScore": 25
   },
   {
     "name": {
@@ -7843,8 +7843,6 @@
     "phone": "Cell: (207) 432-5643",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/woodsome-bw-cropped-1.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-david-woodsome",
-    "mpaScore": 73,
-    "voterScore": 26,
     "political_party": "Republican",
     "term_limited": 2022,
     "seeking_reelection": null,
@@ -7866,7 +7864,9 @@
       "LD 1904": "opposed",
       "LD 1726": "supported",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 8
   },
   {
     "name": {
@@ -7885,8 +7885,6 @@
     "phone": "(207) 985-2485 Cell: (207) 468-8960",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/collins-bw.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-ronald-collins",
-    "mpaScore": 60,
-    "voterScore": 33,
     "political_party": "Republican",
     "term_limited": 2018,
     "seeking_reelection": false,
@@ -7908,7 +7906,9 @@
       "LD 1904": "opposed",
       "LD 1726": "supported",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 75,
+    "voterScore": 8
   },
   {
     "name": {
@@ -7927,8 +7927,6 @@
     "phone": "Cell: (207) 337-3689",
     "photo_url": "http://legislature.maine.gov/uploads/visual_edit/hill-color.jpg",
     "url": "http://legislature.maine.gov/128th-senators/senator-dawn-hill",
-    "mpaScore": 60,
-    "voterScore": 66,
     "political_party": "Democrat",
     "term_limited": 2018,
     "seeking_reelection": false,
@@ -7950,6 +7948,8 @@
       "LD 1904": "supported",
       "LD 1726": "opposed",
       "LD 1769": "supported"
-    }
+    },
+    "mpaScore": 67,
+    "voterScore": 25
   }
 ]
