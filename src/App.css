@@ -30,6 +30,16 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
+h1 {
+  font-weight: 200;
+  font-size: 1.8em;
+}
+
+section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 hr {
   /* color: #c3d2d9; */
   border: none;
@@ -106,6 +116,20 @@ input:not([type=submit]).full-width {
     width: 100% !important;
   }
 }
+
+
+section h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 48em) {
+  section h1 {
+    margin-bottom: 1rem;
+  }
+}
+
+
 
 
 /* Container */
@@ -309,19 +333,6 @@ nav a.active {
 
 /* Legislator Detail */
 
-.legislator-detail section {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-
-.legislator-detail h1 {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-weight: 200;
-  font-size: 1.8em;
-}
-
 .district-info .title {
   margin-bottom: 0.8rem;
   font-size: 0.9em;
@@ -348,11 +359,6 @@ nav a.active {
   }
 }
 
-@media only screen and (max-width: 48em) {
-  .legislator-detail .voting-history h1 {
-    margin-bottom: 1rem;
-  }
-}
 
 
 
@@ -479,4 +485,54 @@ nav a.active {
 }
 .score-bar-sub-text b {
   color: #000;
+}
+
+
+
+/* Bills */
+
+.bills .card {
+  padding: 0;
+}
+
+
+
+/* List items */
+
+.list-item {
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.list-item:not(:last-child) {
+  border-bottom: solid 1px #ddd;
+}
+
+.list-item .title {
+  font-weight: 600;
+  margin-bottom: 0.8rem
+}
+
+.list-item .title span {
+  margin-left: .5rem;
+  color: #1B8BB4;
+}
+
+.list-item .description,
+.list-item .stance {
+  color: #999;
+}
+
+@media only screen and (max-width: 64em) {
+  .list-item .title-description {
+    margin-bottom: 1rem;
+  }
+}
+
+.list-item .stance.Supported {
+  color: #2fb129;
+}
+
+.list-item .stance.Opposed {
+  color: #fa5927;
 }
