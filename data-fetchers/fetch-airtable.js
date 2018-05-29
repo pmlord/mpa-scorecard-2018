@@ -63,7 +63,7 @@ fs.readFile('./src/data/legislators.json', function(err, data) {
     const votes = {}
     _.forOwn(fields, function(value, key) {
       if (key.match(billNameRegExp)) {
-        votes[key] = value
+        votes[key] = _.capitalize(value)
       }
     })
 
@@ -128,8 +128,8 @@ fs.readFile('./src/data/legislators.json', function(err, data) {
 const faker = require('faker')
 
 const stances = [
-  'opposed',
-  'supported',
+  'Opposed',
+  'Supported',
 ]
 
 function createFakeBillData(legislators, cb) {
