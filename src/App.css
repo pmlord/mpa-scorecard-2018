@@ -169,15 +169,8 @@ a.brand img {
   margin-bottom: 1px;
 }
 .banner .scorecard-title {
-  margin-left: 15px;
   font-weight: 100;
   color: #FFF;
-}
-@media screen and (max-width: 500px) {
-  .banner .brand, .banner .scorecard-title {
-    display: block;
-    margin-left: 0;
-  }
 }
 
 nav {
@@ -499,7 +492,7 @@ nav a.active {
 }
 
 .list-item {
-  padding: 1.2rem;
+  padding: 1.5rem;
   font-size: 0.9rem;
 }
 
