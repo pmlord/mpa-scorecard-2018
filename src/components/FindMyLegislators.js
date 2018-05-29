@@ -51,7 +51,7 @@ export default withStore(function FindMyLegislators(props) {
         { !isFetching &&
           <input
             type="submit"
-            value="Find my reps"
+            value="Find my legislators"
             />
         }
         { isFetching &&

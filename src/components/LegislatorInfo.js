@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { legislatorPath } from '../services/legislator-path'
+import { legislatorPath } from '../services/legislator-helpers'
 import iconLink from '../assets/images/icon-link.png'
 import iconPhone from '../assets/images/icon-phone.png'
 import iconEmail from '../assets/images/icon-email.png'
@@ -15,7 +15,6 @@ export default function LegislatorInfo(props) {
     name,
     party,
     legal_residence,
-    address,
     url,
     phone,
     email,
@@ -37,13 +36,7 @@ export default function LegislatorInfo(props) {
             <Link to={legislatorPath(legislator)}>{name.fullName}</Link>
           </div>
           <div className="legislator-subtitle">
-            <span>{party}, {legal_residence}</span>
-            { !compact &&
-              <span>
-                <span className="bull">&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span>
-                { address }
-              </span>
-            }
+            <span>{party}&ndash;{legal_residence}</span>
           </div>
         </div>
       </div></div>

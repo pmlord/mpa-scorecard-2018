@@ -2,7 +2,10 @@ import React from 'react'
 import LegislatorInfo from './LegislatorInfo'
 import ScoreBar from './ScoreBar'
 import { Link } from 'react-router-dom'
-import { legislatorPath } from '../services/legislator-path'
+import {
+  legislatorPath,
+  abbreviatedChamberTitle,
+} from '../services/legislator-helpers'
 
 const badgeTexts = [
   { Senate: 'Senator', House: 'Representative' },
@@ -31,13 +34,13 @@ export default function LegislatorCard(props) {
         <div className="mpa-score">
           <ScoreBar score={mpaScore} />
           <div className="score-bar-sub-text">
-            <b>Overall:</b> {name.lastName} votes align with MPA {mpaScore}% of the time.
+            <b>2018 Score:</b> {`${abbreviatedChamberTitle(legislator)} ${name.lastName}'s allignment with our values this legislative session.`}
           </div>
         </div>
         <div className="voter-score">
           <ScoreBar score={voterScore} />
           <div className="score-bar-sub-text">
-            <b>Will of the voter:</b> {name.lastName} votes align with voters {voterScore}% of the time.
+            <b>Will of the voters:</b> {`${abbreviatedChamberTitle(legislator)} ${name.lastName}'s score on respecting referendums the last two years.`}
           </div>
         </div>
         <div className="view-voting-record">

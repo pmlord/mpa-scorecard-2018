@@ -9,7 +9,7 @@ export default function Header(props) {
         <Link to="/" className="brand">
           <img src={logo} alt="" />
         </Link>
-        <span className="scorecard-title">Scorecard</span>
+        <span className="scorecard-title">2018 Legislative Scorecard</span>
       </div>
       <nav className="container">
         <NavLink to="/legislators" activeClassName="active">Legislators</NavLink>

@@ -1,5 +1,8 @@
 import React from 'react'
-import { getLegislatorFromParams } from '../services/legislator-path'
+import {
+  getLegislatorFromParams,
+  abbreviatedChamberTitle,
+} from '../services/legislator-helpers'
 import LegislatorInfo from './LegislatorInfo'
 import ScoreBar from './ScoreBar'
 
@@ -18,7 +21,7 @@ export default function LegislatorDetail({ match }) {
 
   // Fake data until the database is seeded
   const termLimited = 2018 + 2 * parseInt(Math.random() * 4, 10)
-  const upForReelection = Math.round(Math.random()) ? '2018' : 'Not seeking reelection'
+  const upForReelection = Math.round(Math.random()) ? '2018' : 'Not seeking re-election'
 
   return (
     <div className="legislator-detail">
@@ -38,7 +41,7 @@ export default function LegislatorDetail({ match }) {
               <div className="description">{termLimited}</div>
             </div></div>
             <div className="col-xs-6"><div className="box">
-              <div className="title">Up for reelection</div>
+              <div className="title">Up for re-election</div>
               <div className="description">{upForReelection}</div>
             </div></div>
           </div></div></div>
@@ -48,17 +51,17 @@ export default function LegislatorDetail({ match }) {
       <section className="scores">
         <div className="row">
           <div className="col-xs-12 col-md-5"><div className="mpa-score box">
-            <h1>Overall</h1>
+            <h1>2018 Score</h1>
             <ScoreBar score={mpaScore} />
             <div className="score-bar-sub-text">
-              {name.lastName} votes align with MPA {mpaScore}% of the time.
+              {`${abbreviatedChamberTitle(legislator)} ${name.lastName}'s allignment with our values this legislative session.`}
             </div>
           </div></div>
         <div className="col-xs-12 col-md-5 col-md-offset-2"><div className="voter-score box">
-            <h1>Will of the Voter</h1>
+            <h1>Will of the voters</h1>
             <ScoreBar score={voterScore} />
             <div className="score-bar-sub-text">
-              {name.lastName} votes align with voters {voterScore}% of the time.
+              {`${abbreviatedChamberTitle(legislator)} ${name.lastName}'s score on respecting referendums the last two years.`}
             </div>
           </div></div>
         </div>

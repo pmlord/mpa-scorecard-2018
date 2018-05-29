@@ -17,3 +17,24 @@ export const getLegislatorFromParams = (snippit) => {
 
   return legislatorsByOcdId[ocdId]
 }
+
+
+// Chamber titles
+
+const abbreviatedChamberTitles = {
+  House: 'Rep.',
+  Senate: 'Sen.',
+}
+
+const chamberTitles = {
+  House: 'Representative',
+  Senate: 'Senator',
+}
+
+export const chamberTitle = (legislator) => {
+  return chamberTitles[legislator.legislative_chamber]
+}
+
+export const abbreviatedChamberTitle = (legislator) => {
+  return abbreviatedChamberTitles[legislator.legislative_chamber]
+}
