@@ -157,7 +157,7 @@ function createFakeBillData(legislators, cb) {
       what_is_the_bill: faker.lorem.paragraph(),
       why_it_matters: faker.lorem.paragraph(),
       what_happened: faker.lorem.sentence(),
-      short_description: faker.lorem.sentence(),
+      short_description: faker.lorem.sentences(3),
       bill_text_url: faker.internet.url(),
       more_info_url: faker.internet.url(),
       mpa_stance: _.sample(stances),
