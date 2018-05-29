@@ -6,7 +6,7 @@ export const legislatorPath = (legislator) => {
   const snippit = ocdId
     .replace('ocd-division/country:us/state:me/', '')
     .replace(':', '-')
-  const nameSlug = slug(legislator.name)
+  const nameSlug = slug(legislator.name.fullName)
 
   return `/legislators/${snippit}/${nameSlug}`
 }
