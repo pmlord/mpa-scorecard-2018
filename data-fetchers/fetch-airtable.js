@@ -96,11 +96,15 @@ fs.readFile('./src/data/legislators.json', function(err, data) {
           const bill = billsById[billId]
           const { mpa_stance, voter_stance } = bill
 
-          if (bill.mpa_stance) {
-            if (legislator_stance === bill.mpa_stance) mpaTally++
-            mpaTotal++
-            if (legislator_stance === bill.voter_stance) voterTally++
-            voterTotal++
+          if (legislator_stance !== 'Excused') {
+            if (bill.mpa_stance) {
+              if (legislator_stance === bill.mpa_stance) mpaTally++
+              mpaTotal++
+            }
+            if (bill.voter_stance) {
+              if (legislator_stance === bill.voter_stance) voterTally++
+              voterTotal++
+            }
           }
         })
 
