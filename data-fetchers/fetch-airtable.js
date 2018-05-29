@@ -148,8 +148,6 @@ function createFakeBillData(legislators, cb) {
 
   // Create array of fake bills
   const bills = billIds.map(function(billId) {
-    const random = Math.random()
-
     const bill = {
       id: billId,
       official_title: faker.commerce.product(),
@@ -162,8 +160,8 @@ function createFakeBillData(legislators, cb) {
       short_description: faker.lorem.sentence(),
       bill_text_url: faker.internet.url(),
       more_info_url: faker.internet.url(),
-      mpa_stance: (random < 0.8) ? _.sample(stances) : null,
-      voter_stance: (random >= 0.6) ? _.sample(stances) : null,
+      mpa_stance: _.sample(stances),
+      voter_stance: (Math.random() >= 0.75) ? _.sample(stances) : null,
       photo: 'https://picsum.photos/300/300',
     }
 
