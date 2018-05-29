@@ -9,7 +9,7 @@ export default function BillList(props) {
   })
 
   return (
-    <div className="card">
+    <div className="card list">
       {renderedBills}
     </div>
   )
@@ -18,17 +18,21 @@ export default function BillList(props) {
 
 function Bill(props) {
   const {
-    id,
     shorthand_title,
     short_description,
     mpa_stance,
   } = props.bill
 
+  const billId = props.bill.id.replace(/\s/g, '\u00A0')
+
   return (
     <div className="list-item">
       <div className="row">
         <div className="col-xs"><div className="box title-description">
-          <div className="title">{shorthand_title}<span>{id}</span></div>
+          <div className="title">
+            {shorthand_title} &nbsp;
+            <span className="bill-id">{billId}</span>
+          </div>
           <div className="description">{short_description}</div>
         </div></div>
         { mpa_stance &&

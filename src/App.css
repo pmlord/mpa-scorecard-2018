@@ -489,18 +489,17 @@ nav a.active {
 
 
 
-/* Bills */
-
-.bills .card {
-  padding: 0;
-}
 
 
 
 /* List items */
 
+.card.list {
+  padding: 0;
+}
+
 .list-item {
-  padding: 1rem;
+  padding: 1.2rem;
   font-size: 0.9rem;
 }
 
@@ -513,8 +512,7 @@ nav a.active {
   margin-bottom: 0.8rem
 }
 
-.list-item .title span {
-  margin-left: .5rem;
+.list-item .title span.bill-id {
   color: #1B8BB4;
 }
 
@@ -535,4 +533,29 @@ nav a.active {
 
 .list-item .stance.Opposed {
   color: #fa5927;
+}
+
+.list-item .stance.neutral,
+.list-item .stance.good,
+.list-item .stance.bad {
+  display: inline-block;
+  padding: .2em .3em;
+  color: white;
+}
+.list-item .stance.good {
+  background-color: #2fb129;
+}
+.list-item .stance.good:before {
+  content:  "\2713";
+  margin-right: 0.3em;
+}
+.list-item .stance.bad {
+  background-color: #fa5927;
+}
+.list-item .stance.bad:before {
+  content: "\2715";
+  margin-right: 0.3em;
+}
+.list-item .stance.neutral {
+  background-color: #aaa;
 }
