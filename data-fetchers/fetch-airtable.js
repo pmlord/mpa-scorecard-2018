@@ -52,7 +52,7 @@ fs.readFile('./src/data/legislators.json', function(err, data) {
   })
 
 
-  const billNameRegExp = /^LD/
+  const billNameRegExp = /^(LD|HP)\s/
 
   getRecordsFromTable('legislators', function(record) {
     const fields = record.fields
@@ -78,12 +78,14 @@ fs.readFile('./src/data/legislators.json', function(err, data) {
   }, function() {
 
     // Fetch bills from Airtable and calculate voting score
-    createFakeBillData(legislators, function(bills) {
+    fetchBillData(function(bills) {
       // Index bills by id
       const billsById = {}
       bills.forEach(function(bill) {
         billsById[bill.id] = bill
       })
+
+      const missingBillIds = []
 
       // Iterate through each legislator's votes and tally scores
       legislators.forEach(function(legislator) {
@@ -94,9 +96,13 @@ fs.readFile('./src/data/legislators.json', function(err, data) {
 
         _.forOwn(legislator.votes, function(legislator_stance, billId) {
           const bill = billsById[billId]
+          if (bill == null) {
+            missingBillIds.push(billId)
+            return false
+          }
           const { mpa_stance, voter_stance } = bill
 
-          if (legislator_stance !== 'Excused') {
+          if (!legislator_stance.match(/Excused|n\/a/i)) {
             if (bill.mpa_stance) {
               if (legislator_stance === bill.mpa_stance) mpaTally++
               mpaTotal++
@@ -111,6 +117,11 @@ fs.readFile('./src/data/legislators.json', function(err, data) {
         legislator.mpaScore = Math.round(mpaTally / mpaTotal * 100)
         legislator.voterScore = Math.round(voterTally / voterTotal * 100)
       })
+
+      if (missingBillIds.length !== 0) {
+        console.log("The following bill ids appeared in the legislator's voting record, but not in the bills table.")
+        console.log(_.uniq(missingBillIds))
+      }
 
       // Write to file
       const payload = JSON.stringify(legislators, null, '  ')
@@ -129,55 +140,30 @@ fs.readFile('./src/data/legislators.json', function(err, data) {
 // Fake Bill information (lorem ipsum)
 // ----------------------------------------------------------------------------
 
-const faker = require('faker')
+const bills = []
+const billKeys = []
 
-const stances = [
-  'Opposed',
-  'Supported',
-]
+function fetchBillData(cb) {
 
-function createFakeBillData(legislators, cb) {
-  // Get array of all bill ids
-  const billIds = _(legislators)
-    .map(function(legislator) {
-      return _.keys(legislator.votes)
-    })
-    .flatten()
-    .uniq()
-    .value()
+  // Fetch bills table from Airtable and create array
+  getRecordsFromTable('bills', function(record) {
+    const fields = record.fields
+    fields.mpa_stance = _.capitalize(fields.mpa_stance)
+    fields.voter_stance = _.capitalize(fields.voter_stance)
+    bills.push(record.fields)
+  }, function() {
 
-  // Create array of fake bills
-  const bills = billIds.map(function(billId) {
-    const bill = {
-      id: billId,
-      official_title: faker.commerce.product(),
-      shorthand_title: faker.company.catchPhrase(),
-      quote: faker.lorem.paragraph(),
-      quote_attribution: faker.name.findName(),
-      what_is_the_bill: faker.lorem.paragraph(),
-      why_it_matters: faker.lorem.paragraph(),
-      what_happened: faker.lorem.sentence(),
-      short_description: faker.lorem.sentences(3),
-      bill_text_url: faker.internet.url(),
-      more_info_url: faker.internet.url(),
-      mpa_stance: _.sample(stances),
-      voter_stance: (Math.random() >= 0.75) ? _.sample(stances) : null,
-      photo: 'https://picsum.photos/300/300',
-    }
+    cb(bills)
 
-    return bill
-  })
-
-  cb(bills)
-
-  // Write to file
-  fs.writeFile(
-    './src/data/bills.json',
-    JSON.stringify(bills, null, '  '),
-    function(err) {
-      if (err) console.log(err)
-    }
-  )
+    // Write to file
+    fs.writeFile(
+      './src/data/bills.json',
+      JSON.stringify(bills, null, '  '),
+      function(err) {
+        if (err) console.log(err)
+      }
+    )
+  });
 }
 
 

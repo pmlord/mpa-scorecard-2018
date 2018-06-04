@@ -17,14 +17,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/ryked_.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/ryked_.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -38,8 +38,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 67,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -60,14 +61,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/lawrmw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/lawrmw.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -81,8 +82,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -103,14 +105,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/blumlc.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/blumlc.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -124,8 +126,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -145,14 +148,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/hymapa.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/hymapa.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -166,8 +169,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -188,14 +192,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/oconba.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/oconba.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -209,8 +213,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -231,14 +236,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/parkje.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/parkje.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -252,8 +257,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 39,
+    "voterScore": 20,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -274,14 +280,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/folera.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/folera.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Absent",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -295,8 +301,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 28,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 40,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -317,14 +324,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/babbcw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/babbcw.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -338,8 +345,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 39,
+    "voterScore": 30,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -360,14 +368,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/seavhs.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/seavhs.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -381,8 +389,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 56,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -403,14 +412,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/parrwr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/parrwr.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -424,8 +433,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -446,14 +456,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/fectrm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/fectrm.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -467,8 +477,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 39,
+    "voterScore": 20,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -489,14 +500,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/grohmj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/grohmj.htm",
     "political_party": "Independent",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -510,8 +521,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Absent"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 40,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -532,14 +544,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/hogagw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/hogagw.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -553,8 +565,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -574,14 +587,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/bailda.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/bailda.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -595,8 +608,9 @@
       "LD 1865": "Opposed",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -617,14 +631,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/oneimm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/oneimm.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -638,8 +652,9 @@
       "LD 1865": "Opposed",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -660,14 +675,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/maredg.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/maredg.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Absent",
       "LD 673": "Absent",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -681,8 +696,9 @@
       "LD 1865": "Absent",
       "LD 1904": "Supported"
     },
-    "mpaScore": 28,
-    "voterScore": 0
+    "mpaScore": 56,
+    "voterScore": 30,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -703,14 +719,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/presdw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/presdw.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -724,8 +740,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -745,14 +762,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/masta_.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/masta_.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -766,8 +783,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -788,14 +806,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/harrma.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/harrma.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -809,8 +827,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -831,14 +850,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/gerrka.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/gerrka.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -852,8 +871,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -874,14 +894,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/samphh.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/samphh.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Absent",
@@ -895,8 +915,9 @@
       "LD 1865": "Absent",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -917,14 +938,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/kinnjl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/kinnjl.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -938,8 +959,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -960,14 +982,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/ordwls.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/ordwls.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Absent",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -981,8 +1003,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 39,
+    "voterScore": 30,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -1003,14 +1026,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/bryame.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/bryame.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Absent",
@@ -1024,8 +1047,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 39,
+    "voterScore": 30,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -1046,14 +1070,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/corepw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/corepw.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -1067,8 +1091,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 44,
-    "voterScore": 0
+    "mpaScore": 72,
+    "voterScore": 60,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -1089,14 +1114,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/terrmf.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/terrmf.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -1110,8 +1135,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 67,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -1132,14 +1158,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/mcleaj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/mcleaj.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -1153,8 +1179,9 @@
       "LD 1865": "Absent",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 50,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -1175,14 +1202,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/sirohw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/sirohw.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -1196,8 +1223,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -1218,14 +1246,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/vachkr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/vachkr.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Supported",
       "LD 1507": "Opposed",
       "LD 1566": "Supported",
@@ -1239,8 +1267,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 56,
+    "voterScore": 40,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -1261,14 +1290,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/monakj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/monakj.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -1282,8 +1311,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -1304,14 +1334,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/recklg.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/recklg.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -1325,8 +1355,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 67,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -1347,14 +1378,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/hamasm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/hamasm.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Absent",
@@ -1368,8 +1399,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 40,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -1390,14 +1422,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/battkj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/battkj.htm",
     "political_party": "Independent",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Absent",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Absent",
+      "HP 1353": "Absent",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -1412,7 +1444,8 @@
       "LD 1904": "Opposed"
     },
     "mpaScore": 50,
-    "voterScore": 0
+    "voterScore": 30,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -1432,14 +1465,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/gattam.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/gattam.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -1453,8 +1486,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 67,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -1475,14 +1509,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/batedf.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/batedf.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -1496,8 +1530,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -1518,14 +1553,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/harldp.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/harldp.htm",
     "political_party": "Independent",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -1539,8 +1574,9 @@
       "LD 1865": "Opposed",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 56,
+    "voterScore": 50,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -1561,14 +1597,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/farnrr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/farnrr.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -1582,8 +1618,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 67,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -1604,14 +1641,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/moonmw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/moonmw.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -1625,8 +1662,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -1647,14 +1685,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/sylvma.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/sylvma.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -1668,8 +1706,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 67,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -1690,14 +1729,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/talbr_.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/talbr_.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -1711,8 +1750,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -1733,14 +1773,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/jorgec.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/jorgec.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -1754,8 +1794,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -1776,14 +1817,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/collbt.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/collbt.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -1797,8 +1838,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 67,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -1819,14 +1861,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/sanbhb.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/sanbhb.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -1840,8 +1882,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 39,
+    "voterScore": 20,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -1862,14 +1905,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/pierts.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/pierts.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -1883,8 +1926,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 39,
+    "voterScore": 20,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -1905,14 +1949,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/denndj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/denndj.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -1926,8 +1970,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -1948,14 +1993,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/chacpb.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/chacpb.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -1969,8 +2014,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 56,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -1991,14 +2037,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/coopje.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/coopje.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -2012,8 +2058,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 67,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -2033,14 +2080,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/gides_.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/gides_.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -2054,8 +2101,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 39,
+    "voterScore": 30,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -2076,14 +2124,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/daugme.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/daugme.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -2097,8 +2145,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 67,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -2119,14 +2168,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/tuckrl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/tuckrl.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -2140,8 +2189,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -2162,14 +2212,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/mccrjj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/mccrjj.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -2183,8 +2233,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 67,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -2205,14 +2256,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/dechj_.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/dechj_.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -2226,8 +2277,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -2248,14 +2300,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/pierjk.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/pierjk.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -2269,8 +2321,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -2291,14 +2344,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/teplda.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/teplda.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -2312,8 +2365,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 67,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 40,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -2334,14 +2388,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/berrsa.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/berrsa.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -2355,8 +2409,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 67,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -2377,14 +2432,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/masorg.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/masorg.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "N/a",
       "LD 673": "N/a",
       "LD 1210": "N/a",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -2398,8 +2453,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 28,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -2420,14 +2476,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/woodsj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/woodsj.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -2441,8 +2497,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -2463,14 +2520,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/handjr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/handjr.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -2484,8 +2541,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 67,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -2506,14 +2564,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/fullrj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/fullrj.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -2527,8 +2585,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -2549,14 +2608,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/goldjf.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/goldjf.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -2570,8 +2629,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -2592,14 +2652,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/broohe.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/broohe.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Absent",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -2613,8 +2673,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -2635,14 +2696,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/melagm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/melagm.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -2656,8 +2717,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 67,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -2678,14 +2740,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/bickba.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/bickba.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -2699,8 +2761,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -2721,14 +2784,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/sheabw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/sheabw.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Absent",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -2742,8 +2805,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -2763,14 +2827,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/esplem.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/esplem.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -2784,8 +2848,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -2806,14 +2871,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/fay_jl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/fay_jl.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -2827,8 +2892,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 39,
+    "voterScore": 20,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -2849,14 +2915,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/austsm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/austsm.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -2870,8 +2936,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -2892,14 +2959,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/cebrrm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/cebrrm.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Absent",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Supported",
       "LD 1507": "Opposed",
       "LD 1566": "Absent",
@@ -2914,7 +2981,8 @@
       "LD 1904": "Supported"
     },
     "mpaScore": 44,
-    "voterScore": 0
+    "voterScore": 50,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -2935,14 +3003,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/ginzpa.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/ginzpa.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -2956,8 +3024,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -2978,14 +3047,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/wadsnj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/wadsnj.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -2999,8 +3068,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -3021,14 +3091,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/winstj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/winstj.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -3042,8 +3112,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 44,
-    "voterScore": 0
+    "mpaScore": 39,
+    "voterScore": 40,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -3064,14 +3135,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/dillkr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/dillkr.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Absent",
@@ -3086,7 +3157,8 @@
       "LD 1904": "Supported"
     },
     "mpaScore": 39,
-    "voterScore": 0
+    "voterScore": 40,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -3107,14 +3179,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/herrlc.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/herrlc.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -3128,8 +3200,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Absent"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 40,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -3149,14 +3222,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/rilec_.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/rilec_.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -3170,8 +3243,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 50,
-    "voterScore": 100
+    "mpaScore": 39,
+    "voterScore": 20,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -3192,14 +3266,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/timbjl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/timbjl.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -3213,8 +3287,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 40,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -3235,14 +3310,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/hillgl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/hillgl.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -3256,8 +3331,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 56,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -3278,14 +3354,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/perkmd.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/perkmd.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -3299,8 +3375,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -3321,14 +3398,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/nadecm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/nadecm.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -3342,8 +3419,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 33,
+    "voterScore": 30,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -3364,14 +3442,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/therts.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/therts.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -3385,8 +3463,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -3407,14 +3486,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/bradrt.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/bradrt.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -3428,8 +3507,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -3450,14 +3530,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/hickcv.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/hickcv.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -3471,8 +3551,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -3492,14 +3573,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/acklkf.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/acklkf.htm",
     "political_party": "Independent ",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -3513,8 +3594,9 @@
       "LD 1865": "Opposed",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 56,
+    "voterScore": 50,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -3535,14 +3617,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/grangm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/grangm.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -3556,8 +3638,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 39,
+    "voterScore": 20,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -3577,14 +3660,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/warrcm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/warrcm.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -3598,8 +3681,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -3620,14 +3704,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/doordr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/doordr.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Excused",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -3641,8 +3725,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 59,
-    "voterScore": 100
+    "mpaScore": 41,
+    "voterScore": 22,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -3663,14 +3748,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/poulmg.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/poulmg.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -3684,8 +3769,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -3706,14 +3792,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/hanljp.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/hanljp.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -3727,8 +3813,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -3749,14 +3836,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/sanddj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/sanddj.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -3770,8 +3857,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 28,
-    "voterScore": 0
+    "mpaScore": 39,
+    "voterScore": 40,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -3791,14 +3879,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/hawks_.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/hawks_.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -3812,8 +3900,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 28,
-    "voterScore": 0
+    "mpaScore": 56,
+    "voterScore": 50,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -3834,14 +3923,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/devimg.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/devimg.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Excused",
       "LD 673": "Excused",
       "LD 1210": "Excused",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -3855,8 +3944,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 50,
-    "voterScore": 100
+    "mpaScore": 42,
+    "voterScore": 0,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -3877,14 +3967,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/simmas.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/simmas.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -3898,8 +3988,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -3920,14 +4011,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/speaja.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/speaja.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -3941,8 +4032,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -3962,14 +4054,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/beebah.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/beebah.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -3983,8 +4075,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 67,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -4005,14 +4098,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/casaod.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/casaod.htm",
     "political_party": "Independent",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -4026,8 +4119,9 @@
       "LD 1865": "Opposed",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 40,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -4048,14 +4142,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/suttpg.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/suttpg.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -4069,8 +4163,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -4092,14 +4187,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/zeigsp.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/zeigsp.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -4113,8 +4208,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -4135,14 +4231,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/herbed.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/herbed.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -4156,8 +4252,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 39,
+    "voterScore": 20,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -4178,14 +4275,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/gilljs.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/gilljs.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -4199,8 +4296,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -4220,14 +4318,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/kinnm_.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/kinnm_.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -4241,8 +4339,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 56,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -4263,14 +4362,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/fredkw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/fredkw.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Absent",
       "LD 1566": "Opposed",
@@ -4284,8 +4383,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -4306,14 +4406,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/haggdg.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/haggdg.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -4327,8 +4427,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -4349,14 +4450,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/guersk.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/guersk.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Absent",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Absent",
@@ -4370,8 +4471,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 28,
-    "voterScore": 0
+    "mpaScore": 39,
+    "voterScore": 30,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -4392,14 +4494,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/reedre.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/reedre.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -4413,8 +4515,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -4435,14 +4538,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/wallra.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/wallra.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -4456,8 +4559,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -4478,14 +4582,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/stetjr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/stetjr.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -4499,8 +4603,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -4521,14 +4626,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/strosw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/strosw.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -4542,8 +4647,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 100
+    "mpaScore": 33,
+    "voterScore": 50,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -4564,14 +4670,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/austba.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/austba.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Absent",
@@ -4585,8 +4691,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 50,
-    "voterScore": 100
+    "mpaScore": 33,
+    "voterScore": 20,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -4607,14 +4714,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/piccjj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/piccjj.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -4628,8 +4735,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 28,
-    "voterScore": 0
+    "mpaScore": 56,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -4650,14 +4758,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/longtr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/longtr.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -4671,8 +4779,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -4693,14 +4802,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/madicm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/madicm.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -4714,8 +4823,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -4736,14 +4846,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/farrbt.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/farrbt.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -4757,8 +4867,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -4779,14 +4890,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/skolth.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/skolth.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Absent",
@@ -4800,8 +4911,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 56,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -4822,14 +4934,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/harvle.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/harvle.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Absent",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -4843,8 +4955,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 56,
+    "voterScore": 50,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -4865,14 +4978,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/blacrj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/blacrj.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -4886,8 +4999,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 61,
+    "voterScore": 50,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -4909,14 +5023,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/madije.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/madije.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -4930,8 +5044,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -4952,14 +5067,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/pickra.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/pickra.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -4973,8 +5088,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -4995,14 +5111,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/headfm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/headfm.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -5016,8 +5132,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 28,
-    "voterScore": 0
+    "mpaScore": 56,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -5038,14 +5155,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/grigcw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/grigcw.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Absent",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -5059,8 +5176,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 39,
+    "voterScore": 40,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -5081,14 +5199,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/steapa.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/steapa.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Supported",
       "LD 673": "Absent",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -5102,8 +5220,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 56,
+    "voterScore": 40,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -5124,14 +5243,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/higgne.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/higgne.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -5145,8 +5264,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 28,
-    "voterScore": 100
+    "mpaScore": 33,
+    "voterScore": 40,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -5167,14 +5287,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/duchrs.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/duchrs.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -5188,8 +5308,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 50,
-    "voterScore": 100
+    "mpaScore": 33,
+    "voterScore": 10,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -5209,14 +5330,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/dunpma.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/dunpma.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -5230,8 +5351,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 50,
-    "voterScore": 100
+    "mpaScore": 33,
+    "voterScore": 10,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -5251,14 +5373,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/tipprd.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/tipprd.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -5272,8 +5394,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 67,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -5294,14 +5417,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/freyam.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/freyam.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -5315,8 +5438,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -5337,14 +5461,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/kornvp.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/kornvp.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -5358,8 +5482,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -5380,14 +5505,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/schnjc.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/schnjc.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -5401,8 +5526,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -5423,14 +5549,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/cardba.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/cardba.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -5444,8 +5570,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -5466,14 +5593,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/craigr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/craigr.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -5487,8 +5614,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 39,
+    "voterScore": 40,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -5509,14 +5637,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/lyfopa.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/lyfopa.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -5530,8 +5658,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -5552,14 +5681,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/camprh.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/camprh.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -5573,8 +5702,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -5595,14 +5725,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/wardks.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/wardks.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Absent",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -5616,8 +5746,9 @@
       "LD 1865": "Absent",
       "LD 1904": "Absent"
     },
-    "mpaScore": 22,
-    "voterScore": 0
+    "mpaScore": 39,
+    "voterScore": 20,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -5638,14 +5769,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/luchlj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/luchlj.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -5659,8 +5790,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 50,
-    "voterScore": 100
+    "mpaScore": 33,
+    "voterScore": 10,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -5680,14 +5812,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/chaprl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/chaprl.htm",
     "political_party": "Unenrolled",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Absent",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Absent",
+      "HP 1353": "Absent",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -5702,7 +5834,8 @@
       "LD 1904": "Opposed"
     },
     "mpaScore": 56,
-    "voterScore": 0
+    "voterScore": 50,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -5724,14 +5857,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/kumiwa.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/kumiwa.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -5745,8 +5878,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -5767,14 +5901,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/hubbbl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/hubbbl.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -5788,8 +5922,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -5810,14 +5945,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/malars.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/malars.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -5831,8 +5966,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 28,
-    "voterScore": 0
+    "mpaScore": 56,
+    "voterScore": 50,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -5853,14 +5989,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/lockle.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/lockle.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -5874,8 +6010,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -5897,14 +6034,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/allerw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/allerw.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -5918,8 +6055,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 39,
+    "voterScore": 20,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -5940,14 +6078,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/tuelwr.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/tuelwr.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -5961,8 +6099,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 100
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -5983,14 +6122,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/perrac.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/perrac.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Absent",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -6004,8 +6143,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -6026,14 +6166,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/turnbp.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/turnbp.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -6047,8 +6187,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2018
   },
   {
     "name": {
@@ -6069,14 +6210,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/hanism.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/hanism.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Absent",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -6090,8 +6231,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 28,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 40,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -6112,14 +6254,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/stanss.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/stanss.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -6133,8 +6275,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 50,
-    "voterScore": 100
+    "mpaScore": 33,
+    "voterScore": 10,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -6155,14 +6298,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/sherrl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/sherrl.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Absent",
       "LD 1444": "Absent",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Absent",
+      "HP 1353": "Absent",
       "LD 1476": "Absent",
       "LD 1507": "Absent",
       "LD 1566": "Absent",
@@ -6176,8 +6319,9 @@
       "LD 1865": "Absent",
       "LD 1904": "Absent"
     },
-    "mpaScore": 6,
-    "voterScore": 0
+    "mpaScore": 22,
+    "voterScore": 30,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -6198,14 +6342,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/johaca.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/johaca.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -6219,8 +6363,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -6241,14 +6386,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/whitdm.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/whitdm.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
       "LD 1566": "Opposed",
@@ -6262,8 +6407,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 39,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 50,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -6285,14 +6431,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/stewhl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/stewhl.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -6306,8 +6452,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -6328,14 +6475,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/mccrdh.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/mccrdh.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -6349,8 +6496,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 50,
-    "voterScore": 100
+    "mpaScore": 33,
+    "voterScore": 10,
+    "term_limited": 2024
   },
   {
     "name": {
@@ -6371,14 +6519,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/mcelca.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/mcelca.htm",
     "political_party": "Republican",
-    "seeking_reelection": null,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1353": "Supported",
+      "HP 1353": "Supported",
       "LD 1476": "Opposed",
       "LD 1507": "Supported",
       "LD 1566": "Opposed",
@@ -6392,8 +6540,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 33,
-    "voterScore": 0
+    "mpaScore": 50,
+    "voterScore": 50,
+    "term_limited": 2020
   },
   {
     "name": {
@@ -6414,14 +6563,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/martrd.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/martrd.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -6435,8 +6584,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 56,
-    "voterScore": 100
+    "mpaScore": 33,
+    "voterScore": 20,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -6457,14 +6607,14 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/martjl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/martjl.htm",
     "political_party": "Democrat",
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Opposed",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1353": "Opposed",
+      "HP 1353": "Opposed",
       "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
@@ -6478,8 +6628,9 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 61,
-    "voterScore": 100
+    "mpaScore": 44,
+    "voterScore": 30,
+    "term_limited": 2022
   },
   {
     "name": {
@@ -6520,8 +6671,8 @@
       "LD 1726": "Opposed",
       "LD 1769": "Opposed"
     },
-    "mpaScore": 53,
-    "voterScore": 0
+    "mpaScore": 81,
+    "voterScore": 80
   },
   {
     "name": {
@@ -6562,8 +6713,8 @@
       "LD 1726": "Opposed",
       "LD 1769": "Opposed"
     },
-    "mpaScore": 63,
-    "voterScore": null
+    "mpaScore": 73,
+    "voterScore": 70
   },
   {
     "name": {
@@ -6604,8 +6755,8 @@
       "LD 1726": "Supported",
       "LD 1769": "Supported"
     },
-    "mpaScore": 53,
-    "voterScore": 100
+    "mpaScore": 38,
+    "voterScore": 20
   },
   {
     "name": {
@@ -6626,7 +6777,7 @@
     "url": "http://legislature.maine.gov/128th-senators/senator-paul-davis",
     "political_party": "Republican",
     "term_limited": 2022,
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
@@ -6646,8 +6797,8 @@
       "LD 1726": "Supported",
       "LD 1769": "Supported"
     },
-    "mpaScore": 53,
-    "voterScore": 0
+    "mpaScore": 38,
+    "voterScore": 20
   },
   {
     "name": {
@@ -6688,8 +6839,8 @@
       "LD 1726": "Opposed",
       "LD 1769": "Opposed"
     },
-    "mpaScore": 50,
-    "voterScore": null
+    "mpaScore": 73,
+    "voterScore": 70
   },
   {
     "name": {
@@ -6730,8 +6881,8 @@
       "LD 1726": "Supported",
       "LD 1769": "Supported"
     },
-    "mpaScore": 53,
-    "voterScore": 0
+    "mpaScore": 38,
+    "voterScore": 20
   },
   {
     "name": {
@@ -6772,8 +6923,8 @@
       "LD 1726": "Supported",
       "LD 1769": "Supported"
     },
-    "mpaScore": 50,
-    "voterScore": 0
+    "mpaScore": 33,
+    "voterScore": 11
   },
   {
     "name": {
@@ -6794,7 +6945,7 @@
     "url": "http://legislature.maine.gov/128th-senators/senator-kimberly-rosen",
     "political_party": "Republican",
     "term_limited": 2022,
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
@@ -6814,7 +6965,7 @@
       "LD 1726": "Supported",
       "LD 1769": "Supported"
     },
-    "mpaScore": 38,
+    "mpaScore": 33,
     "voterScore": 0
   },
   {
@@ -6856,8 +7007,8 @@
       "LD 1726": "Opposed",
       "LD 1769": "Opposed"
     },
-    "mpaScore": 53,
-    "voterScore": 0
+    "mpaScore": 81,
+    "voterScore": 90
   },
   {
     "name": {
@@ -6899,8 +7050,8 @@
       "LD 1726": "Supported",
       "LD 1769": "Supported"
     },
-    "mpaScore": 53,
-    "voterScore": 100
+    "mpaScore": 25,
+    "voterScore": 20
   },
   {
     "name": {
@@ -6941,8 +7092,8 @@
       "LD 1726": "Supported",
       "LD 1769": "Supported"
     },
-    "mpaScore": 59,
-    "voterScore": 100
+    "mpaScore": 31,
+    "voterScore": 20
   },
   {
     "name": {
@@ -6983,8 +7134,8 @@
       "LD 1726": "Opposed",
       "LD 1769": "Opposed"
     },
-    "mpaScore": 47,
-    "voterScore": 0
+    "mpaScore": 75,
+    "voterScore": 80
   },
   {
     "name": {
@@ -7005,7 +7156,7 @@
     "url": "http://legislature.maine.gov/128th-senators/senator-dana-dow",
     "political_party": "Republican",
     "term_limited": 2024,
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
@@ -7025,8 +7176,8 @@
       "LD 1726": "Supported",
       "LD 1769": "Supported"
     },
-    "mpaScore": 47,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 20
   },
   {
     "name": {
@@ -7067,8 +7218,8 @@
       "LD 1726": "Opposed",
       "LD 1769": "Opposed"
     },
-    "mpaScore": 59,
-    "voterScore": 0
+    "mpaScore": 88,
+    "voterScore": 100
   },
   {
     "name": {
@@ -7109,8 +7260,8 @@
       "LD 1726": "Supported",
       "LD 1769": "Supported"
     },
-    "mpaScore": 47,
-    "voterScore": 0
+    "mpaScore": 44,
+    "voterScore": 20
   },
   {
     "name": {
@@ -7131,7 +7282,7 @@
     "url": "http://legislature.maine.gov/128th-senators/senator-scott-cyrway",
     "political_party": "Republican",
     "term_limited": 2022,
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
@@ -7151,8 +7302,8 @@
       "LD 1726": "Supported",
       "LD 1769": "Supported"
     },
-    "mpaScore": 59,
-    "voterScore": 100
+    "mpaScore": 31,
+    "voterScore": 20
   },
   {
     "name": {
@@ -7193,8 +7344,8 @@
       "LD 1726": "Supported",
       "LD 1769": "Supported"
     },
-    "mpaScore": 56,
-    "voterScore": 0
+    "mpaScore": 40,
+    "voterScore": 22
   },
   {
     "name": {
@@ -7215,7 +7366,7 @@
     "url": "http://legislature.maine.gov/128th-senators/senator-lisa-keim",
     "political_party": "Republican",
     "term_limited": 2024,
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
@@ -7235,8 +7386,8 @@
       "LD 1726": "Supported",
       "LD 1769": "Supported"
     },
-    "mpaScore": 53,
-    "voterScore": 0
+    "mpaScore": 38,
+    "voterScore": 20
   },
   {
     "name": {
@@ -7257,7 +7408,7 @@
     "url": "http://legislature.maine.gov/128th-senators/senator-james-hamper",
     "political_party": "Republican",
     "term_limited": 2020,
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
@@ -7277,8 +7428,8 @@
       "LD 1726": "Supported",
       "LD 1769": "Supported"
     },
-    "mpaScore": 53,
-    "voterScore": 100
+    "mpaScore": 25,
+    "voterScore": 20
   },
   {
     "name": {
@@ -7319,8 +7470,8 @@
       "LD 1726": "Supported",
       "LD 1769": "Supported"
     },
-    "mpaScore": 53,
-    "voterScore": 100
+    "mpaScore": 25,
+    "voterScore": 20
   },
   {
     "name": {
@@ -7361,8 +7512,8 @@
       "LD 1726": "Opposed",
       "LD 1769": "Opposed"
     },
-    "mpaScore": 53,
-    "voterScore": 0
+    "mpaScore": 81,
+    "voterScore": 90
   },
   {
     "name": {
@@ -7403,8 +7554,8 @@
       "LD 1726": "Supported",
       "LD 1769": "Supported"
     },
-    "mpaScore": 59,
-    "voterScore": 100
+    "mpaScore": 31,
+    "voterScore": 30
   },
   {
     "name": {
@@ -7445,8 +7596,8 @@
       "LD 1726": "Opposed",
       "LD 1769": "Opposed"
     },
-    "mpaScore": 47,
-    "voterScore": 0
+    "mpaScore": 75,
+    "voterScore": 80
   },
   {
     "name": {
@@ -7487,8 +7638,8 @@
       "LD 1726": "Opposed",
       "LD 1769": "Opposed"
     },
-    "mpaScore": 53,
-    "voterScore": 0
+    "mpaScore": 81,
+    "voterScore": 90
   },
   {
     "name": {
@@ -7529,8 +7680,8 @@
       "LD 1726": "Opposed",
       "LD 1769": "Opposed"
     },
-    "mpaScore": 47,
-    "voterScore": 0
+    "mpaScore": 75,
+    "voterScore": 90
   },
   {
     "name": {
@@ -7571,8 +7722,8 @@
       "LD 1726": "Opposed",
       "LD 1769": "Supported"
     },
-    "mpaScore": 47,
-    "voterScore": 0
+    "mpaScore": 56,
+    "voterScore": 40
   },
   {
     "name": {
@@ -7613,8 +7764,8 @@
       "LD 1726": "Opposed",
       "LD 1769": "Opposed"
     },
-    "mpaScore": 47,
-    "voterScore": 0
+    "mpaScore": 75,
+    "voterScore": 80
   },
   {
     "name": {
@@ -7655,8 +7806,8 @@
       "LD 1726": "Opposed",
       "LD 1769": "Opposed"
     },
-    "mpaScore": 47,
-    "voterScore": 0
+    "mpaScore": 71,
+    "voterScore": 75
   },
   {
     "name": {
@@ -7697,8 +7848,8 @@
       "LD 1726": "Opposed",
       "LD 1769": "Opposed"
     },
-    "mpaScore": 53,
-    "voterScore": 0
+    "mpaScore": 81,
+    "voterScore": 90
   },
   {
     "name": {
@@ -7739,8 +7890,8 @@
       "LD 1726": "Supported",
       "LD 1769": "Supported"
     },
-    "mpaScore": 59,
-    "voterScore": 0
+    "mpaScore": 31,
+    "voterScore": 20
   },
   {
     "name": {
@@ -7781,8 +7932,8 @@
       "LD 1726": "Opposed",
       "LD 1769": "Opposed"
     },
-    "mpaScore": 53,
-    "voterScore": 0
+    "mpaScore": 81,
+    "voterScore": 80
   },
   {
     "name": {
@@ -7823,8 +7974,8 @@
       "LD 1726": "Opposed",
       "LD 1769": "Opposed"
     },
-    "mpaScore": 47,
-    "voterScore": 0
+    "mpaScore": 57,
+    "voterScore": 50
   },
   {
     "name": {
@@ -7845,7 +7996,7 @@
     "url": "http://legislature.maine.gov/128th-senators/senator-david-woodsome",
     "political_party": "Republican",
     "term_limited": 2022,
-    "seeking_reelection": null,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
@@ -7865,8 +8016,8 @@
       "LD 1726": "Supported",
       "LD 1769": "Supported"
     },
-    "mpaScore": 59,
-    "voterScore": 0
+    "mpaScore": 31,
+    "voterScore": 20
   },
   {
     "name": {
@@ -7907,8 +8058,8 @@
       "LD 1726": "Supported",
       "LD 1769": "Supported"
     },
-    "mpaScore": 53,
-    "voterScore": 0
+    "mpaScore": 38,
+    "voterScore": 20
   },
   {
     "name": {
@@ -7949,7 +8100,7 @@
       "LD 1726": "Opposed",
       "LD 1769": "Supported"
     },
-    "mpaScore": 31,
-    "voterScore": 0
+    "mpaScore": 47,
+    "voterScore": 30
   }
 ]
