@@ -1,6 +1,8 @@
 require('dotenv').config()
-const fs = require('fs')
-const _ = require('lodash')
+const _        = require('lodash')
+const fs       = require('fs')
+const asyncLib = require('async')
+const fetch    = require('node-fetch')
 
 // Configure Airtable API
 // const Airtable = require('airtable')
@@ -142,17 +144,35 @@ fs.readFile('./src/data/legislators.json', function(err, data) {
 
 const bills = []
 const billKeys = []
+const billPhotos = []
 
 function fetchBillData(cb) {
 
   // Fetch bills table from Airtable and create array
   getRecordsFromTable('bills', function(record) {
     const fields = record.fields
-    fields.mpa_stance = _.capitalize(fields.mpa_stance)
-    fields.voter_stance = _.capitalize(fields.voter_stance)
-    bills.push(record.fields)
+    const { mpa_stance, voter_stance } = fields
+    const photo = fields.photo[0]
+
+    if (photo.filename == null) console.log('no filename', photo)
+    const photoExt = photo.filename.match(/\.\w+$/)[0]
+    const photoFilenamePart = fields.id.replace(/\s+/g, '-')
+    const photoFilename = `${photoFilenamePart}${photoExt}`
+    const photoFilePath = `/bill-photos/${photoFilename}`
+
+    billPhotos.push({
+      url: photo.thumbnails.large.url,
+      filename: photoFilename,
+    })
+
+    fields.photo = photoFilePath
+    fields.mpa_stance = _.capitalize(mpa_stance)
+    fields.voter_stance = _.capitalize(voter_stance)
+
+    bills.push(fields)
   }, function() {
 
+    fetchBillPhotos(billPhotos)
     cb(bills)
 
     // Write to file
@@ -164,6 +184,26 @@ function fetchBillData(cb) {
       }
     )
   });
+}
+
+
+function fetchBillPhotos(billPhotos) {
+  asyncLib.eachLimit(billPhotos, 10, function(billPhoto, fetchNext) {
+    const { url, filename } = billPhoto;
+    console.log('fetching', filename, url);
+
+    fetch(billPhoto.url)
+      .then(res => {
+        const dest = fs.createWriteStream(`./public/bill-photos/${filename}`);
+        res.body.pipe(dest);
+        fetchNext();
+      })
+      .catch(err => {
+        console.log('OUTER', err);
+      })
+  }, function() {
+    console.log('DONE FETCHING PHOTOS');
+  })
 }
 
 
