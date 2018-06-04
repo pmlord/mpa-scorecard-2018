@@ -100,6 +100,7 @@ fs.readFile('./src/data/legislators.json', function(err, data) {
           const bill = billsById[billId]
           if (bill == null) {
             missingBillIds.push(billId)
+            delete(legislator.votes[billId])
             return false
           }
           const { mpa_stance, voter_stance } = bill
