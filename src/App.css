@@ -311,6 +311,7 @@ nav a.active {
   flex-flow: row nowrap;
 }
 .legislator-action {
+  position: relative;
   margin-left: 10px;
   display: flex;
   justify-content: center;
@@ -646,4 +647,12 @@ nav a.active {
 .bill-detail .bill-copy .quote-attribution {
   display: inline-block;
   margin-top: 0.3rem;
+}
+
+
+
+/* Popovers */
+
+.popover input {
+  width: 100%;
 }

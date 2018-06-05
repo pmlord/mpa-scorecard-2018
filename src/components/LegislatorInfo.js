@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { legislatorPath, abbreviatedChamberTitle } from '../services/legislator-helpers'
+import LegislatorAction from './LegislatorAction'
 import iconLink from '../assets/images/icon-link.png'
 import iconPhone from '../assets/images/icon-phone.png'
 import iconEmail from '../assets/images/icon-email.png'
@@ -55,9 +56,9 @@ export default function LegislatorInfo(props) {
               <img src={iconLink} alt="link" />
             </a>
           }
-          <a className="legislator-action" href={`tel:${phone}`}>
+          <LegislatorAction className="legislator-action" href={`tel:${phone}`}>
             <img src={iconPhone} alt="phone" />
-          </a>
+          </LegislatorAction>
           <a className="legislator-action" href={`mailto:${email}`} target="_blank">
             <img src={iconEmail} alt="email" />
           </a>
