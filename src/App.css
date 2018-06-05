@@ -574,6 +574,25 @@ nav a.active {
 
 /* Bill Detail */
 
+.bill-text-link {
+  display: inline-block;
+  color: #1B8BB4;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+.bill-more-info-link {
+  display: inline-block;
+  color: #1B8BB4;
+  text-decoration: none;
+  margin-right: 2rem
+}
+.mpa-stance.Supported {
+  color: #2fb129;
+}
+.mpa-stance.Opposed {
+  color: #fa5927;
+}
+
 .bill-detail .bill-photo {
   float: left;
   width: 300px;
@@ -615,6 +634,7 @@ nav a.active {
 
 .bill-detail .bill-copy h2 {
   margin-top: 2rem;
+  font-size: 1.3em;
 }
 
 .bill-detail .bill-copy .quote-attribution {
