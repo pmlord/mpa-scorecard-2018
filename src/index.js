@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom'
-import registerServiceWorker from './registerServiceWorker';
+// import registerServiceWorker from './registerServiceWorker';
 import 'whatwg-fetch'
 import 'flexboxgrid'
 import './App.css'
@@ -16,10 +16,10 @@ const appComponent = (
 const rootElement = document.getElementById('root')
 
 if (rootElement.hasChildNodes()) {
-  ReactDOM.render(appComponent, rootElement);
+  ReactDOM.hydrate(appComponent, rootElement);
 }
 else {
-  ReactDOM.hydrate(appComponent, rootElement);
+  ReactDOM.render(appComponent, rootElement);
 }
 
 // registerServiceWorker();

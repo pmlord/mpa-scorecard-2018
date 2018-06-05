@@ -51,14 +51,10 @@ function Vote(props) {
   const { bill, legislator, legislator_stance } = props
 
   const {
-    shorthand_title,
-    short_description,
     mpa_stance,
   } = bill
 
   const lastName = legislator.name.lastName
-
-  const billId = bill.id.replace(/\s/g, '\u00A0')
 
   let stanceClassName
   if (legislator_stance.match((/Excused|n\/a/i)))
