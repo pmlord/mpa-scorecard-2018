@@ -219,5 +219,9 @@ function parseBool(input) {
   if (input == null) return null
 
   const str = input.toLowerCase()
-  return str === 'true' || str === 't'
+  const bool = str === 'true' || str === 't'
+
+  console.log(input, bool);
+
+  return bool
 }
