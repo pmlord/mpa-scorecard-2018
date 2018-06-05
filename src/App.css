@@ -656,3 +656,16 @@ nav a.active {
 .popover input {
   width: 100%;
 }
+
+
+
+/* 404 Page not found */
+
+.page-not-found {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.page-not-found .num {
+  font-size: 3rem;
+}

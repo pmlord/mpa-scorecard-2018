@@ -7,6 +7,7 @@ import Legislators from './components/Legislators'
 import LegislatorDetail from './components/LegislatorDetail'
 import Bills from './components/Bills'
 import BillDetail from './components/BillDetail'
+import PageNotFound from './components/PageNotFound'
 
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
             <Route path='/legislators' component={Legislators} />
             <Route path='/bills/:billId/:slug?' component={BillDetail} />
             <Route path="/bills" component={Bills} />
+            <Route component={PageNotFound} />
           </Switch>
         </div>
         <ScrollToTop />

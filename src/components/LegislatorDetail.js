@@ -1,4 +1,5 @@
 import React from 'react'
+import { Redirect } from 'react-router-dom'
 import {
   getLegislatorFromParams,
   abbreviatedChamberTitle,
@@ -10,6 +11,9 @@ import VoteList from './VoteList'
 export default function LegislatorDetail({ match }) {
   const param = match.params.ocdId
   const legislator = getLegislatorFromParams(param)
+
+  if (legislator == null)
+    return <Redirect to="/404.html" />
 
   const {
     name,

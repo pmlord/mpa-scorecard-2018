@@ -1,4 +1,5 @@
 import React from 'react'
+import { Redirect } from 'react-router-dom'
 import BillVoteList from './BillVoteList'
 import lowerCase from 'lodash/lowerCase'
 import { getBillFromParams } from '../services/bill-helpers'
@@ -6,6 +7,9 @@ import iconPopout from '../assets/images/icon-popout.png'
 
 export default function BillDetail({ match }) {
   const bill = getBillFromParams(match.params)
+
+  if (bill == null)
+    return <Redirect to="/404.html" />
 
   return (
     <div className="bill-detail">
