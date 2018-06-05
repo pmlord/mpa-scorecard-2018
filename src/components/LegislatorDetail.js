@@ -22,11 +22,11 @@ export default function LegislatorDetail({ match }) {
     towns,
     mpaScore,
     voterScore,
+    seeking_reelection,
+    term_limited,
   } = legislator
 
-  // Fake data until the database is seeded
-  const termLimited = 2018 + 2 * parseInt(Math.random() * 4, 10)
-  const upForReelection = Math.round(Math.random()) ? '2018' : 'Not seeking re-election'
+  const upForReelection = seeking_reelection ? '2018' : 'Not seeking re-election'
 
   return (
     <div className="legislator-detail">
@@ -44,7 +44,7 @@ export default function LegislatorDetail({ match }) {
             <div className="col-xs-12 col-sm-5 col-sm-offset-1"><div className="box term-info"><div className="row">
               <div className="col-xs-6"><div className="box">
                 <div className="title">Term limited</div>
-                <div className="description">{termLimited}</div>
+                <div className="description">{term_limited}</div>
               </div></div>
               <div className="col-xs-6"><div className="box">
                 <div className="title">Up for re-election</div>

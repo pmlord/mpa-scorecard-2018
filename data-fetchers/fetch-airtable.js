@@ -140,7 +140,7 @@ fs.readFile('./src/data/legislators.json', function(err, data) {
 
 
 // ----------------------------------------------------------------------------
-// Fake Bill information (lorem ipsum)
+// Fetch Bill information
 // ----------------------------------------------------------------------------
 
 const bills = []
