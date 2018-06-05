@@ -42,7 +42,7 @@ function Vote(props) {
   const lastName = legislator.name.lastName
 
   let stanceClassName
-  if (legislator_stance === 'Excluded')
+  if (legislator_stance.match((/Excused|n\/a/i)))
     stanceClassName = 'neutral'
   else if (legislator_stance === mpa_stance)
     stanceClassName = 'good'

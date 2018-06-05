@@ -1,4 +1,6 @@
 import React from 'react'
+import { billPath } from '../services/bill-helpers'
+import { Link } from 'react-router-dom'
 
 
 export default function BillList(props) {
@@ -17,11 +19,13 @@ export default function BillList(props) {
 
 
 function Bill(props) {
+  const { bill } = props
+
   const {
     shorthand_title,
     short_description,
     mpa_stance,
-  } = props.bill
+  } = bill
 
   const billId = props.bill.id.replace(/\s/g, '\u00A0')
 
@@ -29,10 +33,10 @@ function Bill(props) {
     <div className="list-item">
       <div className="row">
         <div className="col-xs"><div className="box title-description">
-          <div className="title">
+          <Link to={billPath(bill)} className="title">
             {shorthand_title} &nbsp;
             <span className="bill-id">{billId}</span>
-          </div>
+          </Link>
           <div className="description">{short_description}</div>
         </div></div>
         { mpa_stance &&
@@ -44,7 +48,7 @@ function Bill(props) {
           </div>
         }
         <div className="col-xs-12 col-sm-2"><div className="box">
-          <button className="full-width">Details</button>
+          <Link to={billPath(bill)} className="button full-width">Details</Link>
         </div></div>
       </div>
     </div>
