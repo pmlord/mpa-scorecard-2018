@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <div className="container">
+        <div className="">
           <Switch>
             <Route path="/" exact render={() => <Redirect to='/legislators' />} />
             <Route path='/legislators/:ocdId/:slug?' component={LegislatorDetail} />

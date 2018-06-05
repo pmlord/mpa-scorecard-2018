@@ -208,6 +208,13 @@ nav a.active {
   box-shadow: 1px 2px 12px 0px #ccc;
 }
 
+@media only screen and (max-width: 48em) {
+  .card-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 
 
 /* Legislators */
@@ -542,6 +549,7 @@ nav a.active {
 .list-item .stance.bad {
   display: inline-block;
   padding: .2em .3em;
+  margin-top: -2em;
   color: white;
 }
 .list-item .stance.good {
@@ -569,11 +577,40 @@ nav a.active {
 .bill-detail .bill-photo {
   float: left;
   width: 300px;
-  height: 300px;
+}
+
+.bill-detail .bill-photo img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.bill-detail .bill-photo .caption {
+  font-size: 0.9em;
+  color: #888;
+  line-height: normal;
+  margin-top: .5em;
 }
 
 .bill-detail .bill-copy {
   margin-left: 332px;
+}
+
+
+@media only screen and (max-width: 48em) {
+  .bill-detail .bill-photo {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .bill-detail .bill-photo .caption {
+    text-align: left;
+  }
+
+  .bill-detail .bill-copy {
+    margin-left: 0;
+  }
 }
 
 .bill-detail .bill-copy h2 {

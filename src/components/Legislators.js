@@ -20,13 +20,15 @@ export default withStore(function Legislators(props) {
 
   return (
     <div className="legislators">
-      <FindMyLegislators />
-      { yourLegislators.length === 0 &&
-        <h1 className="zero-state-message">
-          Enter your address to find your representatives.
-        </h1>
-      }
-      <div className="legislator-cards">
+      <div className="container">
+        <FindMyLegislators />
+        { yourLegislators.length === 0 &&
+          <h1 className="zero-state-message">
+            Enter your address to find your representatives.
+          </h1>
+        }
+      </div>
+      <div className="legislator-cards container card-container">
         <div className="row">
           {yourLegislatorCards}
         </div>

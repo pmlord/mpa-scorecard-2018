@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import map from 'lodash/map'
 import { billsById } from '../data/'
+import { billPath } from '../services/bill-helpers'
 
 
 export default function VoteList(props) {
@@ -53,10 +55,10 @@ function Vote(props) {
     <div className="list-item">
       <div className="row">
         <div className="col-xs-12 col-sm"><div className="box title-description">
-          <div className="title">
+          <Link to={billPath(bill)} className="title">
             {shorthand_title} &nbsp;
             <span className="bill-id">{billId}</span>
-          </div>
+          </Link>
           <div className="description">{short_description}</div>
         </div></div>
         <div className="col-xs-6 col-sm-2"><div className="box">
