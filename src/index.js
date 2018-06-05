@@ -8,11 +8,18 @@ import './App.css'
 
 import App from './App';
 
-
-ReactDOM.render(
+const appComponent = (
   <Router>
     <App />
-  </Router>,
-  document.getElementById('root')
-);
-registerServiceWorker();
+  </Router>
+)
+const rootElement = document.getElementById('root')
+
+if (rootElement.hasChildNodes()) {
+  ReactDOM.render(appComponent, rootElement);
+}
+else {
+  ReactDOM.hydrate(appComponent, rootElement);
+}
+
+// registerServiceWorker();

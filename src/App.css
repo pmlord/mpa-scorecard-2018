@@ -570,6 +570,12 @@ nav a.active {
   background-color: #aaa;
 }
 
+@media only screen and (max-width: 48em) {
+  .list-item .button.full-width {
+    margin-top: 1rem;
+  }
+}
+
 
 
 /* Bill Detail */
