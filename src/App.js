@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom'
+import ScrollToTop from './components/ScrollToTop'
 
 import Header from './components/Header'
 import Legislators from './components/Legislators'
@@ -24,6 +25,7 @@ class App extends Component {
             <Route path="/bills" component={Bills} />
           </Switch>
         </div>
+        <ScrollToTop />
       </div>
     )
   }
