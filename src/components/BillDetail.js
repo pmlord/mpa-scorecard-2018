@@ -1,4 +1,5 @@
 import React from 'react'
+import BillVoteList from './BillVoteList'
 import lowerCase from 'lodash/lowerCase'
 import { getBillFromParams } from '../services/bill-helpers'
 import iconPopout from '../assets/images/icon-popout.png'
@@ -55,6 +56,7 @@ export default function BillDetail({ match }) {
           </div>
         </section>
       </div>
+      <BillVoteList bill={bill} />
     </div>
   )
 }
