@@ -15,6 +15,7 @@ export default function Header(props) {
       <nav className="container">
         <NavLink to="/legislators" activeClassName="active">Legislators</NavLink>
         <NavLink to="/bills" activeClassName="active">Bills</NavLink>
+        <NavLink to="/about" activeClassName="active">About</NavLink>
       </nav>
     </div>
   )

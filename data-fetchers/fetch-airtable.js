@@ -40,102 +40,105 @@ function getRecordsFromTable(tableName, iteratee, cb) {
 // Fetch Legislator's table and merge with existing legislator data
 // ----------------------------------------------------------------------------
 
-fs.readFile('./src/data/legislators.json', function(err, data) {
-  if (err) {
-    console.log(err)
-    return;
-  }
-
-  const legislators = JSON.parse(data)
-  const legislatorsByOcdId = {}
-
-  legislators.forEach(function(legislator) {
-    legislatorsByOcdId[legislator.ocdId] = legislator
-  })
-
-
-  const billNameRegExp = /^(LD|HP)\s/
-
-  getRecordsFromTable('legislators', function(record) {
-    const fields = record.fields
-
-    const ocdIdChamber = fields.legislative_chamber === "House" ? 'sldl' : 'sldu'
-    const ocdId = `ocd-division/country:us/state:me/${ocdIdChamber}:${fields.district_number}`
-
-    const votes = {}
-    _.forOwn(fields, function(value, key) {
-      if (key.match(billNameRegExp)) {
-        votes[key] = _.capitalize(value)
-      }
-    })
-
-    const legislator = {
-      political_party: fields.political_party,
-      term_limited: fields.term_limited,
-      seeking_reelection: parseBool(fields.seeking_reelection),
-      votes: votes,
+function fetchLegislatorsAndBills() {
+  fs.readFile('./src/data/legislators.json', function(err, data) {
+    if (err) {
+      console.log(err)
+      return;
     }
 
-    Object.assign(legislatorsByOcdId[ocdId], legislator)
-  }, function() {
+    const legislators = JSON.parse(data)
+    const legislatorsByOcdId = {}
 
-    // Fetch bills from Airtable and calculate voting score
-    fetchBillData(function(bills) {
-      // Index bills by id
-      const billsById = {}
-      bills.forEach(function(bill) {
-        billsById[bill.id] = bill
+    legislators.forEach(function(legislator) {
+      legislatorsByOcdId[legislator.ocdId] = legislator
+    })
+
+
+    const billNameRegExp = /^(LD|HP)\s/
+
+    getRecordsFromTable('legislators', function(record) {
+      const fields = record.fields
+
+      const ocdIdChamber = fields.legislative_chamber === "House" ? 'sldl' : 'sldu'
+      const ocdId = `ocd-division/country:us/state:me/${ocdIdChamber}:${fields.district_number}`
+
+      const votes = {}
+      _.forOwn(fields, function(value, key) {
+        if (key.match(billNameRegExp)) {
+          votes[key] = _.capitalize(value)
+        }
       })
 
-      const missingBillIds = []
-
-      // Iterate through each legislator's votes and tally scores
-      legislators.forEach(function(legislator) {
-        let mpaTally = 0,
-            mpaTotal = 0,
-            voterTally = 0,
-            voterTotal = 0;
-
-        _.forOwn(legislator.votes, function(legislator_stance, billId) {
-          const bill = billsById[billId]
-          if (bill == null) {
-            missingBillIds.push(billId)
-            delete(legislator.votes[billId])
-            return false
-          }
-          const { mpa_stance, voter_stance } = bill
-
-          // ignore votes that are 'excused' or 'n/a'
-          if (!legislator_stance.match(/Excused|n\/a/i)) {
-            if (parseBool(bill.is_2018_bill) && bill.mpa_stance) {
-              if (legislator_stance === bill.mpa_stance) mpaTally++
-              mpaTotal++
-            }
-            if (bill.voter_stance) {
-              if (legislator_stance === bill.voter_stance) voterTally++
-              voterTotal++
-            }
-          }
-        })
-
-        legislator.mpaScore = Math.round(mpaTally / mpaTotal * 100)
-        legislator.voterScore = Math.round(voterTally / voterTotal * 100)
-      })
-
-      if (missingBillIds.length !== 0) {
-        console.log("The following bill ids appeared in the legislator's voting record, but not in the bills table.")
-        console.log(_.uniq(missingBillIds))
+      const legislator = {
+        political_party: fields.political_party,
+        term_limited: fields.term_limited,
+        seeking_reelection: parseBool(fields.seeking_reelection),
+        votes: votes,
       }
 
-      // Write to file
-      const payload = JSON.stringify(legislators, null, '  ')
-      fs.writeFile('./src/data/legislators.json', payload, function(err) {
-        if (err) console.log(err)
-        console.log('--- Done ---')
+      Object.assign(legislatorsByOcdId[ocdId], legislator)
+    }, function() {
+
+      // Fetch bills from Airtable and calculate voting score
+      fetchBillData(function(bills) {
+        // Index bills by id
+        const billsById = {}
+        bills.forEach(function(bill) {
+          billsById[bill.id] = bill
+        })
+
+        const missingBillIds = []
+
+        // Iterate through each legislator's votes and tally scores
+        legislators.forEach(function(legislator) {
+          let mpaTally = 0,
+          mpaTotal = 0,
+          voterTally = 0,
+          voterTotal = 0;
+
+          _.forOwn(legislator.votes, function(legislator_stance, billId) {
+            const bill = billsById[billId]
+            if (bill == null) {
+              missingBillIds.push(billId)
+              delete(legislator.votes[billId])
+              return false
+            }
+            const { mpa_stance, voter_stance } = bill
+
+            // ignore votes that are 'excused' or 'n/a'
+            if (!legislator_stance.match(/Excused|n\/a/i)) {
+              if (parseBool(bill.is_2018_bill) && bill.mpa_stance) {
+                if (legislator_stance === bill.mpa_stance) mpaTally++
+                mpaTotal++
+              }
+              if (bill.voter_stance) {
+                if (legislator_stance === bill.voter_stance) voterTally++
+                voterTotal++
+              }
+            }
+          })
+
+          legislator.mpaScore = Math.round(mpaTally / mpaTotal * 100)
+          legislator.voterScore = Math.round(voterTally / voterTotal * 100)
+        })
+
+        if (missingBillIds.length !== 0) {
+          console.log("The following bill ids appeared in the legislator's voting record, but not in the bills table.")
+          console.log(_.uniq(missingBillIds))
+        }
+
+        // Write to file
+        const payload = JSON.stringify(legislators, null, '  ')
+        fs.writeFile('./src/data/legislators.json', payload, function(err) {
+          if (err) console.log(err)
+          console.log('--- Done ---')
+        })
       })
     })
   })
-})
+}
+
 
 
 
@@ -207,6 +210,61 @@ function fetchBillPhotos(billPhotos) {
     console.log('DONE FETCHING PHOTOS');
   })
 }
+
+
+
+
+
+
+// ----------------------------------------------------------------------------
+// Fetch About and FAQs
+// ----------------------------------------------------------------------------
+
+function fetchAboutTable() {
+  const aboutSections = [];
+
+  getRecordsFromTable('about', function(record) {
+    aboutSections.push(record.fields);
+  }, function(err) {
+    if (err) console.log(err);
+
+    const payload = JSON.stringify(aboutSections, null, '  ');
+    fs.writeFile('./src/data/aboutSections.json', payload, function(err) {
+      if (err) console.log(err);
+    })
+  })
+}
+
+function fetchFaqs() {
+  const faqs = [];
+
+  getRecordsFromTable('faq', function(record) {
+    faqs.push(record.fields);
+  }, function(err) {
+    if (err) console.log(err);
+
+    const payload = JSON.stringify(faqs, null, '  ');
+    fs.writeFile('./src/data/faqs.json', payload, function(err) {
+      if (err) console.log(err);
+    })
+  })
+}
+
+
+
+
+
+
+
+
+// ----------------------------------------------------------------------------
+// Fetch tables
+// ----------------------------------------------------------------------------
+
+fetchLegislatorsAndBills();
+fetchAboutTable();
+fetchFaqs();
+
 
 
 

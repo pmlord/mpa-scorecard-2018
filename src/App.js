@@ -7,6 +7,7 @@ import Legislators from './components/Legislators'
 import LegislatorDetail from './components/LegislatorDetail'
 import Bills from './components/Bills'
 import BillDetail from './components/BillDetail'
+import About from './components/About'
 import PageNotFound from './components/PageNotFound'
 
 
@@ -24,6 +25,7 @@ class App extends Component {
             <Route path='/legislators' component={Legislators} />
             <Route path='/bills/:billId/:slug?' component={BillDetail} />
             <Route path="/bills" component={Bills} />
+            <Route path="/about" component={About} />
             <Route component={PageNotFound} />
           </Switch>
         </div>

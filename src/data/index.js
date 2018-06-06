@@ -1,5 +1,7 @@
 import legislators from './legislators.json'
 import bills from './bills.json'
+import aboutSections from './aboutSections.json'
+import faqs from './faqs.json'
 
 // Index legislators by ocdId
 const legislatorsByOcdId = {}
@@ -18,4 +20,6 @@ export {
   legislatorsByOcdId,
   bills,
   billsById,
+  aboutSections,
+  faqs,
 }
