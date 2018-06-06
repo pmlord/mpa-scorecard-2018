@@ -1,9 +1,10 @@
 import React from 'react'
 import { aboutSections, faqs } from '../data/'
+import Linkify from 'react-linkify'
 
 function splitParagraphs(content='') {
   return content.split("\n\n").map(function(paragraph, i) {
-    return <p key={i}>{paragraph}</p>
+    return <p key={i}><Linkify>{paragraph}</Linkify></p>
   })
 }
 
@@ -25,7 +26,7 @@ export default function About() {
         <p>
           <b>{faq.Question}</b>
         </p>
-        {splitParagraphs(faq.Answer)}
+        <Linkify>{splitParagraphs(faq.Answer)}</Linkify>
       </div>
     )
   })
