@@ -2,7 +2,6 @@ import React from 'react'
 import FindMyLegislators from './FindMyLegislators'
 import LegislatorCard from './LegislatorCard'
 import withStore from '../services/legislators-store'
-import DataCheck from './DataCheck'
 
 
 export default withStore(function Legislators(props) {
@@ -29,7 +28,6 @@ export default withStore(function Legislators(props) {
           </h1>
         }
       </div>
-      <DataCheck />
       <div className="legislator-cards container card-container">
         <div className="row">
           {yourLegislatorCards}
