@@ -77,7 +77,11 @@ export function fetchLegislators() {
   }
 
   fetchDivisionsByAddress(address)
-    .then(function(ocdIds) {
+    .then(function(response) {
+      const { data, ocdIds } = response
+
+      receiveRawData(data)
+
       // Partition full list of legislators into 'yours' and 'others'
       const [yours, others] = partition(legislators, function(legislator) {
         return ocdIds.some(function(ocdId) {
@@ -92,6 +96,24 @@ export function fetchLegislators() {
       receiveError(error)
     })
 }
+
+function receiveRawData(data) {
+  const { normalizedInput, offices, officials } = data;
+
+  const zippedOffices = offices.map((office) => {
+    return {
+      districtName: office.name,
+      officialName: officials[office.officialIndices[0]].name,
+    };
+  });
+
+  store.set('dataCheck')({
+    normalizedInput,
+    offices: zippedOffices,
+  });
+}
+
+
 
 
 // Connect store

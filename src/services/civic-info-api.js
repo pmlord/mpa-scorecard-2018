@@ -30,6 +30,8 @@ export function fetchDivisionsByAddress(address) {
       }
     )
     .then(function(data) {
+      console.log(data)
+
       if (data.errors) {
         // Google API error
         switch (data.errors[0].reason) {
@@ -46,7 +48,10 @@ export function fetchDivisionsByAddress(address) {
         return rejection('notFound')
       }
       else {
-        return getKeys(data.divisions)
+        return {
+          data: data,
+          ocdIds: getKeys(data.divisions),
+        }
       }
     })
 }
