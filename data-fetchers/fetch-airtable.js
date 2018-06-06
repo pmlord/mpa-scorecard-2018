@@ -105,8 +105,9 @@ fs.readFile('./src/data/legislators.json', function(err, data) {
           }
           const { mpa_stance, voter_stance } = bill
 
+          // ignore votes that are 'excused' or 'n/a'
           if (!legislator_stance.match(/Excused|n\/a/i)) {
-            if (bill.mpa_stance) {
+            if (parseBool(bill.is_2018_bill) && bill.mpa_stance) {
               if (legislator_stance === bill.mpa_stance) mpaTally++
               mpaTotal++
             }
@@ -220,8 +221,6 @@ function parseBool(input) {
 
   const str = input.toLowerCase()
   const bool = str === 'true' || str === 't'
-
-  console.log(input, bool);
 
   return bool
 }

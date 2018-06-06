@@ -14,7 +14,8 @@
     "more_info_url": "http://mainebeacon.com/respect-mainers-democratic-rights-dont-tear-them-down/",
     "shorthand_title": "Changing the citizen initiative process ",
     "quote_attribution": "Floor speech by Representative Kent Ackley (I-Monmouth)",
-    "photo_caption": "In 2016, more Mainers voted on citizen initiatives, including raising the minimum wage, than for either presidential candidate, congressional candidate, or anything else on the ballot. "
+    "photo_caption": "In 2016, more Mainers voted on citizen initiatives, including raising the minimum wage, than for either presidential candidate, congressional candidate, or anything else on the ballot. ",
+    "is_2018_bill": "TRUE"
   },
   {
     "id": "LD 390",
@@ -82,6 +83,7 @@
     "shorthand_title": "Extending the legislative session ",
     "quote_attribution": "Editorial by the Bangor Daily News ",
     "photo_caption": "Minority House Leader Ken Fredette led his caucus in the charge to hit the eject button on the legislature this year. ",
+    "is_2018_bill": "TRUE",
     "voter_stance": ""
   },
   {
@@ -99,6 +101,7 @@
     "shorthand_title": "Promoting community solar",
     "quote_attribution": "Testimony by Fortunat Mueller, co-founder of ReVision Energy ",
     "photo_caption": "Despite the benefits of community solar, Maine has only about 10 small community solar farms because of barriers the Public Utilities Commission has imposed, including a nine-person limit for projects. ",
+    "is_2018_bill": "TRUE",
     "voter_stance": ""
   },
   {
@@ -110,12 +113,13 @@
     "what_is_the_bill": "This bill will require all healthcare plans in Maine to cover, without cost-sharing, the preventive services currently required under the Affordable Care Act, including coverage of birth control and preventative medications, as well as screenings for pregnant women, cancer, and sexually transmitted infection.",
     "why_it_matters": "Healthcare is a human right. Although the ACA isn’t perfect, the preventative care requirement has allowed for the greatest advancement in women’s health in a decade. This past year, under the threat of “repeal and replace,” this bill was submitted to ensure that people in Maine would continue to receive the basic preventative services guaranteed by the ACA even in the case of a repeal. ",
     "what_happened": "LAW: This bill passed, was vetoed by the governor, and the governor’s veto was overridden. It is now law. (As is the Affordable Care Act, for now.) ",
-    "short_description": "This bill would have required health insurance plans in Maine to continue covering preventative care in the case of a repeal of the Affordable Care Act. ",
+    "short_description": "This bill requires health insurance plans in Maine to continue covering preventative care in the case of a repeal of the Affordable Care Act. ",
     "bill_text_url": "https://legislature.maine.gov/legis/bills/bills_128th/chapters/PUBLIC343.asp",
     "more_info_url": "https://rewire.news/article/2018/03/30/maine-overrides-governors-veto-pass-preventive-health-care-protections/",
     "shorthand_title": "Continuing preventative coverage of ACA ",
     "quote_attribution": "Nicole Clegg, vice president of Public Policy with Planned Parenthood of Northern New England",
     "photo_caption": "Prior to the Affordable Care Act and the inclusion of essential preventative benefits, women paid thousands of dollars out of pocket for basic care such as birth control and annual check-ups. Since the ACA, women have saved more than $1.4 billion in out-of-pocket costs on birth control pills alone each year.",
+    "is_2018_bill": "TRUE",
     "voter_stance": ""
   },
   {
@@ -127,12 +131,13 @@
     "what_is_the_bill": "This bill would have established a Student Loan Bill of Rights aimed at preventing loan companies from taking advantage of students and increasing oversight in an under-regulated economy that has resulted in a massive ballooning of student debt. ",
     "why_it_matters": "Students shouldn’t be saddled with debt for working to obtain an education. It’s holding too many people back, widening inequality, and stalling our economy as a whole. This bill would have brought a sharper eye to the loan industry, which has used predatory practices and taken advantage of loose regulations to put extreme conditions on thousands of Maine students (14th heaviest debt burden in the country).",
     "what_happened": "DEAD: This bill was vetoed by Governor LePage and the veto was sustained. ",
-    "short_description": "his bill would have established a Student Loan Bill of Rights. ",
+    "short_description": "This bill would have established a Student Loan Bill of Rights. ",
     "bill_text_url": "https://legislature.maine.gov/legis/bills/bills_128th/billtexts/SP053204.asp",
     "more_info_url": "https://www.pressherald.com/2017/06/20/student-loan-servicer-fights-states-moves-to-boost-oversight/",
     "shorthand_title": "Student loan Bill of Rights",
     "quote_attribution": "Jody Harris, MECEP’s Associate Director. ",
     "photo_caption": "Maine ranks sixth in the nation in volume of student loan complaints to the federal consumer protection bureau.",
+    "is_2018_bill": "TRUE",
     "voter_stance": ""
   },
   {
@@ -150,6 +155,7 @@
     "shorthand_title": "Fair Chance Act (\"Ban the box\")",
     "quote_attribution": "Testimony of Peter Lehman from Thomaston, Maine. Peter is a professional sociologist and criminologist who has spent much of his career working with and teaching law enforcement, corrections and probation officers.",
     "photo_caption": "A Harvard study found that job “call-backs” were reduced by 50 percent for people who checked the conviction box on an application. For African American applicants, they were reduced by two-thirds.",
+    "is_2018_bill": "TRUE",
     "voter_stance": ""
   },
   {
@@ -218,6 +224,7 @@
     "shorthand_title": "Lunch shaming at school",
     "quote_attribution": "Testimony by Lois Kilby-Chesley , president of the Maine Education Association President ",
     "photo_caption": "Lunch shaming is a national problem. A 2014 report by the U.S. Department of Agriculture found that nearly half of all school districts used some form of it to pressure parents to pay. Thirty-nine percent of schools reported withholding the hot lunch and providing an “alternate meal,” such as a cold cheese sandwich, while three percent denied the child food entirely.",
+    "is_2018_bill": "TRUE",
     "voter_stance": ""
   },
   {
@@ -235,6 +242,7 @@
     "shorthand_title": "Funding for syringe exchange programs",
     "quote_attribution": "Testimony of Kenney Miller, Executive Director of Health Equity Alliance (HEAL)",
     "photo_caption": "Kenney Miller, executive director of the Health Equity Alliance, shows a drawer full of supplies. HEAL operates needle exchange programs that serve about 2,700 people a year. The need is much greater.",
+    "is_2018_bill": "TRUE",
     "voter_stance": ""
   },
   {
@@ -252,7 +260,8 @@
     "more_info_url": "http://mainebeacon.com/bill-to-ban-signature-gathering-on-election-day-threatens-maines-direct-democracy/",
     "shorthand_title": "Banning signature collection at the polls ",
     "quote_attribution": "Testimony by Anna Kellar, joint executive director of Maine Citizens for Clean Elections and the League of Women Voters of Maine. ",
-    "photo_caption": "Election day is a key time for grassroots campaigns to reach a large swath of registered voters. Without access to polling places, citizen initiatives and other grassroots efforts would be severely hindered. "
+    "photo_caption": "Election day is a key time for grassroots campaigns to reach a large swath of registered voters. Without access to polling places, citizen initiatives and other grassroots efforts would be severely hindered. ",
+    "is_2018_bill": "TRUE"
   },
   {
     "id": "LD 1757",
@@ -269,7 +278,8 @@
     "more_info_url": "http://mainebeacon.com/every-republican-on-maines-labor-committee-just-voted-to-cut-the-minimum-wage/",
     "shorthand_title": "Attack on the minimum wage",
     "quote_attribution": "Testimony of Alyssa Thompson, Greene, ME",
-    "photo_caption": "Since Mainers voted overwhelmingly to raise the minimum wage in November 2016, the state has experienced the largest wage gain in a decade, especially for workers in northern and rural Maine, with no accompanying job loss or hours cut."
+    "photo_caption": "Since Mainers voted overwhelmingly to raise the minimum wage in November 2016, the state has experienced the largest wage gain in a decade, especially for workers in northern and rural Maine, with no accompanying job loss or hours cut.",
+    "is_2018_bill": "TRUE"
   },
   {
     "id": "LD 1769",
@@ -286,6 +296,7 @@
     "shorthand_title": "Cutting overtime pay",
     "quote_attribution": "Testimony of James Myall, Policy Analyst, the Maine Center for Economic Policy",
     "photo_caption": "The Maine History Labor Mural, by Seal Cove artist Judy Taylor, which was removed from display at the Department of Labor by Gov. Paul LePage.",
+    "is_2018_bill": "TRUE",
     "voter_stance": ""
   },
   {
@@ -303,6 +314,7 @@
     "shorthand_title": "Forcing compliance with Trump's anti-immigration policies",
     "quote_attribution": "Testimony of Fatuma Hussein, resident of Auburn and Executive Director of the Immigrant Resource Center of Maine",
     "photo_caption": "Many of Maine's immigrants have fled violence in their home countries. When Maine can welcome our new residents instead of instilling fear in them, all our communities benefit. ",
+    "is_2018_bill": "TRUE",
     "voter_stance": ""
   },
   {
@@ -320,7 +332,8 @@
     "more_info_url": "https://mainebeacon.com/republicans-deride-voters-defend-the-wealthy-in-attempt-to-undermine-homecare-referendum/",
     "shorthand_title": "Sending Homecare for All to ballot ",
     "quote_attribution": "Miri Lyons, a former homecare worker and a parent who currently cares for a child with a disability.",
-    "photo_caption": "Miri Lyons, center, speaks about her experience as a homecare worker while supporters delivered 67,000 signatures to Maine's secretary of state to qualify Homecare for All for the November 2018 ballot."
+    "photo_caption": "Miri Lyons, center, speaks about her experience as a homecare worker while supporters delivered 67,000 signatures to Maine's secretary of state to qualify Homecare for All for the November 2018 ballot.",
+    "is_2018_bill": "TRUE"
   },
   {
     "id": "LD 1865",
@@ -337,7 +350,8 @@
     "more_info_url": "http://mainebeacon.com/bill-to-ban-signature-gathering-on-election-day-threatens-maines-direct-democracy/",
     "shorthand_title": "Increasing restrictions on the citizen initiative process ",
     "quote_attribution": "Testimony of Taryn Hallweaver, legislative director with the Maine People’s Alliance ",
-    "photo_caption": "Election day is a key time for grassroots campaigns to reach a large swath of registered voters. Without access to polling places, citizen initiatives and other grassroots efforts would be severely hindered."
+    "photo_caption": "Election day is a key time for grassroots campaigns to reach a large swath of registered voters. Without access to polling places, citizen initiatives and other grassroots efforts would be severely hindered.",
+    "is_2018_bill": "TRUE"
   },
   {
     "id": "LD 1904",
@@ -354,6 +368,7 @@
     "shorthand_title": "Immigrant stigmatization",
     "quote_attribution": "Fowsia Musse, resident of Lewiston and executive director of Maine Community Integration",
     "photo_caption": "Fowsia Musse, executive director of Maine Community Integration (center right), was one of the women leaders of the refugee and immigrant community who spoke up against this bill. Photo credit: Maine Women Magazine ",
+    "is_2018_bill": "TRUE",
     "voter_stance": ""
   }
 ]
