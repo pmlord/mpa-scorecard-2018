@@ -1,11 +1,11 @@
 [
   {
     "Question": "Where can I find my legislators’ scores? ",
-    "Answer": "<a href=\"http://www.mpascorecard.org/legislators\">Here.</a>"
+    "Answer": "Here: http://mpascorecard.org/legislators."
   },
   {
     "Question": "Where can I find bill descriptions?",
-    "Answer": "<a href=\"http://www.mpascorecard.org/bills\">Here.</a> To learn more about each individual bill, click the “details” box."
+    "Answer": "Here: http://mpascorecard.org/bills.\n\nTo learn more about each individual bill, click the “details” box."
   },
   {
     "Question": "What are the issues you included in the scorecard?",
@@ -34,7 +34,5 @@
   {
     "Question": "Who do I talk to if I have any other questions about the scorecard?",
     "Answer": "Email MPA legislative director Taryn Hallweaver at taryn@mainepeoplesalliance.org "
-  },
-  {},
-  {}
+  }
 ]

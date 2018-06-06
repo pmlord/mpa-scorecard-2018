@@ -13,7 +13,7 @@ export default function About() {
     const { heading, paragraph } = section
 
     return (
-      <section key={i}>
+      <section className="about" key={i}>
         <h1>{heading}</h1>
         {splitParagraphs(paragraph)}
       </section>
@@ -23,18 +23,16 @@ export default function About() {
   const renderedFaqs = faqs.map(function(faq, i) {
     return (
       <div key={i}>
-        <p>
-          <b>{faq.Question}</b>
-        </p>
+        <h3>{faq.Question}</h3>
         <Linkify>{splitParagraphs(faq.Answer)}</Linkify>
       </div>
     )
   })
 
   return (
-    <div className="container">
+    <div className="about-page container">
       {renderedAboutSections}
-      <section>
+      <section className="faq">
         <h1>FAQs</h1>
         {renderedFaqs}
       </section>
