@@ -2,9 +2,24 @@ import React from 'react'
 import { aboutSections, faqs } from '../data/'
 import Linkify from 'react-linkify'
 
+
+// const homepageRegExp = /https?:\/\/(\w+\.)?mpascorecard\.(org|com)/
+//
+// function handleClick(e) {
+//   const href = e.target.href
+//   if (href.match(homepageRegExp)) {
+//     const path = href.replace(homepageRegExp, '')
+//     window.history.pushState({}, null, path)
+//     e.preventDefault()
+//     return false
+//   }
+// }
+
+const linkProps = { target: '_blank' }
+
 function splitParagraphs(content='') {
   return content.split("\n\n").map(function(paragraph, i) {
-    return <p key={i}><Linkify>{paragraph}</Linkify></p>
+    return <p key={i}><Linkify properties={linkProps}>{paragraph}</Linkify></p>
   })
 }
 
@@ -24,7 +39,7 @@ export default function About() {
     return (
       <div key={i}>
         <h3>{faq.Question}</h3>
-        <Linkify>{splitParagraphs(faq.Answer)}</Linkify>
+        <Linkify properties={linkProps}>{splitParagraphs(faq.Answer)}</Linkify>
       </div>
     )
   })
