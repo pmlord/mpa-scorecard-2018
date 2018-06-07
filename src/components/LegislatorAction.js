@@ -21,7 +21,13 @@ export default class LegislatorAction extends Component {
   }
 
   handleClose = (e) => {
-    // this.setState({open: false});
+    this.setState({open: false});
+  }
+
+  handleInputFocus(e) {
+    e.target.select()
+    e.preventDefault()
+    return false
   }
 
   render() {
@@ -48,7 +54,7 @@ export default class LegislatorAction extends Component {
             show={this.state.open}
             onHide={this.handleClose} >
             <div className="popover">
-              <input value={text} className="full-width" />
+              <input value={text} readOnly className="popover-input full-width" onFocus={this.handleInputFocus} />
             </div>
           </Popover>
         </div>
