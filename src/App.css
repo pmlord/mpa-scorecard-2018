@@ -705,3 +705,13 @@ nav a.active {
 .page-not-found .num {
   font-size: 3rem;
 }
+
+
+
+/* Filter results */
+
+.no-results {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}

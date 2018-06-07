@@ -17,8 +17,6 @@ class Bills extends React.PureComponent {
   }
 
   getCachedBills = memoize(function(filter) {
-    console.log('filter called', filter);
-
     if (filter === '2018Bills')
       return allBills.filter(bill => bill.is_2018_bill)
     else
@@ -31,7 +29,6 @@ class Bills extends React.PureComponent {
   }
 
   handeFilterChange = (e) => {
-    console.log('change in the ghange room', e.target.value);
     this.setState({ filter: e.target.value })
   }
 
@@ -39,7 +36,6 @@ class Bills extends React.PureComponent {
     const { filter } = this.state
 
     const bills = this.getBills()
-    console.log(bills.length);
 
     return (
       <div className="bills">
