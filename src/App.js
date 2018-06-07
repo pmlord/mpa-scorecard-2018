@@ -31,6 +31,11 @@ class App extends Component {
             <Route component={PageNotFound} />
           </Switch>
         </div>
+        <div className="footer">
+          <div className="container">
+            <p>Made with &hearts; by <a href="https://github.com/Code4Maine" target="_blank">Code for Maine</a></p>
+          </div>
+        </div>
         <ScrollToTop />
       </div>
     )

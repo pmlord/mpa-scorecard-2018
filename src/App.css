@@ -18,6 +18,35 @@
  *   lg-min: 75em;
  */
 
+.App {
+  position: relative;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding-bottom: 5rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  font-size: 0.9em;
+  color: #888;
+}
+
+.footer p {
+  line-height: 5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.footer a {
+  font-weight: bold;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #888;
+}
+
 
 body {
   margin: 0;
