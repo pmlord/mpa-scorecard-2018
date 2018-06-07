@@ -36,16 +36,12 @@ function Options({options, placeholder}) {
 function Select(props) {
   const {
     options,
-    value,
-    onChange,
     placeholder,
-    selectProps,
+    ...selectProps,
   } = props
 
   return (
     <select
-      value={value}
-      onChange={onChange}
       {...selectProps}
     >
       <Options options={options} placeholder={placeholder} />

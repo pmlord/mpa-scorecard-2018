@@ -42,7 +42,7 @@ function Bill(props) {
         { mpa_stance &&
           <div className="col-xs-3 col-sm-2">
             <div className="box">
-              <div className="title">MPA Stance</div>
+              <div className="title">MPA stance</div>
               <div className={`stance ${mpa_stance}`}>{mpa_stance}</div>
             </div>
           </div>

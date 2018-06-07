@@ -6,7 +6,7 @@ import {
 } from '../services/legislator-helpers'
 import LegislatorInfo from './LegislatorInfo'
 import ScoreBar from './ScoreBar'
-import VoteList from './VoteList'
+import LegislatorVoteList from './LegislatorVoteList'
 
 export default function LegislatorDetail({ match }) {
   const param = match.params.ocdId
@@ -88,7 +88,7 @@ export default function LegislatorDetail({ match }) {
         </section>
       </div>
       <section className="container card-container">
-        <VoteList legislator={legislator} />
+        <LegislatorVoteList legislator={legislator} />
       </section>
     </div>
   )

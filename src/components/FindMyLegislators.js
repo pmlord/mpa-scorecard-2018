@@ -34,9 +34,7 @@ export default withStore(function FindMyLegislators(props) {
           value={streetAddress}
           />
         <Select
-          selectProps={{
-            className: 'town'
-          }}
+          className="town"
           placeholder="Town Name"
           options={towns}
           onChange={(e) => setTown(e.target.value)}

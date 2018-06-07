@@ -1,10 +1,46 @@
 import React from 'react'
 import BillList from './BillList'
-import { bills } from '../data/'
+import { bills as allBills } from '../data/'
+import Select from './Select'
+import memoize from 'lodash/memoize'
+import isEmpty from 'lodash/isEmpty'
 
 
-class Bills extends React.Component {
+const filterOptions = [
+  { value: '2018Bills', label: '2018 Bills' },
+  { value: 'voterBills', label: 'Will of the voters' },
+]
+
+class Bills extends React.PureComponent {
+  state = {
+    filter: '2018Bills',
+  }
+
+  getCachedBills = memoize(function(filter) {
+    console.log('filter called', filter);
+
+    if (filter === '2018Bills')
+      return allBills.filter(bill => bill.is_2018_bill)
+    else
+      return allBills.filter(bill => !isEmpty(bill.voter_stance))
+  })
+
+  getBills() {
+    const { filter } = this.state;
+    return this.getCachedBills(filter);
+  }
+
+  handeFilterChange = (e) => {
+    console.log('change in the ghange room', e.target.value);
+    this.setState({ filter: e.target.value })
+  }
+
   render() {
+    const { filter } = this.state
+
+    const bills = this.getBills()
+    console.log(bills.length);
+
     return (
       <div className="bills">
         <div className="container">
@@ -14,10 +50,7 @@ class Bills extends React.Component {
                 <h1>Bills</h1>
               </div></div>
               <div className="col-xs-12 col-sm-4 col-md-3"><div className="box">
-                <select className="full-width" />
-              </div></div>
-              <div className="col-xs-12 col-sm-4 col-md-3"><div className="box">
-                <select className="full-width" />
+                <Select options={filterOptions} value={filter} onChange={this.handeFilterChange} className="full-width" />
               </div></div>
             </div>
           </section>

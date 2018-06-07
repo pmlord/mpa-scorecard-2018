@@ -84,7 +84,8 @@ input[type=submit]:not([disabled]) {
   cursor: pointer;
 }
 
-select, input:not([type=submit]) {
+select,
+input:not([type=submit]):not([type=radio]):not([type=checkbox]) {
   display: inline-block;
   box-sizing: border-box;
   height: 36px;
@@ -116,11 +117,25 @@ input:not([type=submit]).full-width {
 }
 
 @media screen and (max-width: 48em) {
-  select, button, input {
+  select, button,
+  input:not([type=radio]):not([type=checkbox]) {
     display: block !important;
     margin: 0 0 0.5em !important;
     width: 100% !important;
   }
+}
+
+input[type=radio], input[type=checkbox] {
+  margin-right: .5rem;
+  vertical-align: text-bottom;
+}
+
+.radio-group {
+  text-align: right;
+}
+
+.radio-group label:not(:last-child) {
+  margin-right: 1rem;
 }
 
 
@@ -393,7 +408,7 @@ nav a.active {
 }
 
 .find-my-legislators input.zip {
-  width: 100px;
+  width: 100px !important;
 }
 
 

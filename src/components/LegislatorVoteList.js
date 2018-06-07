@@ -5,7 +5,7 @@ import { billsById } from '../data/'
 import { billPath } from '../services/bill-helpers'
 
 
-export default function VoteList(props) {
+export default function LegislatorVoteList(props) {
   const legislator = props.legislator
   const votes = legislator.votes
 
