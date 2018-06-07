@@ -7,8 +7,8 @@ import isEmpty from 'lodash/isEmpty'
 
 
 const filterOptions = [
-  { value: '2018Bills', label: '2018 Bills' },
-  { value: 'voterBills', label: 'Will of the voters' },
+  { value: '2018Bills', label: '2018 bills' },
+  { value: 'voterBills', label: 'Will of the Voters bills' },
 ]
 
 class Bills extends React.PureComponent {

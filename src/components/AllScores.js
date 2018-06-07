@@ -17,7 +17,7 @@ const sortOptions = [
 
 const scoreOptions = [
   { value: 'mpaScore', label: '2018 Score'},
-  { value: 'voterScore', label: 'Will of the voters'},
+  { value: 'voterScore', label: 'Will of the Voters score'},
 ]
 
 const partyOptions = [
