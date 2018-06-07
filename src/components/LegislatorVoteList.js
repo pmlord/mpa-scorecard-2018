@@ -1,32 +1,89 @@
 import React from 'react'
+import Select from './Select'
 import { Link } from 'react-router-dom'
-import map from 'lodash/map'
 import { billsById } from '../data/'
 import { billPath } from '../services/bill-helpers'
+import map from 'lodash/map'
+import pickBy from 'lodash/pickBy'
+import isEmpty from 'lodash/isEmpty'
+import memoize from 'lodash/memoize'
 
 
-export default function LegislatorVoteList(props) {
-  const legislator = props.legislator
-  const votes = legislator.votes
+const filterOptions = [
+  { value: '2018Bills', label: '2018 Bills' },
+  { value: 'voterBills', label: 'Will of the voters' },
+]
 
-  const renderedVotes = map(votes, function(stance, billId) {
-    const bill = billsById[billId]
-    const key  = legislator.ocdId + billId
-    return (
-      <Vote
-        key={key}
-        bill={bill}
-        legislator={legislator}
-        legislator_stance={stance}
-        />
-    );
+
+export default class LegislatorVoteList extends React.PureComponent {
+
+  state = {
+    filter: '2018Bills',
+  }
+
+  getCachedVotes = memoize(function(filter) {
+    const votes = {...this.props.legislator.votes};
+
+    if (filter === '2018Bills') {
+      return pickBy(votes, (stance, billId) => {
+        return billsById[billId].is_2018_bill
+      })
+    }
+    else {
+      return pickBy(votes, (stance, billId) => {
+        return !isEmpty(billsById[billId].voter_stance)
+      })
+    }
   })
 
-  return (
-    <div className="card list">
-      {renderedVotes}
-    </div>
-  )
+  getVotes() {
+    const { filter } = this.state;
+    const votes = this.getCachedVotes(filter);
+    return votes;
+  }
+
+  handeFilterChange = (e) => {
+    this.setState({ filter: e.target.value })
+  }
+
+  render() {
+    const { filter } = this.state
+    const { legislator } = this.props
+    const votes = this.getVotes()
+
+    const renderedVotes = map(votes, function(stance, billId) {
+      const bill = billsById[billId]
+      const key  = legislator.ocdId + billId
+      return (
+        <Vote
+          key={key}
+          bill={bill}
+          legislator={legislator}
+          legislator_stance={stance}
+          />
+      );
+    })
+
+    return (
+      <div>
+        <section className="voting-history container">
+          <div className="row">
+            <div className="col-xs-12 col-sm"><div className="box">
+              <h1>Voting history</h1>
+            </div></div>
+            <div className="col-xs-6 col-sm-4 col-md-3"><div className="box">
+              <Select options={filterOptions} value={filter} onChange={this.handeFilterChange} className="full-width" />
+            </div></div>
+          </div>
+        </section>
+        <section className="container card-container">
+          <div className="card list">
+            {renderedVotes}
+          </div>
+        </section>
+      </div>
+    )
+  }
 }
 
 

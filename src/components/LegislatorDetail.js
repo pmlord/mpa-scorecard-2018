@@ -73,23 +73,8 @@ export default function LegislatorDetail({ match }) {
           </div>
         </section>
         <hr />
-        <section className="voting-history">
-          <div className="row">
-            <div className="col-xs-12 col-sm"><div className="box">
-              <h1>Voting history</h1>
-            </div></div>
-            <div className="col-xs-6 col-sm-4 col-md-3"><div className="box">
-              <select className="full-width" />
-            </div></div>
-            <div className="col-xs-6 col-sm-4 col-md-3"><div className="box">
-              <select className="full-width" />
-            </div></div>
-          </div>
-        </section>
       </div>
-      <section className="container card-container">
-        <LegislatorVoteList legislator={legislator} />
-      </section>
+      <LegislatorVoteList legislator={legislator} />
     </div>
   )
 }
