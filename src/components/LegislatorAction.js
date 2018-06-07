@@ -48,7 +48,7 @@ export default class LegislatorAction extends Component {
             show={this.state.open}
             onHide={this.handleClose} >
             <div className="popover">
-              <input value={text} />
+              <input value={text} className="full-width" />
             </div>
           </Popover>
         </div>
