@@ -21,7 +21,7 @@ export default function BillDetail({ match }) {
           <a
             className="bill-text-link"
             href={bill.bill_text_url}
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
             >
             {bill.id} bill text&nbsp;
             <img src={iconPopout} alt="" />
@@ -29,7 +29,7 @@ export default function BillDetail({ match }) {
           <a
             className="bill-more-info-link"
             href={bill.more_info_url}
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
             >
             Read More&nbsp;
             <img src={iconPopout} alt="" />

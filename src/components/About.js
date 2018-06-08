@@ -22,7 +22,7 @@ class About extends React.PureComponent {
   }
 
   hrefRegExp = /https?:\/\/(\w+\.)?mpascorecard\.(org|com)/
-  linkProps = { target: '_blank', onClick: this.handleClick }
+  linkProps = { target: '_blank', rel: "noopener noreferrer", onClick: this.handleClick }
 
   splitParagraphs(content='') {
     return content.split("\n\n").map((paragraph, i) => {

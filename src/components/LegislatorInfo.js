@@ -52,14 +52,14 @@ export default function LegislatorInfo(props) {
       { !isSuperCompact &&
         <div className="col-xs"><div className="box legislator-actions">
           { isFull &&
-            <a className="legislator-action" href={url} target="_blank">
+            <a className="legislator-action" href={url} target="_blank" rel="noopener noreferrer">
               <img src={iconLink} alt="link" />
             </a>
           }
           <LegislatorAction className="legislator-action" href={`tel:${phone}`}>
             <img src={iconPhone} alt="phone" />
           </LegislatorAction>
-          <a className="legislator-action" href={`mailto:${email}`} target="_blank">
+          <a className="legislator-action" href={`mailto:${email}`} target="_blank" rel="noopener noreferrer">
             <img src={iconEmail} alt="email" />
           </a>
         </div></div>
