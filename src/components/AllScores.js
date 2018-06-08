@@ -10,7 +10,7 @@ import orderBy from 'lodash/orderBy'
 
 
 const sortOptions = [
-  { value: '', label: 'No sorting'},
+  { value: 'alphabetically', label: 'Sorted alphabetically'},
   { value: 'asc', label: 'Low to high'},
   { value: 'desc', label: 'High to low'},
 ]
@@ -40,7 +40,7 @@ export default class BillVoteList extends React.PureComponent {
   constructor(props) {
     super()
     this.state = {
-      sortFilter: '',
+      sortFilter: 'alphabetically',
       scoreType: 'mpaScore',
       partyFilter: '',
       chamberFilter: '',
@@ -71,7 +71,10 @@ export default class BillVoteList extends React.PureComponent {
     }
 
     // sort by score
-    if (sortFilter !== '') {
+    if (sortFilter === 'alphabetically') {
+      legislators = orderBy(legislators, ['name.lastName'])
+    }
+    else {
       legislators = orderBy(legislators, [scoreType], [sortFilter])
     }
 
