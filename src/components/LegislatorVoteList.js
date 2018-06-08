@@ -124,7 +124,7 @@ function Vote(props) {
         </div></div>
         <div className="col-xs-6 col-sm-2"><div className="box">
           <div className="title">
-            {lastName} stance
+            {lastName} vote
           </div>
           <div className={`stance ${stanceClassName}`}>{legislator_stance}</div>
         </div></div>

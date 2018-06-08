@@ -60,7 +60,7 @@ export default function LegislatorDetail({ match }) {
               <h1>2018 Score</h1>
               <ScoreBar score={mpaScore} />
               <div className="score-bar-sub-text">
-                {`${abbreviatedChamberTitle(legislator)} ${name.lastName}'s allignment with our values this legislative session.`}
+                {`${abbreviatedChamberTitle(legislator)} ${name.lastName}'s alignment with our values this legislative session.`}
               </div>
             </div></div>
             <div className="col-xs-12 col-md-5 col-md-offset-2"><div className="voter-score box">

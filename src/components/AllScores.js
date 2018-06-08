@@ -179,7 +179,7 @@ function Legislator(props) {
           <ScoreBar score={score} />
           { scoreType === 'mpaScore' &&
             <div className="score-bar-sub-text">
-              {`${abbreviatedChamberTitle(legislator)} ${name.lastName}'s allignment with our values this legislative session.`}
+              {`${abbreviatedChamberTitle(legislator)} ${name.lastName}'s alignment with our values this legislative session.`}
             </div>
           }
           { scoreType === 'voterScore' &&
