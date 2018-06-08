@@ -18,7 +18,7 @@ const partyOptions = [
   { value: 'Democrat', label: 'Democrats' },
   { value: 'Republican', label: 'Republicans' },
   { value: 'Independent', label: 'Independents' },
-  { value: 'Unenrolled', label: 'Other' },
+  { value: 'Unenrolled', label: 'Green' },
 ]
 
 const chamberOptions = [
