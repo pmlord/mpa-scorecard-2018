@@ -10,7 +10,7 @@ import orderBy from 'lodash/orderBy'
 
 
 const sortOptions = [
-  { value: 'alphabetically', label: 'Sorted alphabetically'},
+  { value: 'alphabetically', label: 'Sorted alph.'},
   { value: 'asc', label: 'Low to high'},
   { value: 'desc', label: 'High to low'},
 ]
