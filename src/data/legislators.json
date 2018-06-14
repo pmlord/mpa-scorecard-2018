@@ -2083,12 +2083,12 @@
     "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
-      "LD 1444": "Opposed",
+      "LD 1444": "Supported",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Supported",
       "HP 1353": "Supported",
-      "LD 1476": "Opposed",
+      "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1566": "Supported",
       "LD 1609": "Opposed",
@@ -2101,7 +2101,7 @@
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 75,
+    "mpaScore": 92,
     "voterScore": 80,
     "term_limited": 2020
   },
