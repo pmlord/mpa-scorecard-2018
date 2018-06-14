@@ -719,7 +719,7 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/presdw.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/presdw.htm",
     "political_party": "Republican",
-    "seeking_reelection": true,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
@@ -850,7 +850,7 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/gerrka.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/gerrka.htm",
     "political_party": "Republican",
-    "seeking_reelection": true,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
@@ -938,7 +938,7 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/kinnjl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/kinnjl.htm",
     "political_party": "Republican",
-    "seeking_reelection": true,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
@@ -1422,7 +1422,7 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/battkj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/battkj.htm",
     "political_party": "Independent",
-    "seeking_reelection": true,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Supported",
@@ -2432,7 +2432,7 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/masorg.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/masorg.htm",
     "political_party": "Republican",
-    "seeking_reelection": true,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
@@ -2740,7 +2740,7 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/bickba.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/bickba.htm",
     "political_party": "Republican",
-    "seeking_reelection": false,
+    "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
@@ -3003,7 +3003,7 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/ginzpa.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/ginzpa.htm",
     "political_party": "Republican",
-    "seeking_reelection": true,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
@@ -3179,7 +3179,7 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/herrlc.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/herrlc.htm",
     "political_party": "Republican",
-    "seeking_reelection": true,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
@@ -4011,7 +4011,7 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/speaja.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/speaja.htm",
     "political_party": "Democrat",
-    "seeking_reelection": true,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Supported",
@@ -4714,7 +4714,7 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/piccjj.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/piccjj.htm",
     "political_party": "Republican",
-    "seeking_reelection": true,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
@@ -4846,7 +4846,7 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/farrbt.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/farrbt.htm",
     "political_party": "Republican",
-    "seeking_reelection": true,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
@@ -5243,7 +5243,7 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/higgne.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/higgne.htm",
     "political_party": "Republican",
-    "seeking_reelection": true,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
@@ -5287,7 +5287,7 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/duchrs.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/duchrs.htm",
     "political_party": "Democrat",
-    "seeking_reelection": true,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
@@ -6298,7 +6298,7 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/sherrl.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/sherrl.htm",
     "political_party": "Republican",
-    "seeking_reelection": true,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Absent",
       "LD 1444": "Absent",
@@ -6342,7 +6342,7 @@
     "photo_url": "https://legislature.maine.gov/house/photo128/johaca.jpg",
     "url": "http://legislature.maine.gov/house/hsebios/johaca.htm",
     "political_party": "Republican",
-    "seeking_reelection": true,
+    "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Opposed",
@@ -7543,7 +7543,7 @@
       "LD 1210": "Opposed",
       "LD 1476": "Opposed",
       "LD 1507": "Opposed",
-      "LD 1609": "Opposed",
+      "LD 1609": "Supported",
       "LD 1625": "Supported",
       "LD 1646": "Supported",
       "LD 1707": "Opposed",
@@ -7555,7 +7555,7 @@
       "LD 1769": "Supported"
     },
     "mpaScore": 0,
-    "voterScore": 10
+    "voterScore": 0
   },
   {
     "name": {
@@ -7667,7 +7667,7 @@
       "LD 390": "Opposed",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "LD 1476": " supported",
+      "LD 1476": "Supported",
       "LD 1507": "Supported",
       "LD 1609": "Opposed",
       "LD 1625": "Opposed",
@@ -7680,7 +7680,7 @@
       "LD 1726": "Opposed",
       "LD 1769": "Opposed"
     },
-    "mpaScore": 82,
+    "mpaScore": 91,
     "voterScore": 90
   },
   {
@@ -7958,7 +7958,7 @@
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
-      "LD 390": "Supported",
+      "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Supported",
       "LD 1476": "Excused",
@@ -7975,7 +7975,7 @@
       "LD 1769": "Opposed"
     },
     "mpaScore": 78,
-    "voterScore": 50
+    "voterScore": 60
   },
   {
     "name": {
