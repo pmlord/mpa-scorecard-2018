@@ -44,6 +44,7 @@
     "deploy": "yarn deploy:production",
     "build:deploy:staging": "yarn build:staging && yarn deploy:staging",
     "build:deploy:production": "yarn build:production && yarn deploy:production",
+    "build:deploy": "yarn build:deploy:production",
     "check-invalidations_env": ". ./.env.${REACT_APP_ENV} && aws cloudfront list-invalidations --distribution-id ${AWS_CLOUDFRONT_ID}",
     "check-invalidations:staging": "REACT_APP_ENV=staging yarn check-invalidations_env",
     "check-invalidations:production": "REACT_APP_ENV=production yarn check-invalidations_env",
