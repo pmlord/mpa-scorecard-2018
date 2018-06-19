@@ -277,7 +277,7 @@
     "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
-      "LD 1444": "Absent",
+      "LD 1444": "Supported",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
@@ -294,7 +294,7 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 0,
+    "mpaScore": 9,
     "voterScore": 0,
     "term_limited": 2022
   },
@@ -834,25 +834,25 @@
     "seeking_reelection": false,
     "votes": {
       "LD 31": "Supported",
-      "LD 1444": "Supported",
+      "LD 1444": "Opposed",
       "LD 390": "Opposed",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "HP 1353": "Supported",
+      "HP 1353": "Opposed",
       "LD 1476": "Opposed",
       "LD 1566": "Opposed",
       "LD 1609": "Opposed",
       "LD 1625": "Opposed",
       "LD 1646": "Supported",
       "LD 1707": "Opposed",
-      "LD 1757": "Opposed",
-      "LD 1833": "Opposed",
-      "LD 1864": "Supported",
+      "LD 1757": "Supported",
+      "LD 1833": "Supported",
+      "LD 1864": "Opposed",
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 45,
-    "voterScore": 50,
+    "mpaScore": 0,
+    "voterScore": 30,
     "term_limited": 2022
   },
   {
@@ -1435,25 +1435,25 @@
     "seeking_reelection": true,
     "votes": {
       "LD 31": "Opposed",
-      "LD 1444": "Opposed",
+      "LD 1444": "Supported",
       "LD 390": "Supported",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
-      "HP 1353": "Opposed",
+      "HP 1353": "Supported",
       "LD 1476": "Supported",
       "LD 1566": "Supported",
       "LD 1609": "Supported",
       "LD 1625": "Supported",
       "LD 1646": "Opposed",
       "LD 1707": "Supported",
-      "LD 1757": "Supported",
-      "LD 1833": "Supported",
-      "LD 1864": "Opposed",
+      "LD 1757": "Opposed",
+      "LD 1833": "Opposed",
+      "LD 1864": "Supported",
       "LD 1865": "Supported",
       "LD 1904": "Opposed"
     },
-    "mpaScore": 45,
-    "voterScore": 40,
+    "mpaScore": 91,
+    "voterScore": 60,
     "term_limited": 2020
   },
   {
@@ -2681,7 +2681,7 @@
     "seeking_reelection": true,
     "votes": {
       "LD 31": "Supported",
-      "LD 1444": "Supported",
+      "LD 1444": "Absent",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
@@ -2698,7 +2698,7 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 36,
+    "mpaScore": 27,
     "voterScore": 0,
     "term_limited": 2018
   },
@@ -2895,7 +2895,7 @@
     "seeking_reelection": true,
     "votes": {
       "LD 31": "Absent",
-      "LD 1444": "Supported",
+      "LD 1444": "Absent",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
@@ -2912,7 +2912,7 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 18,
+    "mpaScore": 9,
     "voterScore": 0,
     "term_limited": 2024
   },
@@ -4352,7 +4352,7 @@
     "seeking_reelection": false,
     "votes": {
       "LD 31": "Absent",
-      "LD 1444": "Opposed",
+      "LD 1444": "Absent",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
@@ -4825,7 +4825,7 @@
     "seeking_reelection": false,
     "votes": {
       "LD 31": "Absent",
-      "LD 1444": "Supported",
+      "LD 1444": "Absent",
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
@@ -4842,7 +4842,7 @@
       "LD 1865": "Supported",
       "LD 1904": "Supported"
     },
-    "mpaScore": 27,
+    "mpaScore": 18,
     "voterScore": 0,
     "term_limited": 2024
   },
