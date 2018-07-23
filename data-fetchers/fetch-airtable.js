@@ -157,20 +157,24 @@ function fetchBillData(cb) {
   getRecordsFromTable('bills', function(record) {
     const fields = record.fields
     const { mpa_stance, voter_stance } = fields
-    const photo = fields.photo[0]
 
-    if (photo.filename == null) console.log('no filename', photo)
-    const photoExt = photo.filename.match(/\.\w+$/)[0]
-    const photoFilenamePart = fields.id.replace(/\s+/g, '-')
-    const photoFilename = `${photoFilenamePart}${photoExt}`
-    const photoFilePath = `/bill-photos/${photoFilename}`
+    if (fields.photo) {
+      const photo = fields.photo[0]
 
-    billPhotos.push({
-      url: photo.thumbnails.large.url,
-      filename: photoFilename,
-    })
+      if (photo.filename == null) console.log('no filename', photo)
+      const photoExt = photo.filename.match(/\.\w+$/)[0]
+      const photoFilenamePart = fields.id.replace(/\s+/g, '-')
+      const photoFilename = `${photoFilenamePart}${photoExt}`
+      const photoFilePath = `/bill-photos/${photoFilename}`
 
-    fields.photo = photoFilePath
+      billPhotos.push({
+        url: photo.thumbnails.large.url,
+        filename: photoFilename,
+      })
+
+      fields.photo = photoFilePath
+    }
+
     fields.mpa_stance = _.capitalize(mpa_stance)
     fields.voter_stance = _.capitalize(voter_stance)
 
