@@ -726,7 +726,7 @@
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1476": "Opposed",
+      "LD 1476": "Supported",
       "LD 1566": "Opposed",
       "LD 1609": "Supported",
       "LD 1625": "Supported",
@@ -740,7 +740,7 @@
       "LD 873": "Opposed",
       "LD 1684": "Opposed"
     },
-    "mpaScore": 0,
+    "mpaScore": 8,
     "voterScore": 0,
     "term_limited": 2022
   },
@@ -813,7 +813,7 @@
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1476": "Opposed",
+      "LD 1476": "Supported",
       "LD 1566": "Opposed",
       "LD 1609": "Supported",
       "LD 1625": "Supported",
@@ -827,7 +827,7 @@
       "LD 873": "Opposed",
       "LD 1684": "Opposed"
     },
-    "mpaScore": 8,
+    "mpaScore": 17,
     "voterScore": 0,
     "term_limited": 2022
   },
@@ -859,9 +859,9 @@
       "LD 1210": "Opposed",
       "LD 1476": "Supported",
       "LD 1566": "Opposed",
-      "LD 1609": "Opposed",
-      "LD 1625": "Opposed",
-      "LD 1646": "Opposed",
+      "LD 1609": "Supported",
+      "LD 1625": "Supported",
+      "LD 1646": "Supported",
       "LD 1707": "Opposed",
       "LD 1757": "Supported",
       "LD 1833": "Supported",
@@ -872,7 +872,7 @@
       "LD 1684": "Opposed"
     },
     "mpaScore": 8,
-    "voterScore": 27,
+    "voterScore": 0,
     "term_limited": 2022
   },
   {
@@ -1469,13 +1469,13 @@
     "votes": {
       "LD 31": "Opposed",
       "LD 1444": "Supported",
-      "LD 390": "Supported",
+      "LD 390": "Opposed",
       "LD 673": "Opposed",
       "LD 1210": "Supported",
       "LD 1476": "Supported",
       "LD 1566": "Supported",
-      "LD 1609": "Supported",
-      "LD 1625": "Supported",
+      "LD 1609": "Opposed",
+      "LD 1625": "Opposed",
       "LD 1646": "Opposed",
       "LD 1707": "Supported",
       "LD 1757": "Opposed",
@@ -1487,7 +1487,7 @@
       "LD 1684": "Supported"
     },
     "mpaScore": 92,
-    "voterScore": 64,
+    "voterScore": 91,
     "term_limited": 2020
   },
   {
@@ -2439,7 +2439,7 @@
       "LD 390": "N/a",
       "LD 673": "N/a",
       "LD 1210": "N/a",
-      "LD 1476": "Opposed",
+      "LD 1476": "Supported",
       "LD 1566": "Opposed",
       "LD 1609": "Supported",
       "LD 1625": "N/a",
@@ -2453,7 +2453,7 @@
       "LD 873": "Opposed",
       "LD 1684": "Opposed"
     },
-    "mpaScore": 0,
+    "mpaScore": 8,
     "voterScore": 0,
     "term_limited": 2024
   },
@@ -2966,7 +2966,7 @@
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1476": "Supported",
+      "LD 1476": "Opposed",
       "LD 1566": "Opposed",
       "LD 1609": "Supported",
       "LD 1625": "Supported",
@@ -2980,7 +2980,7 @@
       "LD 873": "Opposed",
       "LD 1684": "Opposed"
     },
-    "mpaScore": 8,
+    "mpaScore": 0,
     "voterScore": 0,
     "term_limited": 2024
   },
@@ -3886,7 +3886,7 @@
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1476": "Opposed",
+      "LD 1476": "Supported",
       "LD 1566": "Opposed",
       "LD 1609": "Supported",
       "LD 1625": "Supported",
@@ -3900,7 +3900,7 @@
       "LD 873": "Opposed",
       "LD 1684": "Opposed"
     },
-    "mpaScore": 8,
+    "mpaScore": 17,
     "voterScore": 0,
     "term_limited": 2020
   },
@@ -3927,7 +3927,7 @@
     "votes": {
       "LD 31": "Supported",
       "LD 1444": "Supported",
-      "LD 390": "E",
+      "LD 390": "Excused",
       "LD 673": "Excused",
       "LD 1210": "Excused",
       "LD 1476": "Supported",
@@ -3945,7 +3945,7 @@
       "LD 1684": "Supported"
     },
     "mpaScore": 83,
-    "voterScore": 50,
+    "voterScore": 60,
     "term_limited": 2020
   },
   {
@@ -4853,7 +4853,7 @@
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1476": "Opposed",
+      "LD 1476": "Supported",
       "LD 1566": "Opposed",
       "LD 1609": "Supported",
       "LD 1625": "Supported",
@@ -4867,7 +4867,7 @@
       "LD 873": "Opposed",
       "LD 1684": "Opposed"
     },
-    "mpaScore": 0,
+    "mpaScore": 8,
     "voterScore": 0,
     "term_limited": 2022
   },
@@ -5118,7 +5118,7 @@
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1476": "Opposed",
+      "LD 1476": "Supported",
       "LD 1566": "Opposed",
       "LD 1609": "Supported",
       "LD 1625": "Supported",
@@ -5132,7 +5132,7 @@
       "LD 873": "Opposed",
       "LD 1684": "Absent"
     },
-    "mpaScore": 0,
+    "mpaScore": 8,
     "voterScore": 0,
     "term_limited": 2022
   },
@@ -5952,7 +5952,7 @@
       "LD 390": "Supported",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1476": "Opposed",
+      "LD 1476": "Supported",
       "LD 1566": "Opposed",
       "LD 1609": "Supported",
       "LD 1625": "Supported",
@@ -5966,7 +5966,7 @@
       "LD 873": "Opposed",
       "LD 1684": "Opposed"
     },
-    "mpaScore": 8,
+    "mpaScore": 17,
     "voterScore": 0,
     "term_limited": 2018
   },
@@ -6217,7 +6217,7 @@
       "LD 390": "Absent",
       "LD 673": "Supported",
       "LD 1210": "Opposed",
-      "LD 1476": "Opposed",
+      "LD 1476": "Supported",
       "LD 1566": "Opposed",
       "LD 1609": "Supported",
       "LD 1625": "Supported",
@@ -6231,7 +6231,7 @@
       "LD 873": "Opposed",
       "LD 1684": "Opposed"
     },
-    "mpaScore": 8,
+    "mpaScore": 17,
     "voterScore": 0,
     "term_limited": 2022
   },
@@ -6799,10 +6799,10 @@
       "LD 1904": "Supported",
       "LD 1726": "Supported",
       "LD 1769": "Supported",
-      "LD 873": "Opposed"
+      "LD 873": "Supported"
     },
-    "mpaScore": 17,
-    "voterScore": 0
+    "mpaScore": 25,
+    "voterScore": 9
   },
   {
     "name": {
@@ -7703,10 +7703,10 @@
       "LD 1904": "Opposed",
       "LD 1726": "Opposed",
       "LD 1769": "Opposed",
-      "LD 873": "Excused"
+      "LD 873": "Supported"
     },
-    "mpaScore": 91,
-    "voterScore": 90
+    "mpaScore": 92,
+    "voterScore": 91
   },
   {
     "name": {
@@ -7918,10 +7918,10 @@
       "LD 1904": "Supported",
       "LD 1726": "Supported",
       "LD 1769": "Supported",
-      "LD 873": "Opposed"
+      "LD 873": "Supported"
     },
-    "mpaScore": 25,
-    "voterScore": 0
+    "mpaScore": 33,
+    "voterScore": 9
   },
   {
     "name": {
